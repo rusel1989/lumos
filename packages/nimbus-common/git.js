@@ -7,8 +7,7 @@ const execa = require('execa');
  */
 exports.getLastTag = function getLastTag() {
   return execa('git', ['describe', '--tags', '--abbrev=0', '@^']).then(response =>
-    response.stdout.trim(),
-  );
+    response.stdout.trim());
 };
 
 /**
@@ -17,8 +16,7 @@ exports.getLastTag = function getLastTag() {
  */
 exports.getCommitsSince = function getCommitsSince(since) {
   return execa('git', ['log', '--oneline', `${since}..@`]).then(response =>
-    response.stdout.trim().split('\n'),
-  );
+    response.stdout.trim().split('\n'));
 };
 
 let commitHash = '';

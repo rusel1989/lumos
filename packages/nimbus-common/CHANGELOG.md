@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[Beemo]** Update to latest. ([bf6798c](https://github.com/airbnb/nimbus/commit/bf6798c))
+- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/nimbus/commit/bf6798c))
 
 **Note:** Version bump only for package @rajzik/nimbus-common
 

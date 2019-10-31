@@ -42,6 +42,7 @@ exports.getCompilerOptions = function getCompilerOptions({
     noEmitOnError: true,
     noImplicitReturns: true,
     noUnusedLocals: true,
+    resolveJsonModule: true,
     // @ts-ignore Not in parent type
     pretty: true,
     removeComments: false,

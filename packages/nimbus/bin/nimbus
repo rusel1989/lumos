@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 process.env.BEEMO_CONFIG_MODULE = '@rajzik/nimbus';
-process.env.BEEMO_MANUAL_URL = 'https://github.com/airbnb/nimbus';
+process.env.BEEMO_MANUAL_URL = 'https://github.com/rajzik/nimbus';
 
 require('@beemo/cli');
