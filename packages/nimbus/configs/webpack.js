@@ -1,7 +1,7 @@
 // @ts-check
 
-const { getConfig } = require('@airbnb/config-webpack');
-const { getSettings } = require('@airbnb/nimbus-common');
+const { getConfig } = require('@rajzik/config-webpack');
+const { getSettings } = require('@rajzik/nimbus-common');
 
 const { srcFolder, react } = getSettings();
 

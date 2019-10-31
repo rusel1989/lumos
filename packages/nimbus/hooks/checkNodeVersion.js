@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 const execa = require('execa');
-const { getPackage } = require('@airbnb/nimbus-common');
+const { getPackage } = require('@rajzik/nimbus-common');
 
 // Only run if the engines block is defined
 if (getPackage().engines) {

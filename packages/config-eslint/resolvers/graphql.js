@@ -1,4 +1,4 @@
-const { GQL_EXT_PATTERN } = require('@airbnb/nimbus-common/constants');
+const { GQL_EXT_PATTERN } = require('@rajzik/nimbus-common/constants');
 
 exports.interfaceVersion = 2;
 

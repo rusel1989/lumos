@@ -1,6 +1,6 @@
 {
-  "name": "@airbnb/config-prettier",
-  "version": "2.0.1",
+  "name": "@rajzik/config-prettier",
+  "version": "0.0.0-0",
   "description": "Reusable Prettier config.",
   "keywords": [
     "nimbus",
@@ -10,9 +10,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:airbnb/nimbus.git"
+    "url": "git@github.com:rajzik/nimbus.git"
   },
-  "author": "Miles Johnson",
+  "author": "Silhan Jan",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -21,7 +21,7 @@
     "@types/prettier": "^1.18.3"
   },
   "dependencies": {
-    "@airbnb/nimbus-common": "^2.0.1",
+    "@rajzik/nimbus-common": "^0.0.0-0",
     "@beemo/core": "^1.0.7",
     "@beemo/driver-prettier": "^1.0.3",
     "prettier": "^1.18.2"

@@ -22,8 +22,8 @@ export function debug(msg: string, ...args: string[]) {
 
 export function isRevert(): boolean {
   return (
-    danger.github.pr.title.startsWith('Revert') ||
-    danger.github.pr.title.includes('Automatic revert')
+    danger.github.pr.title.startsWith('Revert')
+    || danger.github.pr.title.includes('Automatic revert')
   );
 }
 

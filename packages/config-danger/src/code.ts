@@ -78,9 +78,7 @@ export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: T
         (match, name, ext) => `(?:(${name}.test.${ext})|(${name}/index.test.${ext}))`,
       )
       // Foo.tsx -> Foo.test.tsx
-      .replace(/(\w+)\.((t|j)sx?)$/, (match, name, ext) =>
-        name === 'test' ? match : `${name}.test.${ext}`,
-      );
+      .replace(/(\w+)\.((t|j)sx?)$/, (match, name, ext) => (name === 'test' ? match : `${name}.test.${ext}`),);
 
     const regex = new RegExp(testFile);
 

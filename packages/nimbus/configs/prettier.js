@@ -1,6 +1,6 @@
 // @ts-check
 
-const { getConfig, getIgnoreList } = require('@airbnb/config-prettier');
+const { getConfig, getIgnoreList } = require('@rajzik/config-prettier');
 
 module.exports = {
   ...getConfig(),

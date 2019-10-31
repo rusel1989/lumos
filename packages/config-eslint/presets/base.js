@@ -4,7 +4,7 @@ const {
   EXTS_GROUP,
   ASSET_EXT_PATTERN,
   GQL_EXT_PATTERN,
-} = require('@airbnb/nimbus-common/constants');
+} = require('@rajzik/nimbus-common/constants');
 
 module.exports = {
   root: true,

@@ -1,6 +1,6 @@
 {
-  "name": "@airbnb/config-typescript",
-  "version": "2.0.1",
+  "name": "@rajzik/config-typescript",
+  "version": "0.0.0-0",
   "description": "Reusable TypeScript configs.",
   "keywords": [
     "nimbus",
@@ -10,9 +10,9 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:airbnb/nimbus.git"
+    "url": "git@github.com:rajzik/nimbus.git"
   },
-  "author": "Miles Johnson",
+  "author": "Silhan Jan",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

@@ -9,7 +9,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **[Beemo]** Update to latest. ([bf6798c](https://github.com/airbnb/nimbus/commit/bf6798c))
 
-**Note:** Version bump only for package @airbnb/nimbus-common
+**Note:** Version bump only for package @rajzik/nimbus-common
 
 
 

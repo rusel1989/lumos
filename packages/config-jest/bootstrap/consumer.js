@@ -1,7 +1,7 @@
 /* eslint-disable import/no-dynamic-require */
 
 const fs = require('fs');
-const { getSettings, fromRoot } = require('@airbnb/nimbus-common');
+const { getSettings, fromRoot } = require('@rajzik/nimbus-common');
 
 // Import a custom setup file from the consumer
 const { testFolder } = getSettings();

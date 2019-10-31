@@ -1,10 +1,12 @@
 // @ts-check
 
-const { getConfig } = require('@airbnb/config-babel');
-const { getSettings } = require('@airbnb/nimbus-common');
+const { getConfig } = require('@rajzik/config-babel');
+const { getSettings } = require('@rajzik/nimbus-common');
 
 const { context, tool } = process.beemo;
-const { graphql, library, next, node, react, env } = getSettings();
+const {
+  graphql, library, next, node, react, env,
+} = getSettings();
 
 module.exports = getConfig({
   env,

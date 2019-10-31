@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { getSettings } = require('@airbnb/nimbus-common');
+const { getSettings } = require('@rajzik/nimbus-common');
 
 /**
  * @param { import("@beemo/core").Context } context

@@ -6,7 +6,7 @@ To contribute to Nimbus, begin by cloning the repository, installing dependencie
 initial files.
 
 ```bash
-git clone git@github.com:airbnb/nimbus.git && cd ./nimbus
+git clone git@github.com:rajzik/nimbus.git && cd ./nimbus
 yarn install
 yarn run build
 ```
@@ -25,7 +25,7 @@ management layer.
 
 ## Reporting bugs
 
-Please report all bugs as [an issue](https://github.com/airbnb/nimbus/issues/new) on the Nimbus
+Please report all bugs as [an issue](https://github.com/rajzik/nimbus/issues/new) on the Nimbus
 repository. Before filing a new issue, try to make sure your problem doesn’t already exist.
 
 ## Requesting new features
@@ -61,7 +61,7 @@ the latest version) using the space bar and arrow keys.
 However, there are a few caveats and requirements to follow when updating.
 
 1. Dependencies should be updated in isolation per package (workspace), and commited to git
-   separately. For example, only dependencies within the `@airbnb/config-jest` package should be
+   separately. For example, only dependencies within the `@rajzik/config-jest` package should be
    updated within a single commit.
    - This allows packages to update and version independently from each other.
    - The exception to this is when a dependency is used across many packages, like Babel being used

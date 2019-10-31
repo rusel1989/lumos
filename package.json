@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:airbnb/nimbus.git"
+    "url": "git@github.com:rajzik/nimbus.git"
   },
-  "author": "Miles Johnson",
+  "author": "Silhan Jan",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "beemo": {
-    "module": "@airbnb/nimbus",
+    "module": "@rajzik/nimbus",
     "drivers": [
       "babel",
       "eslint",

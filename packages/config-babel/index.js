@@ -1,6 +1,6 @@
 // @ts-check
 
-const { IGNORE_PATHS, NODE_TARGET, WEB_TARGET } = require('@airbnb/nimbus-common/constants');
+const { IGNORE_PATHS, NODE_TARGET, WEB_TARGET } = require('@rajzik/nimbus-common/constants');
 
 /**
  * @typedef { import("@beemo/driver-babel").BabelConfig } BabelConfig

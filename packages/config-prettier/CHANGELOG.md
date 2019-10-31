@@ -10,7 +10,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **[Beemo]** Update to latest. ([bf6798c](https://github.com/airbnb/nimbus/commit/bf6798c))
 - Update root and dev versions. ([5d35b0e](https://github.com/airbnb/nimbus/commit/5d35b0e))
 
-**Note:** Version bump only for package @airbnb/config-prettier
+**Note:** Version bump only for package @rajzik/config-prettier
 
 
 

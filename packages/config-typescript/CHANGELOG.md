@@ -10,7 +10,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **[Beemo]** Update to latest. ([bf6798c](https://github.com/airbnb/nimbus/commit/bf6798c))
 - **[TypeScript]** Update to latest. ([2e3cd3f](https://github.com/airbnb/nimbus/commit/2e3cd3f))
 
-**Note:** Version bump only for package @airbnb/config-typescript
+**Note:** Version bump only for package @rajzik/config-typescript
 
 
 

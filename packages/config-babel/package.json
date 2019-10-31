@@ -1,6 +1,6 @@
 {
-  "name": "@airbnb/config-babel",
-  "version": "2.0.2",
+  "name": "@rajzik/config-babel",
+  "version": "0.0.0-0",
   "description": "Reusable Babel config.",
   "keywords": [
     "nimbus",
@@ -10,15 +10,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:airbnb/nimbus.git"
+    "url": "git@github.com:rajzik/nimbus.git"
   },
-  "author": "Miles Johnson",
+  "author": "Silhan Jan",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@airbnb/nimbus-common": "^2.0.1",
+    "@rajzik/nimbus-common": "^0.0.0-0",
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",

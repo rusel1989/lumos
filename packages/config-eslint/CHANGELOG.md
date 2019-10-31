@@ -15,7 +15,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **[Beemo]** Update to latest. ([bf6798c](https://github.com/airbnb/nimbus/commit/bf6798c))
 - **[ESLint]** Update plugins to latest. ([86bf6ba](https://github.com/airbnb/nimbus/commit/86bf6ba))
 
-**Note:** Version bump only for package @airbnb/config-eslint
+**Note:** Version bump only for package @rajzik/config-eslint
 
 
 
@@ -27,7 +27,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **[ESlint]** Update plugins to latest patch versions. ([92aeabd](https://github.com/airbnb/nimbus/commit/92aeabd))
 
-**Note:** Version bump only for package @airbnb/config-eslint
+**Note:** Version bump only for package @rajzik/config-eslint
 
 
 
@@ -43,7 +43,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **[ESLint]** Update deps and audit rules. (#6) ([f35647f](https://github.com/airbnb/nimbus/commit/f35647f)), closes [#6](https://github.com/airbnb/nimbus/issues/6)
 
-**Note:** Version bump only for package @airbnb/config-eslint
+**Note:** Version bump only for package @rajzik/config-eslint
 
 
 

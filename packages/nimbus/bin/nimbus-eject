@@ -18,7 +18,7 @@ function writeJsFile(configPath, config) {
 async function copyAndInstallDepsFromModule(moduleName, isYarn, isMonorepo) {
   const pkg = require(`${moduleName}/package.json`);
   const deps = Object.keys(pkg.dependencies).filter(
-    dep => !dep.includes('@beemo') && !dep.includes('@airbnb/nimbus'),
+    dep => !dep.includes('@beemo') && !dep.includes('@rajzik/nimbus'),
   );
 
   await installDeps(deps, isYarn, isMonorepo);
@@ -208,7 +208,7 @@ async function eject() {
     console.log(`${chalk.gray(`[${driver}]`)} Updating dependencies`);
 
     await copyAndInstallDepsFromModule(
-      `@airbnb/config-${driver}`,
+      `@rajzik/config-${driver}`,
       response.yarn,
       response.monorepo,
     );
@@ -223,7 +223,7 @@ async function eject() {
 
   console.log(`${chalk.cyan('[4/5]')} Removing config`);
 
-  await removeDeps(['@airbnb/nimbus'], response.yarn, response.monorepo);
+  await removeDeps(['@rajzik/nimbus'], response.yarn, response.monorepo);
 
   const pkg = editJsonFile(pkgPath);
 

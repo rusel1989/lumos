@@ -1,6 +1,6 @@
 {
-  "name": "@airbnb/config-danger",
-  "version": "2.0.2",
+  "name": "@rajzik/config-danger",
+  "version": "0.0.0-0",
   "description": "Reusable Danger.js scripts.",
   "keywords": [
     "nimbus",
@@ -12,15 +12,15 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:airbnb/nimbus.git"
+    "url": "git@github.com:rajzik/nimbus.git"
   },
-  "author": "Miles Johnson",
+  "author": "Silhan Jan",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@types/node": "^12.7.7"
+    "@types/node": "^12.12.3"
   },
   "dependencies": {
     "conventional-changelog-beemo": "^1.5.1",

@@ -2,7 +2,7 @@
 
 const { Script } = require('@beemo/core');
 const { createGitHubClient, parseGitRepo } = require('@lerna/github-client');
-const { getLastTag, getCommitsSince } = require('@airbnb/nimbus-common/git');
+const { getLastTag, getCommitsSince } = require('@rajzik/nimbus-common/git');
 const { LERNA_VERSION_ARGS } = require('./constants');
 
 // Primarily used within CI jobs
@@ -39,7 +39,7 @@ module.exports = class AutoReleaseScript extends Script {
       }
     } catch (error) {
       name = 'Airbnb Bot';
-      email = 'airbnb-cli-bot@airbnb.com';
+      email = 'airbnb-cli-bot@rajzik.com';
     }
 
     Object.assign(env, {
@@ -101,14 +101,12 @@ module.exports = class AutoReleaseScript extends Script {
   // https://octokit.github.io/rest.js/#api-Issues-addLabels
   addLabelToPRs(context) {
     return Promise.all(
-      context.prs.map(number =>
-        context.client.request('POST /repos/:owner/:repo/issues/:number/labels', {
-          owner: context.repo.owner,
-          repo: context.repo.name,
-          number,
-          data: ['released'],
-        }),
-      ),
+      context.prs.map(number => context.client.request('POST /repos/:owner/:repo/issues/:number/labels', {
+        owner: context.repo.owner,
+        repo: context.repo.name,
+        number,
+        data: ['released'],
+      })),
     );
   }
 

@@ -4,7 +4,7 @@ import {
   checkForInvalidLocks,
   checkForConventionalPrefix,
   checkForConventionalSquashCommit,
-} from '@airbnb/config-danger';
+} from '@rajzik/config-danger';
 
 checkForInvalidLocks();
 checkForConventionalPrefix();

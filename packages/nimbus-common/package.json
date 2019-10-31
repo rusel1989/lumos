@@ -1,6 +1,6 @@
 {
-  "name": "@airbnb/nimbus-common",
-  "version": "2.0.1",
+  "name": "@rajzik/nimbus-common",
+  "version": "0.0.0-0",
   "description": "Common Nimbus utilities and constants.",
   "keywords": [
     "nimbus",
@@ -11,9 +11,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:airbnb/nimbus.git"
+    "url": "git@github.com:rajzik/nimbus.git"
   },
-  "author": "Miles Johnson",
+  "author": "Silhan Jan",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

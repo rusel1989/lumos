@@ -7,14 +7,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-const { getCommitHash } = require('@airbnb/nimbus-common/git');
+const { getCommitHash } = require('@rajzik/nimbus-common/git');
 const {
   EXTS,
   ASSET_EXT_PATTERN,
   GQL_EXT_PATTERN,
   TJSX_EXT_PATTERN,
-} = require('@airbnb/nimbus-common/constants');
-const { PORT, ROOT, PROD, getESMAliases, getFavIcon } = require('./helpers');
+} = require('@rajzik/nimbus-common/constants');
+const {
+  PORT, ROOT, PROD, getESMAliases, getFavIcon,
+} = require('./helpers');
 
 /**
  * @typedef { import("@beemo/driver-webpack").WebpackConfig } WebpackConfig

@@ -11,7 +11,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **[Babel]** Update to latest. ([755cf98](https://github.com/airbnb/nimbus/commit/755cf98))
 - **[Beemo]** Update to latest. ([bf6798c](https://github.com/airbnb/nimbus/commit/bf6798c))
 
-**Note:** Version bump only for package @airbnb/config-jest
+**Note:** Version bump only for package @rajzik/config-jest
 
 
 
@@ -23,7 +23,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **[Babel]** Update to v7.6.2. ([b657a49](https://github.com/airbnb/nimbus/commit/b657a49))
 
-**Note:** Version bump only for package @airbnb/config-jest
+**Note:** Version bump only for package @rajzik/config-jest
 
 
 

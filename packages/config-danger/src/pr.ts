@@ -13,8 +13,8 @@ export function checkForConventionalPrefix() {
 // and the PR title is lost, resulting in the semver prefix also being lost.
 export function checkForConventionalSquashCommit() {
   if (
-    danger.github.pr.commits <= 1 &&
-    danger.github.commits[0].commit.message !== danger.github.pr.title
+    danger.github.pr.commits <= 1
+    && danger.github.commits[0].commit.message !== danger.github.pr.title
   ) {
     fail(
       'Automatic releases requires commit message to match PR title if PR contains only 1 commit.',

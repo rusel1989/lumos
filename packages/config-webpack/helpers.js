@@ -1,14 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 const glob = require('fast-glob');
-const { getPackage } = require('@airbnb/nimbus-common');
+const { getPackage } = require('@rajzik/nimbus-common');
 
 const { WEBPACK_ESM_SCOPES, WEBPACK_ESM_PACKAGES } = process.env;
 
 const ROOT = process.cwd();
 const PROD = process.env.NODE_ENV === 'production';
 const PORT = 8081;
-const esmScopes = ['@airbnb', '@irbnb'];
+const esmScopes = ['@rajzik', '@irbnb'];
 const esmPackages = [
   'aesthetic',
   'aesthetic-*',

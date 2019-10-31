@@ -11,7 +11,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **[Beemo]** Update to latest. ([bf6798c](https://github.com/airbnb/nimbus/commit/bf6798c))
 - **[Webpack]** Update to latest. ([b57d1ca](https://github.com/airbnb/nimbus/commit/b57d1ca))
 
-**Note:** Version bump only for package @airbnb/config-webpack
+**Note:** Version bump only for package @rajzik/config-webpack
 
 
 
@@ -24,7 +24,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **[Babel]** Update to v7.6.2. ([b657a49](https://github.com/airbnb/nimbus/commit/b657a49))
 - **[Webpack]** Update to v4.41. ([e2f0e62](https://github.com/airbnb/nimbus/commit/e2f0e62))
 
-**Note:** Version bump only for package @airbnb/config-webpack
+**Note:** Version bump only for package @rajzik/config-webpack
 
 
 

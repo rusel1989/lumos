@@ -1,7 +1,7 @@
 // @ts-check
 
-const { getExtendsList, getIgnoreList } = require('@airbnb/config-eslint');
-const { getSettings } = require('@airbnb/nimbus-common');
+const { getExtendsList, getIgnoreList } = require('@rajzik/config-eslint');
+const { getSettings } = require('@rajzik/nimbus-common');
 
 const { tool } = process.beemo;
 const { next, node } = getSettings();
