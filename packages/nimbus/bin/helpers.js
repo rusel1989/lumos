@@ -1,3 +1,5 @@
+// @ts-check
+
 const execa = require('execa');
 const { version } = require('../package.json');
 

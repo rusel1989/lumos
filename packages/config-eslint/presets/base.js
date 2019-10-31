@@ -1,10 +1,4 @@
-const path = require('path');
-const {
-  EXTS,
-  EXTS_GROUP,
-  ASSET_EXT_PATTERN,
-  GQL_EXT_PATTERN,
-} = require('@rajzik/nimbus-common/constants');
+const { EXTS, EXTS_GROUP, ASSET_EXT_PATTERN } = require('@rajzik/nimbus-common/constants');
 
 module.exports = {
   root: true,
@@ -39,14 +33,11 @@ module.exports = {
 
   settings: {
     propWrapperFunctions: ['forbidExtraProps', 'exact', 'Object.freeze'],
-    'import/ignore': ['node_modules', '\\.json$', ASSET_EXT_PATTERN.source, GQL_EXT_PATTERN.source],
+    'import/ignore': ['node_modules', '\\.json$', ASSET_EXT_PATTERN.source],
     'import/extensions': EXTS,
     'import/resolver': {
       node: {
         extensions: EXTS,
-      },
-      [path.join(__dirname, '../resolvers/graphql.js')]: {
-        extensions: ['.gql', '.graphql'],
       },
     },
   },

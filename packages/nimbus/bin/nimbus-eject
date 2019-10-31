@@ -149,7 +149,7 @@ async function migrateJest() {
 
 async function migrateWebpack() {
   const configPath = path.join(process.cwd(), 'webpack.config.js');
-  const url = 'https://github.com/airbnb/nimbus/blob/master/packages/config-webpack/index.js';
+  const url = 'https://github.com/rajzik/nimbus/blob/master/packages/config-webpack/index.js';
 
   console.log(
     `${chalk.gray('[webpack]')} ${chalk.yellow('Webpack config could not be migrated.')}`,

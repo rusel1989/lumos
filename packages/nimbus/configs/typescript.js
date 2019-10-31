@@ -4,23 +4,21 @@ const { getConfig, getConfigWithProjectRefs } = require('@rajzik/config-typescri
 const { getSettings } = require('@rajzik/nimbus-common');
 
 const { context } = process.beemo;
-const {
-  buildFolder, srcFolder, testFolder, typesFolder, node, react, library,
-} = getSettings();
+const { buildFolder, srcFolder, testFolder, typesFolder, node, react, library } = getSettings();
 
 module.exports = context.args.referenceWorkspaces
   ? getConfigWithProjectRefs({
-    node,
-    react,
-  })
+      node,
+      react,
+    })
   : getConfig({
-    buildFolder,
-    includeTests: !!context.args.noEmit,
-    library,
-    node,
-    react,
-    srcFolder,
-    testFolder,
-    typesFolder,
-    workspaces: context.workspaces,
-  });
+      buildFolder,
+      includeTests: !!context.args.noEmit,
+      library,
+      node,
+      react,
+      srcFolder,
+      testFolder,
+      typesFolder,
+      workspaces: context.workspaces,
+    });

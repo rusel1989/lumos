@@ -14,9 +14,7 @@ const {
   GQL_EXT_PATTERN,
   TJSX_EXT_PATTERN,
 } = require('@rajzik/nimbus-common/constants');
-const {
-  PORT, ROOT, PROD, getESMAliases, getFavIcon,
-} = require('./helpers');
+const { PORT, ROOT, PROD, getESMAliases, getFavIcon } = require('./helpers');
 
 /**
  * @typedef { import("@beemo/driver-webpack").WebpackConfig } WebpackConfig
