@@ -1,9 +1,9 @@
 {
-  "name": "@rajzik/nimbus-common",
+  "name": "@rajzik/lumos-common",
   "version": "0.0.1",
-  "description": "Common Nimbus utilities and constants.",
+  "description": "Common Lumos utilities and constants.",
   "keywords": [
-    "nimbus",
+    "lumos",
     "config",
     "common",
     "utils"
@@ -11,7 +11,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rajzik/nimbus.git"
+    "url": "git@github.com:rajzik/lumos.git"
   },
   "author": "Silhan Jan",
   "license": "MIT",

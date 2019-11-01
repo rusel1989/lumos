@@ -7,13 +7,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-const { getCommitHash } = require('@rajzik/nimbus-common/git');
+const { getCommitHash } = require('@rajzik/lumos-common/git');
 const {
   EXTS,
   ASSET_EXT_PATTERN,
   GQL_EXT_PATTERN,
   TJSX_EXT_PATTERN,
-} = require('@rajzik/nimbus-common/constants');
+} = require('@rajzik/lumos-common/constants');
 const { PORT, ROOT, PROD, getESMAliases, getFavIcon } = require('./helpers');
 
 /**

@@ -7,9 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- Update root and dev versions. ([5d35b0e](https://github.com/rajzik/nimbus/commit/5d35b0e))
-- **[Babel]** Update to latest. ([755cf98](https://github.com/rajzik/nimbus/commit/755cf98))
-- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/nimbus/commit/bf6798c))
+- Update root and dev versions. ([5d35b0e](https://github.com/rajzik/lumos/commit/5d35b0e))
+- **[Babel]** Update to latest. ([755cf98](https://github.com/rajzik/lumos/commit/755cf98))
+- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/lumos/commit/bf6798c))
 
 **Note:** Version bump only for package @rajzik/config-jest
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[Babel]** Update to v7.6.2. ([b657a49](https://github.com/rajzik/nimbus/commit/b657a49))
+- **[Babel]** Update to v7.6.2. ([b657a49](https://github.com/rajzik/lumos/commit/b657a49))
 
 **Note:** Version bump only for package @rajzik/config-jest
 

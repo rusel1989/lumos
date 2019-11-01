@@ -1,4 +1,4 @@
-const { EXTS, EXTS_GROUP, ASSET_EXT_PATTERN } = require('@rajzik/nimbus-common/constants');
+const { EXTS, EXTS_GROUP, ASSET_EXT_PATTERN } = require('@rajzik/lumos-common/constants');
 
 module.exports = {
   root: true,

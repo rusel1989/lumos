@@ -7,7 +7,7 @@ const {
   ASSET_EXT_PATTERN,
   GQL_EXT_PATTERN,
   TJSX_EXT_PATTERN,
-} = require('@rajzik/nimbus-common/constants');
+} = require('@rajzik/lumos-common/constants');
 
 /**
  * @typedef { import("@beemo/driver-jest").JestConfig } JestConfig

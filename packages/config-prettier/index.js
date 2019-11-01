@@ -1,6 +1,6 @@
 // @ts-check
 
-const { IGNORE_PATHS } = require('@rajzik/nimbus-common/constants');
+const { IGNORE_PATHS } = require('@rajzik/lumos-common/constants');
 
 /**
  * @typedef { import("@beemo/driver-prettier").PrettierConfig } PrettierConfig

@@ -7,8 +7,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/nimbus/commit/bf6798c))
-- Update root and dev versions. ([5d35b0e](https://github.com/rajzik/nimbus/commit/5d35b0e))
+- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/lumos/commit/bf6798c))
+- Update root and dev versions. ([5d35b0e](https://github.com/rajzik/lumos/commit/5d35b0e))
 
 **Note:** Version bump only for package @rajzik/config-prettier
 

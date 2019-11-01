@@ -18,7 +18,7 @@ function writeJsFile(configPath, config) {
 async function copyAndInstallDepsFromModule(moduleName, isYarn, isMonorepo) {
   const pkg = require(`${moduleName}/package.json`);
   const deps = Object.keys(pkg.dependencies).filter(
-    dep => !dep.includes('@beemo') && !dep.includes('@rajzik/nimbus'),
+    dep => !dep.includes('@beemo') && !dep.includes('@rajzik/lumos'),
   );
 
   await installDeps(deps, isYarn, isMonorepo);
@@ -32,7 +32,7 @@ function escapeRegExp(string) {
 function migrateDotfiles() {
   const toRemove = [
     '# Configs',
-    '# Configs (provided by Nimbus)',
+    '# Configs (provided by Lumos)',
     '.babelrc',
     '.eslintignore',
     '.eslintrc.js',
@@ -61,11 +61,11 @@ function migrateDotfiles() {
   }
 }
 
-function migratePackageScripts(nimbus) {
+function migratePackageScripts(lumos) {
   const pkg = editJsonFile(pkgPath);
   const scripts = pkg.get('scripts') || {};
-  const srcFolder = nimbus.settings.srcFolder || 'src';
-  const testFolder = nimbus.settings.testFolder || 'test';
+  const srcFolder = lumos.settings.srcFolder || 'src';
+  const testFolder = lumos.settings.testFolder || 'test';
 
   if (scripts.prepare && scripts.prepare.includes('create-config')) {
     delete scripts.prepare;
@@ -81,20 +81,20 @@ function migratePackageScripts(nimbus) {
 
     scripts[key] = value
       .replace(
-        'nimbus babel',
+        'lumos babel',
         `${esm ? 'ESM=true ' : ''}babel ./${srcFolder} --out-dir ./${esm ? 'esm' : 'lib'}`,
       )
       .replace('--esm', '')
       .replace(
-        'nimbus eslint',
+        'lumos eslint',
         `eslint --color --report-unused-disable-directives ./${srcFolder} ./${testFolder}`,
       )
-      .replace('nimbus jest', 'jest --colors')
+      .replace('lumos jest', 'jest --colors')
       .replace('--coverage', '--coverage --logHeapUsage --detectOpenHandles')
-      .replace('nimbus prettier', `prettier --write ./${srcFolder} ./${testFolder}`)
-      .replace('nimbus typescript', 'tsc')
-      .replace('nimbus webpack', 'webpack --colors --progress --bail')
-      .replace('nimbus-webpack-server', 'webpack-dev-server')
+      .replace('lumos prettier', `prettier --write ./${srcFolder} ./${testFolder}`)
+      .replace('lumos typescript', 'tsc')
+      .replace('lumos webpack', 'webpack --colors --progress --bail')
+      .replace('lumos-webpack-server', 'webpack-dev-server')
       .trim();
   });
 
@@ -140,7 +140,7 @@ async function migrateJest() {
 
   console.log(
     `${chalk.gray('[jest]')} ${chalk.yellow(
-      'This included custom serializers, transformers, mocks, setup files, and more provided by Nimbus. These will need to be manually configured now.',
+      'This included custom serializers, transformers, mocks, setup files, and more provided by Lumos. These will need to be manually configured now.',
     )}`,
   );
 
@@ -149,7 +149,7 @@ async function migrateJest() {
 
 async function migrateWebpack() {
   const configPath = path.join(process.cwd(), 'webpack.config.js');
-  const url = 'https://github.com/rajzik/nimbus/blob/master/packages/config-webpack/index.js';
+  const url = 'https://github.com/rajzik/lumos/blob/master/packages/config-webpack/index.js';
 
   console.log(
     `${chalk.gray('[webpack]')} ${chalk.yellow('Webpack config could not be migrated.')}`,
@@ -165,12 +165,12 @@ async function migrateWebpack() {
 
 async function eject() {
   console.log(BANNER);
-  console.log(`${chalk.cyan('[1/5]')} Ejecting Nimbus`);
+  console.log(`${chalk.cyan('[1/5]')} Ejecting Lumos`);
 
-  const nimbus = editJsonFile(pkgPath).get('nimbus');
+  const lumos = editJsonFile(pkgPath).get('lumos');
 
-  if (!nimbus) {
-    throw new Error("Project isn't Nimbus enabled.");
+  if (!lumos) {
+    throw new Error("Project isn't Lumos enabled.");
   }
 
   const response = await prompt([
@@ -186,15 +186,15 @@ async function eject() {
     },
   ]);
 
-  await execa('nimbus', ['create-config', '--silent'], { preferLocal: true });
+  await execa('lumos', ['create-config', '--silent'], { preferLocal: true });
 
   console.log(`${chalk.cyan('[2/5]')} Updating package scripts`);
 
-  migratePackageScripts(nimbus);
+  migratePackageScripts(lumos);
 
   console.log(`${chalk.cyan('[3/5]')} Migrating drivers`);
 
-  for (const driver of nimbus.drivers) {
+  for (const driver of lumos.drivers) {
     console.log(`${chalk.gray(`[${driver}]`)} Migrating config`);
 
     if (driver === 'eslint') {
@@ -217,17 +217,17 @@ async function eject() {
     // This allows us to pickup where we left off.
     const pkg = editJsonFile(pkgPath);
 
-    pkg.set('nimbus.drivers', pkg.get('nimbus.drivers').filter(d => d !== driver));
+    pkg.set('lumos.drivers', pkg.get('lumos.drivers').filter(d => d !== driver));
     pkg.save();
   }
 
   console.log(`${chalk.cyan('[4/5]')} Removing config`);
 
-  await removeDeps(['@rajzik/nimbus'], response.yarn, response.monorepo);
+  await removeDeps(['@rajzik/lumos'], response.yarn, response.monorepo);
 
   const pkg = editJsonFile(pkgPath);
 
-  pkg.unset('nimbus');
+  pkg.unset('lumos');
   pkg.save();
 
   console.log(`${chalk.cyan('[5/5]')} Updating dotfiles`);

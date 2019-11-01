@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "nimbus-root",
+  "name": "lumos-root",
   "version": "0.0.0",
   "scripts": {
     "prepare": "beemo create-config --silent",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rajzik/nimbus.git"
+    "url": "git@github.com:rajzik/lumos.git"
   },
   "author": "Silhan Jan",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "access": "public"
   },
   "beemo": {
-    "module": "@rajzik/nimbus",
+    "module": "@rajzik/lumos",
     "drivers": [
       "babel",
       "eslint",

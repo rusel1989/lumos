@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { getSettings } = require('@rajzik/nimbus-common');
+const { getSettings } = require('@rajzik/lumos-common');
 
 /**
  * @param { import("@beemo/core").Context } context
@@ -160,7 +160,7 @@ module.exports = function cli(tool) {
 
   /**
    * TYPESCRIPT
-   * - Pass Nimbus settings to the TS driver options.
+   * - Pass Lumos settings to the TS driver options.
    */
   tool.onRunDriver.listen((context, driver) => {
     /** @type { import("@beemo/driver-typescript").default } */
