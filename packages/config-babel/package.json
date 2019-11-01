@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-babel",
-  "version": "0.0.0-0",
+  "version": "0.0.1",
   "description": "Reusable Babel config.",
   "keywords": [
     "nimbus",
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@rajzik/nimbus-common": "^0.0.0-0",
+    "@rajzik/nimbus-common": "^0.0.1",
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",

@@ -1,3 +1,3 @@
-export type CommonOptions = {
+export interface CommonOptions {
   fail?: boolean;
-};
+}

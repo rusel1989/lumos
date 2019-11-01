@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/nimbus-common",
-  "version": "0.0.0-0",
+  "version": "0.0.1",
   "description": "Common Nimbus utilities and constants.",
   "keywords": [
     "nimbus",
