@@ -7,8 +7,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/nimbus/commit/bf6798c))
-- **[TypeScript]** Update to latest. ([2e3cd3f](https://github.com/rajzik/nimbus/commit/2e3cd3f))
+- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/lumos/commit/bf6798c))
+- **[TypeScript]** Update to latest. ([2e3cd3f](https://github.com/rajzik/lumos/commit/2e3cd3f))
 
 **Note:** Version bump only for package @rajzik/config-typescript
 

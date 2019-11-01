@@ -7,7 +7,7 @@ const glob = require('fast-glob');
 
 /**
  * @typedef { import("@boost/core").PackageConfig } PackageConfig
- * @typedef NimbusSettings
+ * @typedef LumosSettings
  * @property {string} buildFolder
  * @property {number} coverage
  * @property {string} docsFolder
@@ -63,7 +63,7 @@ exports.getPackage = function getPackage() {
 };
 
 /**
- * @returns {NimbusSettings}
+ * @returns {LumosSettings}
  */
 exports.getSettings = function getSettings() {
   const instance = process.beemo && process.beemo.tool;
@@ -73,9 +73,9 @@ exports.getSettings = function getSettings() {
   if (instance && instance.config && instance.config.settings) {
     Object.assign(settings, instance.config.settings);
     // @ts-ignore
-  } else if (pkg.nimbus && pkg.nimbus.settings) {
+  } else if (pkg.lumos && pkg.lumos.settings) {
     // @ts-ignore
-    Object.assign(settings, pkg.nimbus.settings);
+    Object.assign(settings, pkg.lumos.settings);
   }
 
   return {

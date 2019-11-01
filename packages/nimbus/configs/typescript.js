@@ -1,7 +1,7 @@
 // @ts-check
 
 const { getConfig, getConfigWithProjectRefs } = require('@rajzik/config-typescript');
-const { getSettings } = require('@rajzik/nimbus-common');
+const { getSettings } = require('@rajzik/lumos-common');
 
 const { context } = process.beemo;
 const { buildFolder, srcFolder, testFolder, typesFolder, node, react, library } = getSettings();

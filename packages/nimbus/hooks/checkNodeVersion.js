@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 const execa = require('execa');
-const { getPackage } = require('@rajzik/nimbus-common');
+const { getPackage } = require('@rajzik/lumos-common');
 
 // Only run if the engines block is defined
 if (getPackage().engines) {

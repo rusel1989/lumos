@@ -7,10 +7,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/nimbus/commit/bf6798c))
-- Update root and dev versions. ([5d35b0e](https://github.com/rajzik/nimbus/commit/5d35b0e))
+- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/lumos/commit/bf6798c))
+- Update root and dev versions. ([5d35b0e](https://github.com/rajzik/lumos/commit/5d35b0e))
 
-**Note:** Version bump only for package @rajzik/nimbus
+**Note:** Version bump only for package @rajzik/lumos
 
 
 
@@ -20,9 +20,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 🐞 Fixes
 
-- Fix TS not inheriting default settings. (#10) ([dd14ef6](https://github.com/rajzik/nimbus/commit/dd14ef6)), closes [#10](https://github.com/rajzik/nimbus/issues/10)
+- Fix TS not inheriting default settings. (#10) ([dd14ef6](https://github.com/rajzik/lumos/commit/dd14ef6)), closes [#10](https://github.com/rajzik/lumos/issues/10)
 
-**Note:** Version bump only for package @rajzik/nimbus
+**Note:** Version bump only for package @rajzik/lumos
 
 
 
@@ -32,9 +32,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- Update minor and patch versions. ([968389c](https://github.com/rajzik/nimbus/commit/968389c))
+- Update minor and patch versions. ([968389c](https://github.com/rajzik/lumos/commit/968389c))
 
-**Note:** Version bump only for package @rajzik/nimbus
+**Note:** Version bump only for package @rajzik/lumos
 
 
 
@@ -44,10 +44,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 🐞 Fixes
 
-- Improve global and Node integration. (#8) ([3b565a7](https://github.com/rajzik/nimbus/commit/3b565a7)), closes [#8](https://github.com/rajzik/nimbus/issues/8)
-- Only generate `tsconfig.eslint.json` if project is TS enabled. (#7) ([f791725](https://github.com/rajzik/nimbus/commit/f791725)), closes [#7](https://github.com/rajzik/nimbus/issues/7)
+- Improve global and Node integration. (#8) ([3b565a7](https://github.com/rajzik/lumos/commit/3b565a7)), closes [#8](https://github.com/rajzik/lumos/issues/8)
+- Only generate `tsconfig.eslint.json` if project is TS enabled. (#7) ([f791725](https://github.com/rajzik/lumos/commit/f791725)), closes [#7](https://github.com/rajzik/lumos/issues/7)
 
-**Note:** Version bump only for package @rajzik/nimbus
+**Note:** Version bump only for package @rajzik/lumos
 
 
 

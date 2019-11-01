@@ -1,7 +1,7 @@
 // @ts-check
 
 const { getConfig } = require('@rajzik/config-jest');
-const { getSettings } = require('@rajzik/nimbus-common');
+const { getSettings } = require('@rajzik/lumos-common');
 
 const { coverage, graphql, react, srcFolder, testFolder } = getSettings();
 

@@ -7,9 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[Babel]** Update to latest. ([755cf98](https://github.com/rajzik/nimbus/commit/755cf98))
-- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/nimbus/commit/bf6798c))
-- **[Webpack]** Update to latest. ([b57d1ca](https://github.com/rajzik/nimbus/commit/b57d1ca))
+- **[Babel]** Update to latest. ([755cf98](https://github.com/rajzik/lumos/commit/755cf98))
+- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/lumos/commit/bf6798c))
+- **[Webpack]** Update to latest. ([b57d1ca](https://github.com/rajzik/lumos/commit/b57d1ca))
 
 **Note:** Version bump only for package @rajzik/config-webpack
 
@@ -21,8 +21,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[Babel]** Update to v7.6.2. ([b657a49](https://github.com/rajzik/nimbus/commit/b657a49))
-- **[Webpack]** Update to v4.41. ([e2f0e62](https://github.com/rajzik/nimbus/commit/e2f0e62))
+- **[Babel]** Update to v7.6.2. ([b657a49](https://github.com/rajzik/lumos/commit/b657a49))
+- **[Webpack]** Update to v4.41. ([e2f0e62](https://github.com/rajzik/lumos/commit/e2f0e62))
 
 **Note:** Version bump only for package @rajzik/config-webpack
 

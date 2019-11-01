@@ -1,5 +1,5 @@
-const { fromRoot } = require('@rajzik/nimbus-common');
-const { EXTS_GROUP } = require('@rajzik/nimbus-common/constants');
+const { fromRoot } = require('@rajzik/lumos-common');
+const { EXTS_GROUP } = require('@rajzik/lumos-common/constants');
 
 // In TS, all arguments are required for type information,
 // so we need to override the base JS setting.

@@ -1,7 +1,7 @@
 // @ts-check
 
 const path = require('path');
-const { IGNORE_PATHS } = require('@rajzik/nimbus-common/constants');
+const { IGNORE_PATHS } = require('@rajzik/lumos-common/constants');
 
 /**
  * @typedef {object} ConfigOptions

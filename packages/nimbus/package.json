@@ -1,9 +1,9 @@
 {
-  "name": "@rajzik/nimbus",
+  "name": "@rajzik/lumos",
   "version": "0.0.1",
   "description": "Centralized CLI for JavaScript and TypeScript dev tools.",
   "keywords": [
-    "nimbus",
+    "lumos",
     "config",
     "cli",
     "management",
@@ -13,7 +13,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rajzik/nimbus.git"
+    "url": "git@github.com:rajzik/lumos.git"
   },
   "author": "Silhan Jan",
   "license": "MIT",
@@ -21,15 +21,15 @@
     "access": "public"
   },
   "bin": {
-    "nimbus": "./bin/nimbus",
-    "nimbus-setup": "./bin/nimbus-setup",
-    "nimbus-eject": "./bin/nimbus-eject"
+    "lumos": "./bin/lumos",
+    "lumos-setup": "./bin/lumos-setup",
+    "lumos-eject": "./bin/lumos-eject"
   },
   "engines": {
     "node": ">=8.9.0"
   },
   "dependencies": {
-    "@rajzik/nimbus-common": "^0.0.1",
+    "@rajzik/lumos-common": "^0.0.1",
     "@beemo/cli": "^1.0.5",
     "@beemo/core": "^1.0.7",
     "chalk": "^2.4.2",

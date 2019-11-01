@@ -1,4 +1,4 @@
-const { EXTS_GROUP } = require('@rajzik/nimbus-common/constants');
+const { EXTS_GROUP } = require('@rajzik/lumos-common/constants');
 
 module.exports = {
   plugins: ['promise', 'unicorn'],

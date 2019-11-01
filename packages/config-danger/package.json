@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Reusable Danger.js scripts.",
   "keywords": [
-    "nimbus",
+    "lumos",
     "config",
     "danger",
     "scripts"
@@ -12,7 +12,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rajzik/nimbus.git"
+    "url": "git@github.com:rajzik/lumos.git"
   },
   "author": "Silhan Jan",
   "license": "MIT",

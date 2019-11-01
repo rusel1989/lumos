@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "description": "Reusable TypeScript configs.",
   "keywords": [
-    "nimbus",
+    "lumos",
     "config",
     "typescript"
   ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rajzik/nimbus.git"
+    "url": "git@github.com:rajzik/lumos.git"
   },
   "author": "Silhan Jan",
   "license": "MIT",

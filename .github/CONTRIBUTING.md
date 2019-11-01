@@ -2,16 +2,16 @@
 
 ## Developer setup
 
-To contribute to Nimbus, begin by cloning the repository, installing dependencies, and building
+To contribute to Lumos, begin by cloning the repository, installing dependencies, and building
 initial files.
 
 ```bash
-git clone git@github.com:rajzik/nimbus.git && cd ./nimbus
+git clone git@github.com:rajzik/lumos.git && cd ./lumos
 yarn install
 yarn run build
 ```
 
-Nimbus uses [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) to manage multiple
+Lumos uses [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) to manage multiple
 packages as a monorepo, and [Beemo](https://github.com/beemojs/beemo) as the configuration and
 management layer.
 
@@ -25,19 +25,19 @@ management layer.
 
 ## Reporting bugs
 
-Please report all bugs as [an issue](https://github.com/rajzik/nimbus/issues/new) on the Nimbus
+Please report all bugs as [an issue](https://github.com/rajzik/lumos/issues/new) on the Lumos
 repository. Before filing a new issue, try to make sure your problem doesn’t already exist.
 
 ## Requesting new features
 
 If you work for Airbnb, please create an issue and start a discussion about the feature you want
-added to Nimbus, and why.
+added to Lumos, and why.
 
 Otherwise, we will not be accepting new features from individuals outside of Airbnb.
 
 ## Releasing and versioning
 
-Nimbus uses [conventional commits](https://www.conventionalcommits.org) and
+Lumos uses [conventional commits](https://www.conventionalcommits.org) and
 [Lerna](https://github.com/lerna/lerna) to automatically release and publish new package versions
 for every commit that merges to master. To ensure versions are bumped correctly, we use the
 [conventional-changelog-beemo][conventional-changelog-beemo] preset, coupled with PR titles and
@@ -54,7 +54,7 @@ Our linter will catch most issues that may exist in your code.
 
 ## Updating dependencies
 
-To update dependencies in Nimbus, run `yarn upgrade-interactive --latest` in the root of the
+To update dependencies in Lumos, run `yarn upgrade-interactive --latest` in the root of the
 project. This will display an interactive menu in which you can select dependencies to update (to
 the latest version) using the space bar and arrow keys.
 

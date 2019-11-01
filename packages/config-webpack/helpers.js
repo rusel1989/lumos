@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const glob = require('fast-glob');
-const { getPackage } = require('@rajzik/nimbus-common');
+const { getPackage } = require('@rajzik/lumos-common');
 
 const { WEBPACK_ESM_SCOPES, WEBPACK_ESM_PACKAGES } = process.env;
 

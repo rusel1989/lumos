@@ -1,7 +1,7 @@
 # Change Log
 
-- [@rajzik/nimbus](./nimbus/CHANGELOG.md)
-- [@rajzik/nimbus-common](./nimbus-common/CHANGELOG.md)
+- [@rajzik/lumos](./lumos/CHANGELOG.md)
+- [@rajzik/lumos-common](./lumos-common/CHANGELOG.md)
 - [@rajzik/config-babel](./config-babel/CHANGELOG.md)
 - [@rajzik/config-danger](./config-danger/CHANGELOG.md)
 - [@rajzik/config-eslint](./config-eslint/CHANGELOG.md)

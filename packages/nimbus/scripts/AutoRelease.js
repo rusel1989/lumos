@@ -2,7 +2,7 @@
 
 const { Script } = require('@beemo/core');
 const { createGitHubClient, parseGitRepo } = require('@lerna/github-client');
-const { getLastTag, getCommitsSince } = require('@rajzik/nimbus-common/git');
+const { getLastTag, getCommitsSince } = require('@rajzik/lumos-common/git');
 const { LERNA_VERSION_ARGS } = require('./constants');
 
 // Primarily used within CI jobs
