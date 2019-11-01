@@ -14,10 +14,10 @@ import { CommonOptions } from './types';
 
 const changedSrcFiles = updatedFiles.filter(file => IS_SRC.test(file) && SRC_EXT.test(file));
 
-export type TestOptions = {
+export interface TestOptions extends CommonOptions {
   ignorePattern?: RegExp;
   root?: string;
-} & CommonOptions;
+}
 
 // Check for invalid NPM/Yarn installs by verifying the lock files.
 export function checkForInvalidLocks() {
@@ -105,9 +105,9 @@ export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: T
 }
 
 // Component snapshot testing is deprecated, so disallow new snapshots.
-export type SnapshotOptions = {
+export interface SnapshotOptions {
   docsUrl?: string;
-};
+}
 
 export function disableComponentSnapshots(options: SnapshotOptions = {}) {
   if (isRevert()) {
