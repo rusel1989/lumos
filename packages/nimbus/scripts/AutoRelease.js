@@ -101,12 +101,14 @@ module.exports = class AutoReleaseScript extends Script {
   // https://octokit.github.io/rest.js/#api-Issues-addLabels
   addLabelToPRs({ repo: { owner, name: repo }, prs, client }) {
     return Promise.all(
-      prs.map(number => client.request('POST /repos/:owner/:repo/issues/:number/labels', {
-        owner,
-        repo,
-        number,
-        data: ['released'],
-      })),
+      prs.map(number =>
+        client.request('POST /repos/:owner/:repo/issues/:number/labels', {
+          owner,
+          repo,
+          number,
+          data: ['released'],
+        }),
+      ),
     );
   }
 
