@@ -13,8 +13,12 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm run build
-      - run: npm test
+      - name: Setup
+        run: yarn install --frozen-lockfile --ignore-engines
+      - name: Build
+        run: yarn run build
+      - name: Run tests
+        run: yarn test
 
   publish-npm:
     needs: build
@@ -25,7 +29,11 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: npm publish
+      - name: Setup
+        run: yarn install --frozen-lockfile --ignore-engines
+      - name: Publish
+        run: yarn run release
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}]
           GH_TOKEN: ${{secrets.gh_token}}
