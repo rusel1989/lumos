@@ -39,10 +39,9 @@ module.exports = function cli(tool) {
   } = getSettings();
   const usingBabel = tool.isPluginEnabled('driver', 'babel');
   const usingPrettier = tool.isPluginEnabled('driver', 'prettier');
-  const usingTypeScript = tool.isPluginEnabled('driver', 'typescript');
   const workspaces = tool.getWorkspacePaths({ relative: true });
   const pathPrefix = workspaces.length ? createWorkspacesGlob(workspaces) : '';
-  const exts = usingTypeScript ? ['.ts', '.tsx', '.js', '.jsx'] : ['.js', '.jsx'];
+  const exts = ['.ts', '.tsx', '.js', '.jsx'];
 
   /**
    * BABEL
@@ -83,9 +82,6 @@ module.exports = function cli(tool) {
 
   // Create a specialized tsconfig for ESLint
   tool.getPlugin('driver', 'eslint').onCreateConfigFile.listen(context => {
-    if (!usingTypeScript) {
-      return;
-    }
 
     const configPath = path.join(process.cwd(), 'tsconfig.eslint.json');
     const include = [`${typesFolder}/**/*`]; // Always allow global types
@@ -133,9 +129,7 @@ module.exports = function cli(tool) {
       context.addOptions(['--logHeapUsage', '--detectOpenHandles']);
     }
 
-    if (usingTypeScript) {
-      driver.options.dependencies.push('typescript');
-    }
+    driver.options.dependencies.push('typescript');
 
     driver.options.env.NODE_ENV = 'test';
     driver.options.env.TZ = 'UTC';
@@ -191,9 +185,7 @@ module.exports = function cli(tool) {
       process.env.ESM = 'true';
     }
 
-    if (usingTypeScript) {
-      driver.options.dependencies.push('typescript');
-    }
+    driver.options.dependencies.push('typescript');
 
     // Since webpack config uses references and doesn't have access to Beemo,
     // we need to set these environment variables for easy access.

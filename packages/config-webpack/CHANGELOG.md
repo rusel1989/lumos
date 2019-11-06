@@ -2,36 +2,3 @@
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-### 2.0.2 - 2019-10-30
-
-#### 📦 Dependencies
-
-- **[Babel]** Update to latest. ([755cf98](https://github.com/rajzik/lumos/commit/755cf98))
-- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/lumos/commit/bf6798c))
-- **[Webpack]** Update to latest. ([b57d1ca](https://github.com/rajzik/lumos/commit/b57d1ca))
-
-**Note:** Version bump only for package @rajzik/config-webpack
-
-
-
-
-
-### 2.0.1 - 2019-09-24
-
-#### 📦 Dependencies
-
-- **[Babel]** Update to v7.6.2. ([b657a49](https://github.com/rajzik/lumos/commit/b657a49))
-- **[Webpack]** Update to v4.41. ([e2f0e62](https://github.com/rajzik/lumos/commit/e2f0e62))
-
-**Note:** Version bump only for package @rajzik/config-webpack
-
-
-
-
-
-# 2.0.0 - 2019-09-11
-
-#### 🎉 Release
-
-- Initial release!

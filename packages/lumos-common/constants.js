@@ -18,6 +18,7 @@ exports.IGNORE_PATHS = [
   'lib/',
   'tmp/',
   'dist/',
+  'build',
   '*.d.ts',
 ];
 
@@ -25,4 +26,4 @@ exports.NODE_VERSION = '8.9';
 
 exports.NODE_TARGET = { node: exports.NODE_VERSION };
 
-exports.WEB_TARGET = { ie: 10 };
+exports.WEB_TARGET = { ie: 11 };
