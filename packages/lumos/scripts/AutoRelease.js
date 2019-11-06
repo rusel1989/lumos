@@ -38,8 +38,8 @@ module.exports = class AutoReleaseScript extends Script {
         email = gitEmail.stdout;
       }
     } catch (error) {
-      name = 'Airbnb Bot';
-      email = 'airbnb-cli-bot@rajzik.com';
+      name = 'Lumos Bot';
+      email = 'lumos.cli.bot@gmail.com';
     }
 
     Object.assign(env, {
