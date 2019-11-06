@@ -2,6 +2,11 @@ language: node_js
 node_js:
   - 12
 cache: yarn
+deploy:
+  provider: npm
+  email: "jeniksilhan@gmail.com"
+  on:
+    branch: master
 install:
   - yarn install --frozen-lockfile --ignore-engines
 before_script:
