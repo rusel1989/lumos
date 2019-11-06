@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@rajzik/lumos-common": "^0.0.1",
-    "@babel/cli": "^7.6.4",
+    "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.0",
     "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/plugin-proposal-optional-catch-binding": "^7.2.0",
