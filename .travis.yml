@@ -13,8 +13,6 @@ before_script:
   - yarn run build
 script:
   - yarn run test
-before_deploy:
-  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
 deploy:
   provider: script
   script:
