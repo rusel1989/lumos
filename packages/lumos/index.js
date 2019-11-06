@@ -82,7 +82,6 @@ module.exports = function cli(tool) {
 
   // Create a specialized tsconfig for ESLint
   tool.getPlugin('driver', 'eslint').onCreateConfigFile.listen(context => {
-
     const configPath = path.join(process.cwd(), 'tsconfig.eslint.json');
     const include = [`${typesFolder}/**/*`]; // Always allow global types
     let extendsFrom = './tsconfig.json';
