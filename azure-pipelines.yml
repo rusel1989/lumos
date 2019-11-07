@@ -25,6 +25,7 @@ steps:
     git remote set-url origin "https://$GH_TOKEN@github.com/rajzik/lumos.git" > /dev/null 2>&1
     git config user.email "${GIT_EMAIL}"
     git config user.name "${GIT_NAME}"
+    git reset --hard
     yarn install
     echo "//registry.npmjs.org/:_authToken=\$NPM_TOKEN" >> $HOME/.npmrc 2> /dev/null
     yarn run release
