@@ -2,19 +2,13 @@ language: node_js
 node_js:
   - 12
 cache: yarn
-deploy:
-  provider: npm
-  email: "jeniksilhan@gmail.com"
-  on:
-    branch: master
-install:
-  - npm install -g @beemo/core @beemo/cli
-  - yarn install --frozen-lockfile --ignore-engines
 before_deploy:
   - npm install -g @beemo/core @beemo/cli
   - yarn install --frozen-lockfile --ignore-engines
 deploy:
+  email: "jeniksilhan@gmail.com"
   provider: script
   script:
-    - yarn install --frozen-lockfile --ignore-engines
     - npm release
+  on:
+    branch: master
