@@ -3,7 +3,6 @@ node_js:
   - 12
 cache: yarn
 before_deploy:
-  - npm install -g @beemo/core @beemo/cli
   - yarn install --frozen-lockfile --ignore-engines
 deploy:
   email: "jeniksilhan@gmail.com"
