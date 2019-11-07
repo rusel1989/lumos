@@ -14,7 +14,6 @@ module.exports = class AutoReleaseScript extends Script {
   bootstrap() {
     this.task('Setting git environment variables', this.setGitEnvVars);
     this.task('Getting git commits since last tag', this.getCommitsSinceLastTag);
-    this.task('Commit git changes', this.commitChanges);
     this.task('Bumping package versions', this.versionPackages);
     this.task('Publishing packages to NPM', this.publishPackages);
     this.task('Adding label to GitHub PRs', this.addLabelToPRs);
@@ -78,15 +77,6 @@ module.exports = class AutoReleaseScript extends Script {
           }
         });
       });
-    });
-  }
-
-  async commitChanges({ repo: { owner, name: repo }, client }) {
-    await this.executeCommand('git', ['add', '--all']);
-    return client.git.createCommit({
-      owner,
-      repo,
-      message: 'Release [ci skip]',
     });
   }
 
