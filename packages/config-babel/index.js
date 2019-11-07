@@ -20,7 +20,6 @@ const { IGNORE_PATHS, NODE_TARGET, WEB_TARGET } = require('@rajzik/lumos-common/
 /**
  * Create a root project config for a project.
  *
- *
  * @param {ConfigOptions} options
  * @returns {BabelConfig}
  */

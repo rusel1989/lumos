@@ -9,6 +9,7 @@ const { IGNORE_PATHS } = require('@rajzik/lumos-common/constants');
 /**
  * Create a root project config for a project.
  *
+ *
  * @returns {PrettierConfig}
  */
 exports.getConfig = function getConfig() {

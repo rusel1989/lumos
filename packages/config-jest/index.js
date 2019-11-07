@@ -42,7 +42,6 @@ function createCoveragePattern(folder) {
 /**
  * Create a root project config for a project.
  *
- *
  * @param {ConfigOptions} options
  * @returns {JestConfig}
  */
