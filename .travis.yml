@@ -9,6 +9,6 @@ deploy:
   email: "jeniksilhan@gmail.com"
   provider: script
   script:
-    - npm release
+    - yarn release
   on:
     branch: master
