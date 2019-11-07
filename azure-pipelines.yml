@@ -18,4 +18,9 @@ steps:
 - script: |
     yarn install
     yarn build
-  displayName: 'npm install and build'
+  displayName: 'yarn install and build'
+
+- script: |
+    yarn install
+    yarn run release
+  displayName: 'yarn publish'
