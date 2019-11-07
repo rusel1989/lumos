@@ -9,19 +9,7 @@ const ROOT = process.cwd();
 const PROD = process.env.NODE_ENV === 'production';
 const PORT = 8081;
 const esmScopes = ['@rajzik'];
-const esmPackages = [
-  'aesthetic',
-  'aesthetic-*',
-  'airbnb-*',
-  'emojibase',
-  'emojibase-*',
-  'interweave',
-  'interweave-*',
-  'lodash-es',
-  'optimal',
-  'shapeshifter',
-  'shapeshifter-*',
-];
+const esmPackages = ['emojibase-*', 'interweave', 'interweave-*', 'lodash-es', 'optimal'];
 
 if (WEBPACK_ESM_SCOPES) {
   esmScopes.push(...WEBPACK_ESM_SCOPES.split(','));

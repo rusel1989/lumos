@@ -11,6 +11,7 @@ export function checkForConventionalPrefix() {
 
 // When a PR only has 1 commit, and a squash merge occurs, the commit is used as-is,
 // and the PR title is lost, resulting in the semver prefix also being lost.
+//
 export function checkForConventionalSquashCommit() {
   if (
     danger.github.pr.commits <= 1 &&

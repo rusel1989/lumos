@@ -43,6 +43,7 @@ exports.fromRoot = function fromRoot(filePath, existsCheck = false) {
 let pkgCache = null;
 
 /**
+ *
  * @returns {PackageConfig}
  */
 exports.getPackage = function getPackage() {
