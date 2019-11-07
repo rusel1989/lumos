@@ -83,7 +83,7 @@ module.exports = class AutoReleaseScript extends Script {
 
   async commitChanges({ repo: { owner, name: repo }, client }) {
     await this.executeCommand('git', ['add', '--all']);
-    return client.createCommit({
+    return client.git.createCommit({
       owner,
       repo,
       message: 'Release [ci skip]',
