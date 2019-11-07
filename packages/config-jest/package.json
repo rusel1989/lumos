@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-jest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reusable Jest config.",
   "keywords": [
     "lumos",
@@ -21,11 +21,11 @@
     "@types/jest": "^24.0.22"
   },
   "dependencies": {
-    "@rajzik/lumos-common": "^0.0.1",
     "@babel/core": "^7.7.2",
     "@beemo/core": "^1.0.7",
     "@beemo/driver-babel": "^1.0.5",
     "@beemo/driver-jest": "^1.0.4",
+    "@rajzik/lumos-common": "^0.0.2",
     "airbnb-js-shims": "^2.2.0",
     "dom-storage": "^2.1.0",
     "jest": "^24.9.0"

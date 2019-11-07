@@ -2,3 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+### 0.0.2 - 2019-11-07
+
+#### 🐞 Fixes
+
+- Generate a `tsconfig.eslint.json` for faster linting (#4) ([417956d](https://github.com/rajzik/lumos/commit/417956d)), closes [#4](https://github.com/rajzik/lumos/issues/4)
+- naming ([53a0779](https://github.com/rajzik/lumos/commit/53a0779))
+
+#### 📦 Dependencies
+
+- **[Beemo]** Update to latest. ([bf6798c](https://github.com/rajzik/lumos/commit/bf6798c))
+- Update root and dev versions. ([5d35b0e](https://github.com/rajzik/lumos/commit/5d35b0e))
+
+#### 🛠 Internals
+
+- cleanup ([a24d4c4](https://github.com/rajzik/lumos/commit/a24d4c4))
+- Final polish before release. (#5) ([207eaab](https://github.com/rajzik/lumos/commit/207eaab)), closes [#5](https://github.com/rajzik/lumos/issues/5)
+
+**Note:** Version bump only for package @rajzik/config-prettier
