@@ -3,7 +3,8 @@ on:
   push:
     branches:
       - master
-  npm:
+jobs:
+  node:
     name: NPM
     runs-on: ubuntu-latest
     steps:
