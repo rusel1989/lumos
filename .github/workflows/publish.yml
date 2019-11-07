@@ -28,5 +28,6 @@ jobs:
         run: |
           git config user.email "${GIT_EMAIL}"
           git config user.name "${GIT_NAME}"
+          yarn install
           echo "//registry.npmjs.org/:_authToken=\${npm_token}" >> $HOME/.npmrc 2> /dev/null
           yarn run publish
