@@ -3,6 +3,7 @@ node_js:
   - 12
 cache: yarn
 before_deploy:
+  - npm install -g @beemo/cli
   - yarn install --frozen-lockfile --ignore-engines
 deploy:
   skip_cleanup: true
