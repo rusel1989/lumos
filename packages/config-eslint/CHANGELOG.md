@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.1.1 - 2019-11-07
+
+#### 🐞 Fixes
+
+- only for release. ([5ef2c58](https://github.com/rajzik/lumos/commit/5ef2c58))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ## 0.1.0 - 2019-11-07
 
 #### 🚀 Updates
