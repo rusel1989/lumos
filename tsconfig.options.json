@@ -20,7 +20,6 @@
     "removeComments": false,
     "strict": true,
     "target": "es2018",
-    "useDefineForClassFields": false,
     "composite": true,
     "declarationMap": true
   }
