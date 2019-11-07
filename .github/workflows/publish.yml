@@ -1,0 +1,31 @@
+name: Publish
+on:
+  push:
+    branches:
+      - master
+  npm:
+    name: NPM
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Checkout master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git checkout master
+          git remote set-url origin "https://${GH_TOKEN}@github.com/rajzik/lumos.git" > /dev/null 2>&1
+      - uses: ./.github/actions/setup
+      - name: Publish packages to NPM
+        env:
+          GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
+          GIT_NAME: ${{ secrets.GIT_USER }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.npm_token }}
+        run: |
+          git config user.email "${GIT_EMAIL}"
+          git config user.name "${GIT_NAME}"
+          echo "//registry.npmjs.org/:_authToken=\${npm_token}" >> $HOME/.npmrc 2> /dev/null
+          yarn run publish
