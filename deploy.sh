@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-exec 1> command.log 2>&1
+exec 2>&1
 set -x
 
 npm install -g @beemo/cli
