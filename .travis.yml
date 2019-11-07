@@ -13,6 +13,8 @@ before_script:
   - yarn run build
 script:
   - yarn run test
+before_deploy:
+  - yarn install
 deploy:
   provider: script
   script:
