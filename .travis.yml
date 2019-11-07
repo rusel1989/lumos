@@ -8,14 +8,16 @@ deploy:
   on:
     branch: master
 install:
+  - npm install -g beemo
   - yarn install --frozen-lockfile --ignore-engines
 before_script:
   - yarn run build
 script:
   - yarn run test
 before_deploy:
-  - yarn install
+  - yarn install --frozen-lockfile --ignore-engines
 deploy:
   provider: script
   script:
-    - yarn run release
+    - yarn install --frozen-lockfile --ignore-engines
+    - npm release
