@@ -9,9 +9,6 @@ deploy:
   skip_cleanup: true
   email: "jeniksilhan@gmail.com"
   provider: script
-  script:
-    - npm install -g @beemo/cli
-    - yarn install --frozen-lockfile --ignore-engines
-    - yarn release
+  script: deploy.sh
   on:
     branch: master
