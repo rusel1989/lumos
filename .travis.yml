@@ -5,9 +5,12 @@ cache: yarn
 before_deploy:
   - yarn install --frozen-lockfile --ignore-engines
 deploy:
+  skip_cleanup: true
   email: "jeniksilhan@gmail.com"
   provider: script
   script:
-    - yarn install --frozen-lockfile --ignore-engines && yarn release
+    - npm install -g @beemo/cli
+    - yarn install --frozen-lockfile --ignore-engines
+    - yarn release
   on:
     branch: master
