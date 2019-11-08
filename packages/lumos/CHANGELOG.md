@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.7 - 2019-11-08
+
+#### 🐞 Fixes
+
+- typo. ([07dba35](https://github.com/rajzik/lumos/commit/07dba35))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.1.6 - 2019-11-08
 
 #### 📋 Misc
