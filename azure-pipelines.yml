@@ -23,6 +23,7 @@ steps:
   displayName: 'yarn install and build'
 
 - script: |
+    npm whoami
     git checkout master
     git remote set-url origin "https://$GH_TOKEN@github.com/rajzik/lumos.git" > /dev/null 2>&1
     git config user.email "${GIT_EMAIL}"
