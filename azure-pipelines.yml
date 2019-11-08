@@ -14,7 +14,7 @@ steps:
 - bash: echo "//registry.npmjs.org/:_authToken=$(GH_TOKEN)" >> /.npmrc 2> /dev/null
 - task: NodeTool@0
   inputs:
-    versionSpec: '10.x'
+    versionSpec: '12.x'
   displayName: 'Install Node.js'
 
 - script: |
