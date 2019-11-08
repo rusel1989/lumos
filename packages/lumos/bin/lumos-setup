@@ -4,6 +4,7 @@ const path = require('path');
 const chalk = require('chalk');
 const execa = require('execa');
 const editJsonFile = require('edit-json-file');
+const { scaffoldDependencies } = require('@rajzik/lumos-common/dependencies');
 const { prompt } = require('enquirer');
 const { BANNER, installDeps } = require('./helpers');
 
@@ -171,8 +172,7 @@ async function setup() {
     [
       '@rajzik/lumos',
       ...response.drivers.map(driver => `@rajzik/config-${driver}`),
-      'husky',
-      'lint-staged',
+      ...(response.scaffold ? scaffoldDependencies : []),
     ],
     response.yarn,
     response.type === 'monolib',
