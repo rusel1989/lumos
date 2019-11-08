@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
-    'subject-full-stop': [2, 'always'],
+    'subject-full-stop': [2, 'always', '.'],
     'type-enum': [2, 'always',
       [
         'break',
