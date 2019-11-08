@@ -16,5 +16,5 @@ exports.LERNA_VERSION_ARGS = [
   '--push',
   // Alter commit message to skip CI
   '--message',
-  'Release [ci skip]',
+  'ci: release [ci skip].',
 ];
