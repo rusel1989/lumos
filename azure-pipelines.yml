@@ -11,7 +11,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- bash: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> /.npmrc 2> /dev/null
+- bash: echo "//registry.npmjs.org/:_authToken=$(GH_TOKEN)" >> /.npmrc 2> /dev/null
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
