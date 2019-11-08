@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.4 - 2019-11-08
+
+#### 🐞 Fixes
+
+- updated scaffold. ([c672c99](https://github.com/rajzik/lumos/commit/c672c99))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.1.3 - 2019-11-08
 
 #### 🐞 Fixes
