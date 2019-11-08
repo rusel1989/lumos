@@ -1,0 +1,32 @@
+---
+to: commitlint.config.js
+---
+
+module.exports = {
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'subject-full-stop': [2, 'always', '.'],
+    'type-enum': [2, 'always',
+      [
+        'break',
+        'breaking',
+        'release',
+        'new',
+        'update',
+        'feature',
+        'fix',
+        'deps',
+        'docs',
+        'revert',
+        'style',
+        'security',
+        'types',
+        'misc',
+        'ci',
+        'build',
+        'test',
+        'internal',
+      ],
+    ],
+  },
+};

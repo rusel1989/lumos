@@ -3,6 +3,7 @@ to: .huskyrc
 ---
 {
 	"hooks": {
-		"pre-commit": "lint-staged && tsc"
+		"commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+		"pre-commit": "lint-staged"
 	}
 }
