@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.4 - 2019-11-08
+
+#### 📋 Misc
+
+- **[eslint]** added node env. ([306f1d1](https://github.com/rajzik/lumos/commit/306f1d1))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.1.3 - 2019-11-08
 
 **Note:** Version bump only for package @rajzik/config-eslint
