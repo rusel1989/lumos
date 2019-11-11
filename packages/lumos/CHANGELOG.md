@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.9 - 2019-11-11
+
+#### 🐞 Fixes
+
+- preffer local. ([22ab97a](https://github.com/rajzik/lumos/commit/22ab97a))
+
+#### 📦 Dependencies
+
+- bump chalk from 2.4.2 to 3.0.0 ([69a8746](https://github.com/rajzik/lumos/commit/69a8746))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.1.8 - 2019-11-08
 
 #### 🐞 Fixes
