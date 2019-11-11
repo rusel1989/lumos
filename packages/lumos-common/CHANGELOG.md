@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.3 - 2019-11-11
+
+#### 🐞 Fixes
+
+- scaffold fix. ([0252b67](https://github.com/rajzik/lumos/commit/0252b67))
+
+#### 📋 Misc
+
+- **[dotfiles]** added some dotfiles. ([5eb5853](https://github.com/rajzik/lumos/commit/5eb5853))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([12311c6](https://github.com/rajzik/lumos/commit/12311c6))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 1.1.2 - 2019-11-08
 
 #### 📋 Misc

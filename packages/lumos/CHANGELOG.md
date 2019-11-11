@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.10 - 2019-11-11
+
+#### 🐞 Fixes
+
+- lintstaged. ([8a38e12](https://github.com/rajzik/lumos/commit/8a38e12))
+- lumos setup. ([9721811](https://github.com/rajzik/lumos/commit/9721811))
+- preffer local. ([22ab97a](https://github.com/rajzik/lumos/commit/22ab97a))
+- removed lintstagedrc. ([c8afeb8](https://github.com/rajzik/lumos/commit/c8afeb8))
+- scaffold fix. ([0252b67](https://github.com/rajzik/lumos/commit/0252b67))
+- typo. ([646d391](https://github.com/rajzik/lumos/commit/646d391))
+- typo. ([07dba35](https://github.com/rajzik/lumos/commit/07dba35))
+- updated scaffold. ([c672c99](https://github.com/rajzik/lumos/commit/c672c99))
+
+#### 📦 Dependencies
+
+- bump chalk from 2.4.2 to 3.0.0 ([69a8746](https://github.com/rajzik/lumos/commit/69a8746))
+
+#### 📋 Misc
+
+- **[dotfiles]** added some dotfiles. ([5eb5853](https://github.com/rajzik/lumos/commit/5eb5853))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([8a3e47d](https://github.com/rajzik/lumos/commit/8a3e47d))
+- release [ci skip]. ([99990f1](https://github.com/rajzik/lumos/commit/99990f1))
+- release [ci skip]. ([3211d9c](https://github.com/rajzik/lumos/commit/3211d9c))
+- release [ci skip]. ([12311c6](https://github.com/rajzik/lumos/commit/12311c6))
+- updated release. ([f18c3c7](https://github.com/rajzik/lumos/commit/f18c3c7))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.1.9 - 2019-11-11
 
 #### 🐞 Fixes
