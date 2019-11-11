@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<<<<<<< Updated upstream
 ### 1.1.4 - 2019-11-11
 
 #### 📦 Dependencies
@@ -32,6 +33,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+=======
+>>>>>>> Stashed changes
 ### 1.1.2 - 2019-11-08
 
 **Note:** Version bump only for package @rajzik/config-babel
