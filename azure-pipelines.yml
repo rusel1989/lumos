@@ -22,17 +22,19 @@ steps:
       git config user.name "$(GIT_NAME)"
       git remote set-url origin "https://$(GH_TOKEN)@github.com/rajzik/lumos.git" > /dev/null 2>&1
       git checkout master
+    condition: not(contains(variables['Build.SourceVersionMessage'], '[skip ci]'))
     displayName: 'git setup'
 
   - script: |
       yarn install
       git reset --hard
-
+    condition: not(contains(variables['Build.SourceVersionMessage'], '[skip ci]'))
     displayName: 'yarn install'
 
   - script: |
       npm config set //registry.npmjs.org/:_authToken=$(NPM_TOKEN)
       yarn run release
+    condition: not(contains(variables['Build.SourceVersionMessage'], '[skip ci]'))
     env:
       GH_TOKEN: $(GH_TOKEN)
     displayName: 'yarn release'
