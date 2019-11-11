@@ -24,7 +24,9 @@ steps:
       git checkout master
     condition: not(contains(variables['Build.SourceVersionMessage'], '[ci skip]'))
     displayName: 'git setup'
-
+  - script: |
+      npm install -g @beemo/cli
+    displayName: 'install beemo globally'
   - script: |
       yarn install
       git reset --hard
