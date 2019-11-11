@@ -24,11 +24,13 @@ steps:
       git config user.email "$(GIT_EMAIL)"
       git config user.name "$(GIT_NAME)"
       git remote set-url origin "https://$(GH_TOKEN)@github.com/rajzik/lumos.git" > /dev/null 2>&1
-      git reset --hard
+      git checkout master
     displayName: 'git setup'
 
   - script: |
       yarn install
+      git reset --hard
+
     displayName: 'yarn install'
 
   - script: |
