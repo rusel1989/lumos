@@ -4,38 +4,33 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
-trigger:
-- master
 
+pr: none
+
+trigger:
+  - master
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- bash: echo "//registry.npmjs.org/:_authToken=$(GH_TOKEN)" >> /.npmrc 2> /dev/null
-- task: NodeTool@0
-  inputs:
-    versionSpec: '12.x'
-  displayName: 'Install Node.js'
-- task: npmAuthenticate@0
-  inputs:
-    workingFile: '.npmrc'
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '12.x'
+    displayName: 'Install Node.js'
+  - script: |
+      npm config set //registry.npmjs.org/:_authToken=$(NPM_TOKEN)
+    displayName: 'setup name'
+  - script: |
+      git config user.email "$(GIT_EMAIL)"
+      git config user.name "$(GIT_NAME)"
+      git remote set-url origin "https://$(GH_TOKEN)@github.com/rajzik/lumos.git" > /dev/null 2>&1
+      git reset --hard
+    displayName: 'git setup'
 
-- script: |
-    yarn install
-    yarn build
-  displayName: 'yarn install and build'
+  - script: |
+      yarn install
+    displayName: 'yarn install'
 
-- script: |
-    npm whoami
-    git checkout master
-    git remote set-url origin "https://$GH_TOKEN@github.com/rajzik/lumos.git" > /dev/null 2>&1
-    git config user.email "${GIT_EMAIL}"
-    git config user.name "${GIT_NAME}"
-    git reset --hard
-    yarn install
-    yarn run release
-  env:
-    GH_TOKEN: $(GH_TOKEN)
-    GIT_EMAIL: $(GIT_EMAIL)
-    GIT_NAME: $(GIT_NAME)
-  displayName: 'yarn publish'
+  - script: |
+      yarn run release
+    displayName: 'yarn release'
