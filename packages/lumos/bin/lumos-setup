@@ -189,14 +189,14 @@ async function setup() {
   console.log(`${chalk.cyan('[5/6]')} Scaffolding dotfiles`);
 
   if (response.scaffold) {
-    await execa('lumos', ['scaffold', 'project', 'dotfiles']);
+    await execa('lumos', ['scaffold', 'project', 'dotfiles'], { preferLocal: true });
   } else {
     console.log(chalk.gray('Not chosen, skipping'));
   }
 
   console.log(`${chalk.cyan('[6/6]')} Generating config files`);
 
-  await execa('lumos', ['create-config', '--silent']);
+  await execa('lumos', ['create-config', '--silent'], { preferLocal: true });
 }
 
 setup()
