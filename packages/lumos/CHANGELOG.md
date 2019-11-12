@@ -3,7 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-<<<<<<< Updated upstream
 ### 1.1.10 - 2019-11-11
 
 #### 🐞 Fixes
@@ -77,23 +76,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-
-
-=======
->>>>>>> Stashed changes
 ### 1.1.6 - 2019-11-08
 
 #### 📋 Misc
 
 - **[dotfiles]** added some dotfiles. ([5eb5853](https://github.com/rajzik/lumos/commit/5eb5853))
 
-<<<<<<< Updated upstream
 #### 🛠 Internals
 
 - updated release. ([f18c3c7](https://github.com/rajzik/lumos/commit/f18c3c7))
 
-=======
->>>>>>> Stashed changes
+
 **Note:** Version bump only for package @rajzik/lumos
 
 
