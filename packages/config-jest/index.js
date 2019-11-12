@@ -14,6 +14,7 @@ const {
  * @typedef {object} ConfigOptions
  * @property {boolean} [graphql]
  * @property {boolean} [react]
+ * @property {boolean} [node]
  * @property {string} srcFolder
  * @property {string} testFolder
  * @property {number} [threshold]
@@ -48,6 +49,7 @@ function createCoveragePattern(folder) {
 exports.getConfig = function getConfig({
   graphql = false,
   react = false,
+  node = false,
   srcFolder,
   testFolder,
   threshold = 75,
@@ -100,7 +102,8 @@ exports.getConfig = function getConfig({
     roots,
     setupFiles,
     setupFilesAfterEnv,
-    testEnvironment: react ? 'jsdom' : 'node',
+    testEnvironment: node ? 'node' : 'jsdom',
+    transformIgnorePatterns: ['/node_modules/', '/esm/', '/lib/'],
     testURL: 'http://localhost',
     timers: 'fake',
     verbose: false,
