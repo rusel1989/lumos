@@ -25,3 +25,4 @@ prettier.config.js
 tsconfig.eslint.json
 webpack.config.js
 .npmrc
+tsconfig.json
