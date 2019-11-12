@@ -119,7 +119,10 @@ async function setup() {
       type: 'multiselect',
       name: 'libs',
       message: 'Which libraries are you going to use?',
-      choices: [{ message: 'React', name: 'react' }, { message: 'GraphQL', name: 'graphql' }],
+      choices: [
+        { message: 'React', name: 'react' },
+        { message: 'GraphQL', name: 'graphql' },
+      ],
     },
     {
       type: 'select',
