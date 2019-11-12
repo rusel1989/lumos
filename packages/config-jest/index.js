@@ -52,7 +52,7 @@ exports.getConfig = function getConfig({
   node = false,
   srcFolder,
   testFolder,
-  threshold = 75,
+  threshold = 40,
   workspaces = [],
 }) {
   const roots = [];
