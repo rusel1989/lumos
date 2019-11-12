@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.3 - 2019-11-12
+
+#### 🐞 Fixes
+
+- updated jest config. ([361da51](https://github.com/rajzik/lumos/commit/361da51))
+- updated threshold. ([df75332](https://github.com/rajzik/lumos/commit/df75332))
+
+#### 🛠 Internals
+
+- fixed package errors. ([574845c](https://github.com/rajzik/lumos/commit/574845c))
+- merge resolution. ([56c8e7f](https://github.com/rajzik/lumos/commit/56c8e7f))
+- merge. ([c1f6a55](https://github.com/rajzik/lumos/commit/c1f6a55))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 
 ### 1.1.3 - 2019-11-11
 
