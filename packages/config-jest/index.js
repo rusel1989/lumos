@@ -19,6 +19,7 @@ const {
  * @property {string} testFolder
  * @property {number} [threshold]
  * @property {string[]} [workspaces]
+ *
  */
 
 const exts = EXTS.map(ext => ext.slice(1));

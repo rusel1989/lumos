@@ -9,6 +9,7 @@ const { IGNORE_PATHS } = require('@rajzik/lumos-common/constants');
  * @property {boolean} [node]
  * @property {boolean} [prettier]
  * @property {boolean} [typescript]
+ *
  */
 
 /**
