@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.9 - 2019-11-13
+
+#### 🐞 Fixes
+
+- added stuff to gitignore. ([9b0c395](https://github.com/rajzik/lumos/commit/9b0c395))
+
+#### 🛠 Internals
+
+- fixed package errors. ([574845c](https://github.com/rajzik/lumos/commit/574845c))
+- merge resolution. ([56c8e7f](https://github.com/rajzik/lumos/commit/56c8e7f))
+- merge. ([c1f6a55](https://github.com/rajzik/lumos/commit/c1f6a55))
+- release [ci skip]. ([49c9a79](https://github.com/rajzik/lumos/commit/49c9a79))
+- release [ci skip]. ([f55d04c](https://github.com/rajzik/lumos/commit/f55d04c))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.1.8 - 2019-11-12
 
 #### 🛠 Internals

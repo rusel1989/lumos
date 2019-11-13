@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.5 - 2019-11-13
+
+#### 🐞 Fixes
+
+- republish. ([9b5580f](https://github.com/rajzik/lumos/commit/9b5580f))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.1.4 - 2019-11-12
 
 #### 🐞 Fixes
