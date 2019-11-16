@@ -985,12 +985,12 @@
     "@boost/event" "^1.1.1"
     "@types/prettier" "*"
 
-"@beemo/driver-typescript@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-1.1.4.tgz#2335bae30e85cff7168364b3d35faada1ede758f"
-  integrity sha512-/ov3HzfGp1lfVGOPsnjyda6VPMKfVTaR8Tt/d+zDK/fYM091nNHFnK08ySe3tS8q61OJxKirlurvUKBE0NTsuQ==
+"@beemo/driver-typescript@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-1.1.5.tgz#5f8849334e49080d85f92e5d6be7e235b7c5b633"
+  integrity sha512-OhZrWZiEHMC6bl9yQyFAvvEi1QUUWKrWwlm2ld5dkXU8YeX86VcpCD3ATXjltuOvI0cE5DmyvUV58bu4KIUEow==
   dependencies:
-    "@boost/event" "^1.1.0"
+    "@boost/event" "^1.1.1"
     rimraf "^3.0.0"
 
 "@beemo/driver-webpack@^1.0.6":
