@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.1 - 2019-11-16
+
+#### 📦 Dependencies
+
+- bump chalk from 2.4.2 to 3.0.0 ([4d2dc31](https://github.com/rajzik/lumos/commit/4d2dc31))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ## 1.2.0 - 2019-11-16
 
 #### 🚀 Updates
