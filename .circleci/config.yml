@@ -18,12 +18,13 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
-
+      - run: echo $BASH_ENV
       - run:
-        name: Setup Environment
-        command: |
-          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-          echo $BASH_ENV
+          name: Setup Environment
+          command: |
+            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+            echo "export GH_TOKEN=$GH_TOKEN" >> $BASH_ENV
+      - run: echo $BASH_ENV
       - run:
           name: Setup github
           command: |
