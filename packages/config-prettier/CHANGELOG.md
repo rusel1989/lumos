@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.2 - 2019-11-16
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.0.7 to 1.0.8 ([ae428aa](https://github.com/rajzik/lumos/commit/ae428aa))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.2.1 - 2019-11-16
 
 #### 📦 Dependencies

@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.1 - 2019-11-16
+
+#### 📋 Misc
+
+- bump @beemo/core from 1.0.7 to 1.0.8 ([281e2cf](https://github.com/rajzik/lumos/commit/281e2cf))
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.0.7 to 1.0.8 ([ae428aa](https://github.com/rajzik/lumos/commit/ae428aa))
+
+#### 🛠 Internals
+
+- bump @types/jest from 24.0.22 to 24.0.23 ([1fae795](https://github.com/rajzik/lumos/commit/1fae795))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ## 1.2.0 - 2019-11-16
 
 #### 🚀 Updates
