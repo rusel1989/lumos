@@ -103,7 +103,7 @@ exports.getConfig = function getConfig({
     roots,
     setupFiles,
     setupFilesAfterEnv,
-    testEnvironment: node ? 'node' : 'jsdom',
+    testEnvironment: node && !react ? 'node' : 'jsdom',
     transformIgnorePatterns: ['/node_modules/', '/esm/', '/lib/'],
     testURL: 'http://localhost',
     timers: 'fake',

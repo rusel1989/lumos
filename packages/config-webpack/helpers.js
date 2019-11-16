@@ -7,7 +7,7 @@ const { WEBPACK_ESM_SCOPES, WEBPACK_ESM_PACKAGES } = process.env;
 
 const ROOT = process.cwd();
 const PROD = process.env.NODE_ENV === 'production';
-const PORT = 8081;
+const PORT = 1234;
 const esmScopes = ['@rajzik'];
 const esmPackages = ['emojibase-*', 'interweave', 'interweave-*', 'lodash-es', 'optimal'];
 

@@ -45,5 +45,7 @@ exports.getIgnoreList = function getIgnoreList() {
     'tsconfig.options.json',
     'azure-pipelines.yml',
     'CHANGELOG.md',
+    'jest.config.js',
+    'babel.config.js',
   ];
 };

@@ -71,5 +71,5 @@ exports.getExtendsList = function getExtendsList({
  * @returns {string[]}
  */
 exports.getIgnoreList = function getIgnoreList() {
-  return [...IGNORE_PATHS];
+  return [...IGNORE_PATHS, 'jest.config.js', 'babel.config.js'];
 };
