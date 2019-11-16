@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-prettier",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Reusable Prettier config.",
   "keywords": [
     "lumos",
