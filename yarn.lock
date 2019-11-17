@@ -3162,10 +3162,10 @@ babel-plugin-transform-react-remove-prop-types@^0.4.24:
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.24.tgz#f2edaf9b4c6a5fbe5c1d678bfb531078c1555f3a"
   integrity sha512-eqj0hVcJUR57/Ug2zE1Yswsw4LhuqqHhD+8v120T1cl3kjg76QwtyBrdIk4WVwK+lAhBJVYCd/v+4nc4y+8JsA==
 
-babel-plugin-typescript-to-proptypes@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-typescript-to-proptypes/-/babel-plugin-typescript-to-proptypes-1.0.0.tgz#444ec0ab4cb354235d61d392d93a94e5f8116a4e"
-  integrity sha512-MmvRovMnDx3VsdhFOMBaJHCbN2Q4LPd2FCHfMEJMDBjv4t1q0BW9hVU2DkmrNKWU5JxbOaE1egUqzRWiG26Yow==
+babel-plugin-typescript-to-proptypes@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-typescript-to-proptypes/-/babel-plugin-typescript-to-proptypes-1.1.0.tgz#276f52c54af4c791229eb9d696f1aef55b3d0e53"
+  integrity sha512-GHdotmI+i53UB4Fh1k6jP2oRnbHwI1dHmgXya3GmZV9Qherom9bDhzA3sKW3jWJhBBFf30hcpXP1lLj5C/Vf3g==
   dependencies:
     "@babel/helper-module-imports" "^7.7.0"
     "@babel/helper-plugin-utils" "^7.0.0"
