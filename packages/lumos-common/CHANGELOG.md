@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.1 - 2019-11-17
+
+#### 🐞 Fixes
+
+- changed node version. ([f43bf73](https://github.com/rajzik/lumos/commit/f43bf73))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ## 1.2.0 - 2019-11-16
 
 #### 🚀 Updates
