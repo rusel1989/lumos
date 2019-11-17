@@ -217,7 +217,10 @@ async function eject() {
     // This allows us to pickup where we left off.
     const pkg = editJsonFile(pkgPath);
 
-    pkg.set('lumos.drivers', pkg.get('lumos.drivers').filter(d => d !== driver));
+    pkg.set(
+      'lumos.drivers',
+      pkg.get('lumos.drivers').filter(d => d !== driver),
+    );
     pkg.save();
   }
 
