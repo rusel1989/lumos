@@ -22,7 +22,7 @@ exports.IGNORE_PATHS = [
   '*.d.ts',
 ];
 
-exports.NODE_VERSION = '8.9';
+exports.NODE_VERSION = '12.12';
 
 exports.NODE_TARGET = { node: exports.NODE_VERSION };
 
