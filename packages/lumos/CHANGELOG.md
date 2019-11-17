@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.4 - 2019-11-17
+
+#### 📘 Docs
+
+- added lumos docs. ([d37583f](https://github.com/rajzik/lumos/commit/d37583f))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.2.3 - 2019-11-16
 
 #### 🐞 Fixes
