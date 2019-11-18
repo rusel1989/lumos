@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.7 - 2019-11-18
+
+#### 📋 Misc
+
+- bump @beemo/driver-eslint from 1.0.6 to 1.0.7 ([463f7db](https://github.com/rajzik/lumos/commit/463f7db))
+- bump eslint-plugin-unicorn from 12.1.0 to 13.0.0 ([1672573](https://github.com/rajzik/lumos/commit/1672573))
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-eslint from 1.0.6 to 1.0.7 ([c81e69a](https://github.com/rajzik/lumos/commit/c81e69a))
+- bump eslint-plugin-unicorn from 12.1.0 to 13.0.0 ([1555b4f](https://github.com/rajzik/lumos/commit/1555b4f))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.2.6 - 2019-11-18
 
 #### 📋 Misc
