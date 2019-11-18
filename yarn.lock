@@ -2707,10 +2707,10 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-airbnb-js-shims@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/airbnb-js-shims/-/airbnb-js-shims-2.2.0.tgz#46e1d9d9516f704ef736de76a3b6d484df9a96d8"
-  integrity sha512-pcSQf1+Kx7/0ibRmxj6rmMYc5V8SHlKu+rkQ80h0bjSLDaIxHg/3PiiFJi4A9mDc01CoBHoc8Fls2G/W0/+s5g==
+airbnb-js-shims@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/airbnb-js-shims/-/airbnb-js-shims-2.2.1.tgz#db481102d682b98ed1daa4c5baa697a05ce5c040"
+  integrity sha512-wJNXPH66U2xjgo1Zwyjf9EydvJ2Si94+vSdk6EERcBfB2VZkeltpqIats0cqIZMLCXP3zcyaUKGYQeIBT6XjsQ==
   dependencies:
     array-includes "^3.0.3"
     array.prototype.flat "^1.2.1"
@@ -2725,7 +2725,7 @@ airbnb-js-shims@^2.2.0:
     object.values "^1.1.0"
     promise.allsettled "^1.0.0"
     promise.prototype.finally "^3.1.0"
-    string.prototype.matchall "^3.0.1"
+    string.prototype.matchall "^4.0.0 || ^3.0.1"
     string.prototype.padend "^3.0.0"
     string.prototype.padstart "^3.0.0"
     symbol.prototype.description "^1.0.0"
@@ -4928,6 +4928,22 @@ es-abstract@^1.10.0, es-abstract@^1.11.0, es-abstract@^1.12.0, es-abstract@^1.13
     is-callable "^1.1.4"
     is-regex "^1.0.4"
     object-keys "^1.0.12"
+
+es-abstract@^1.15.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.16.0.tgz#d3a26dc9c3283ac9750dca569586e976d9dcc06d"
+  integrity sha512-xdQnfykZ9JMEiasTAJZJdMWCQ1Vm00NBw79/AWi7ELfZuuPCSOMDZbT9mkOfSctVtfhb+sAAzrm+j//GjjLHLg==
+  dependencies:
+    es-to-primitive "^1.2.0"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.0"
+    is-callable "^1.1.4"
+    is-regex "^1.0.4"
+    object-inspect "^1.6.0"
+    object-keys "^1.1.1"
+    string.prototype.trimleft "^2.1.0"
+    string.prototype.trimright "^2.1.0"
 
 es-to-primitive@^1.2.0:
   version "1.2.0"
@@ -8969,7 +8985,12 @@ object-filter@^1.0.2:
   resolved "https://registry.yarnpkg.com/object-filter/-/object-filter-1.0.2.tgz#af0b797ffebeaf8a52c6637cedbe8816cfec1bc8"
   integrity sha1-rwt5f/6+r4pSxmN87b6IFs/sG8g=
 
-object-keys@^1.0.11, object-keys@^1.0.12:
+object-inspect@^1.6.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.7.0.tgz#f4f6bd181ad77f006b5ece60bd0b6f398ff74a67"
+  integrity sha512-a7pEHdh1xKIAgTySUGgLMx/xwDZskN1Ud6egYYN3EdRW4ZMPNEDUTF+hwy2LUC+Bl+SyLXANnwz/jyh/qutKUw==
+
+object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
@@ -11116,13 +11137,13 @@ string-width@^4.1.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^5.2.0"
 
-string.prototype.matchall@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/string.prototype.matchall/-/string.prototype.matchall-3.0.1.tgz#5a9e0b64bcbeb336aa4814820237c2006985646d"
-  integrity sha512-NSiU0ILQr9PQ1SZmM1X327U5LsM+KfDTassJfqN1al1+0iNpKzmQ4BfXOJwRnTEqv8nKJ67mFpqRoPaGWwvy5A==
+"string.prototype.matchall@^4.0.0 || ^3.0.1":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/string.prototype.matchall/-/string.prototype.matchall-4.0.0.tgz#47191e37b67dca43131706bc9c4550df31b2c471"
+  integrity sha512-/cSuf1qsUaPicdvXcVZJ98fM9FmvkXvw7PKSM5pTtlj4R9VLQc7B51fOZBMsGfv9UXhUhdpxSrEsGe2ObsR2cw==
   dependencies:
     define-properties "^1.1.3"
-    es-abstract "^1.12.0"
+    es-abstract "^1.15.0"
     function-bind "^1.1.1"
     has-symbols "^1.0.0"
     regexp.prototype.flags "^1.2.0"
@@ -11144,6 +11165,22 @@ string.prototype.padstart@^3.0.0:
     define-properties "^1.1.2"
     es-abstract "^1.4.3"
     function-bind "^1.0.2"
+
+string.prototype.trimleft@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/string.prototype.trimleft/-/string.prototype.trimleft-2.1.0.tgz#6cc47f0d7eb8d62b0f3701611715a3954591d634"
+  integrity sha512-FJ6b7EgdKxxbDxc79cOlok6Afd++TTs5szo+zJTUyow3ycrRfJVE2pq3vcN53XexvKZu/DJMDfeI/qMiZTrjTw==
+  dependencies:
+    define-properties "^1.1.3"
+    function-bind "^1.1.1"
+
+string.prototype.trimright@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/string.prototype.trimright/-/string.prototype.trimright-2.1.0.tgz#669d164be9df9b6f7559fa8e89945b168a5a6c58"
+  integrity sha512-fXZTSV55dNBwv16uw+hh5jkghxSnc5oHq+5K/gXgizHwAvMetdAJlHqqoFC1FSDVPYWLkAKl2cxpUT41sV7nSg==
+  dependencies:
+    define-properties "^1.1.3"
+    function-bind "^1.1.1"
 
 string_decoder@^1.0.0, string_decoder@^1.1.1:
   version "1.3.0"
