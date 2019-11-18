@@ -47,5 +47,6 @@ exports.getIgnoreList = function getIgnoreList() {
     'CHANGELOG.md',
     'jest.config.js',
     'babel.config.js',
+    'webpack.config.js',
   ];
 };

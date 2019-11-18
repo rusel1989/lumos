@@ -3,17 +3,12 @@ const path = require('path');
 const glob = require('fast-glob');
 const { getPackage } = require('@rajzik/lumos-common');
 
-const { WEBPACK_ESM_SCOPES, WEBPACK_ESM_PACKAGES } = process.env;
+const { WEBPACK_ESM_PACKAGES } = process.env;
 
 const ROOT = process.cwd();
 const PROD = process.env.NODE_ENV === 'production';
 const PORT = 1234;
-const esmScopes = ['@rajzik'];
-const esmPackages = ['emojibase-*', 'interweave', 'interweave-*', 'lodash-es', 'optimal'];
-
-if (WEBPACK_ESM_SCOPES) {
-  esmScopes.push(...WEBPACK_ESM_SCOPES.split(','));
-}
+const esmPackages = [];
 
 if (WEBPACK_ESM_PACKAGES) {
   esmPackages.push(...WEBPACK_ESM_PACKAGES.split(','));
@@ -32,17 +27,11 @@ exports.getESMAliases = function getESMAliases() {
   const buildTargets = ['lib', 'build', 'dist'];
 
   glob
-    .sync(
-      [
-        path.join(ROOT, `node_modules/{${esmScopes.join(',')}}/*`),
-        path.join(ROOT, `node_modules/{${esmPackages.join(',')}}`),
-      ],
-      {
-        absolute: true,
-        onlyDirectories: true,
-        onlyFiles: false,
-      },
-    )
+    .sync([path.join(ROOT, `node_modules/{${esmPackages.join(',')}}`)], {
+      absolute: true,
+      onlyDirectories: true,
+      onlyFiles: false,
+    })
     .forEach(modulePath => {
       const packageName = modulePath.split('/node_modules/')[1];
       const esLessName = packageName.replace(/-es$/, '');
