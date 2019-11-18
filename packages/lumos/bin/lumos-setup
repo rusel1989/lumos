@@ -64,7 +64,7 @@ function addScriptsToPackage(response) {
   }
 
   if (drivers.includes('jest')) {
-    scripts.jest = 'NODE_ENV=test TZ=UTC lumos jest';
+    scripts.jest = 'cross-env NODE_ENV=test TZ=UTC lumos jest';
     scripts['jest:coverage'] = `${client} run jest -- --coverage`;
     scripts.test = `${client} run jest:coverage`;
   }
@@ -86,7 +86,7 @@ function addScriptsToPackage(response) {
   }
 
   if (drivers.includes('webpack')) {
-    scripts.build = 'NODE_ENV=production lumos webpack';
+    scripts.build = 'cross-env NODE_ENV=production lumos webpack';
     scripts.start = 'lumos create-config webpack --silent && lumos-webpack-server';
 
     delete scripts.prebuild;
