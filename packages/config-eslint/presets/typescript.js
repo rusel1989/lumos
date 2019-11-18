@@ -111,7 +111,7 @@ module.exports = {
         '@typescript-eslint/unified-signatures': 'warn',
         '@typescript-eslint/camelcase': 'warn',
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-        '@typescript-eslint/interface-name-prefix': 'warn',
+        '@typescript-eslint/interface-name-prefix': ['warn', { prefixWithI: 'always' }],
         '@typescript-eslint/no-unused-expressions': ['error'],
       },
     },
