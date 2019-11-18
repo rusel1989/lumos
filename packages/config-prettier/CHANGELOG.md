@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.5 - 2019-11-18
+
+#### 🐞 Fixes
+
+- babel fixes. ([571a554](https://github.com/rajzik/lumos/commit/571a554))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.2.4 - 2019-11-17
 
 **Note:** Version bump only for package @rajzik/config-prettier

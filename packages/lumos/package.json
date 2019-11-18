@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/lumos",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Centralized CLI for JavaScript and TypeScript dev tools.",
   "keywords": [
     "lumos",
@@ -33,9 +33,9 @@
     "@beemo/core": "^1.0.8",
     "@rajzik/lumos-common": "^1.2.1",
     "chalk": "^3.0.0",
-    "cross-env": "^6.0.3",
     "check-node-version": "^4.0.1",
     "conventional-changelog-beemo": "^1.5.3",
+    "cross-env": "^6.0.3",
     "edit-json-file": "^1.3.2",
     "enquirer": "^2.3.2",
     "execa": "^3.2.0"
