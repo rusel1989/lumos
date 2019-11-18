@@ -24,7 +24,7 @@
     "@beemo/driver-jest": "^1.0.4",
     "@rajzik/lumos-common": "^1.2.1",
     "@types/jest": "^24.0.23",
-    "airbnb-js-shims": "^2.2.0",
+    "airbnb-js-shims": "^2.2.1",
     "dom-storage": "^2.1.0",
     "jest": "^24.9.0"
   }
