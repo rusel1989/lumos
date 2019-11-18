@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.9 - 2019-11-18
+
+#### 🐞 Fixes
+
+- eslint unused expression. ([1fabaed](https://github.com/rajzik/lumos/commit/1fabaed))
+- interface naming updated. ([f43513f](https://github.com/rajzik/lumos/commit/f43513f))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.2.8 - 2019-11-18
 
 #### 🐞 Fixes
