@@ -32,6 +32,7 @@ module.exports = {
         'func-call-spacing': 'off',
         'no-restricted-globals': 'off',
         'no-unused-vars': 'off',
+        'no-unused-expressions': 'off', // Replaced with typescript version
 
         // IMPORT (Conflicts with TS patterns)
         'import/extensions': [
@@ -110,7 +111,8 @@ module.exports = {
         '@typescript-eslint/unified-signatures': 'warn',
         '@typescript-eslint/camelcase': 'warn',
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-        '@typescript-eslint/interface-name-prefix': 'warn',
+        '@typescript-eslint/interface-name-prefix': ['warn', { prefixWithI: 'always' }],
+        '@typescript-eslint/no-unused-expressions': ['error'],
       },
     },
   ],
