@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.11 - 2019-11-19
+
+#### 📋 Misc
+
+- bump @typescript-eslint/eslint-plugin from 2.7.0 to 2.8.0 ([9732567](https://github.com/rajzik/lumos/commit/9732567))
+- bump eslint-config-prettier from 6.6.0 to 6.7.0 ([0895a95](https://github.com/rajzik/lumos/commit/0895a95))
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/eslint-plugin from 2.7.0 to 2.8.0 ([4b5f618](https://github.com/rajzik/lumos/commit/4b5f618))
+- bump eslint-config-prettier from 6.6.0 to 6.7.0 ([4306428](https://github.com/rajzik/lumos/commit/4306428))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.2.10 - 2019-11-19
 
 #### 📦 Dependencies
