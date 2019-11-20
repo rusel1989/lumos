@@ -45,6 +45,7 @@ module.exports = {
         'import/named': 'off',
         'import/no-cycle': 'off',
         'import/no-named-as-default': 'off',
+        'import/prefer-default-export': 'off', // Typescript will handle named export better than default
         'import/no-extraneous-dependencies': [
           'error',
           {
