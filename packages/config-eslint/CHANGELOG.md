@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.12 - 2019-11-20
+
+#### 🐞 Fixes
+
+- typescript default import. ([a291b53](https://github.com/rajzik/lumos/commit/a291b53))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.2.11 - 2019-11-19
 
 #### 📋 Misc
