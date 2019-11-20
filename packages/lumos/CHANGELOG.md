@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.8 - 2019-11-20
+
+#### 🐞 Fixes
+
+- lint tests only when tests are enabled. ([2605f2d](https://github.com/rajzik/lumos/commit/2605f2d))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.2.7 - 2019-11-18
 
 #### 🐞 Fixes
