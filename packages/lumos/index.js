@@ -39,6 +39,7 @@ module.exports = function cli(tool) {
   } = getSettings();
   const usingBabel = tool.isPluginEnabled('driver', 'babel');
   const usingPrettier = tool.isPluginEnabled('driver', 'prettier');
+  const usingJest = tool.isPluginEnabled('driver', 'jest');
   const workspaces = tool.getWorkspacePaths({ relative: true });
   const pathPrefix = workspaces.length ? createWorkspacesGlob(workspaces) : '';
   const exts = ['.ts', '.tsx', '.js', '.jsx'];
@@ -72,7 +73,11 @@ module.exports = function cli(tool) {
     }
 
     if (hasNoPositionalArgs(context, 'eslint')) {
-      context.addArgs([`./${pathPrefix}${srcFolder}`, `./${pathPrefix}${testsFolder}`]);
+      const args = [`./${pathPrefix}${srcFolder}`];
+      if (usingJest) {
+        args.push(`./${pathPrefix}${testsFolder}`);
+      }
+      context.addArgs(args);
     }
 
     if (usingPrettier) {
