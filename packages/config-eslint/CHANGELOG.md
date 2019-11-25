@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.13 - 2019-11-25
+
+#### 📦 Dependencies
+
+- bump eslint from 6.6.0 to 6.7.1 ([a7913d2](https://github.com/rajzik/lumos/commit/a7913d2))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.2.12 - 2019-11-20
 
 #### 🐞 Fixes

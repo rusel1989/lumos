@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.6 - 2019-11-25
+
+#### 📋 Misc
+
+- bump @babel/plugin-transform-react-jsx-self from 7.2.0 to 7.7.4 ([7669313](https://github.com/rajzik/lumos/commit/7669313))
+- bump @babel/plugin-transform-spread from 7.6.2 to 7.7.4 ([8044cc5](https://github.com/rajzik/lumos/commit/8044cc5))
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.7.0 to 7.7.4 ([e4fe07b](https://github.com/rajzik/lumos/commit/e4fe07b))
+- bump @babel/plugin-transform-react-jsx-self from 7.2.0 to 7.7.4 ([d1a13ab](https://github.com/rajzik/lumos/commit/d1a13ab))
+- bump @babel/plugin-transform-spread from 7.6.2 to 7.7.4 ([024eb75](https://github.com/rajzik/lumos/commit/024eb75))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.2.5 - 2019-11-18
 
 #### 🐞 Fixes

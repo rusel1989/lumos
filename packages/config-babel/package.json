@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-babel",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Reusable Babel config.",
   "keywords": [
     "lumos",
