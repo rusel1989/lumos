@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.7.4",
-    "@beemo/core": "^1.0.8",
+    "@beemo/core": "^1.0.9",
     "@beemo/driver-babel": "^1.0.5",
     "@beemo/driver-jest": "^1.0.4",
     "@rajzik/lumos-common": "^1.2.1",
