@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.8 - 2019-11-26
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.7.2 to 7.7.4 ([1d13228](https://github.com/rajzik/lumos/commit/1d13228))
+- bump @beemo/core from 1.0.8 to 1.0.9 ([059451a](https://github.com/rajzik/lumos/commit/059451a))
+- bump file-loader from 4.3.0 to 5.0.2 ([dc5920c](https://github.com/rajzik/lumos/commit/dc5920c))
+- bump url-loader from 2.3.0 to 3.0.0 ([2e71663](https://github.com/rajzik/lumos/commit/2e71663))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.2.7 - 2019-11-22
 
 #### 📋 Misc

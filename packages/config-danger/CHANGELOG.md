@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.5 - 2019-11-26
+
+#### 🛠 Internals
+
+- bump @types/node from 12.12.11 to 12.12.14 ([62d65ef](https://github.com/rajzik/lumos/commit/62d65ef))
+- Eslint fixes. ([abba1b5](https://github.com/rajzik/lumos/commit/abba1b5))
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.2.4 - 2019-11-20
 
 #### 🛠 Internals

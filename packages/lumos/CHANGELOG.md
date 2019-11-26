@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.0 - 2019-11-26
+
+#### 🚀 Updates
+
+- Update commitlint. ([052d624](https://github.com/rajzik/lumos/commit/052d624))
+
+#### 📦 Dependencies
+
+- bump @beemo/cli from 1.0.6 to 1.0.7 ([3f11b6a](https://github.com/rajzik/lumos/commit/3f11b6a))
+- bump @beemo/core from 1.0.8 to 1.0.9 ([059451a](https://github.com/rajzik/lumos/commit/059451a))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.2.8 - 2019-11-20
 
 #### 🐞 Fixes

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.5 - 2019-11-26
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.7.2 to 7.7.4 ([1d13228](https://github.com/rajzik/lumos/commit/1d13228))
+- bump @beemo/core from 1.0.8 to 1.0.9 ([059451a](https://github.com/rajzik/lumos/commit/059451a))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.2.4 - 2019-11-18
 
 #### 📦 Dependencies

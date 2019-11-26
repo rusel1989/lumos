@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.7 - 2019-11-26
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.7.2 to 7.7.4 ([1d13228](https://github.com/rajzik/lumos/commit/1d13228))
+- bump @babel/plugin-proposal-class-properties from 7.7.0 to 7.7.4 ([9baf7b8](https://github.com/rajzik/lumos/commit/9baf7b8))
+- bump @babel/plugin-proposal-nullish-coalescing-operator ([44c3093](https://github.com/rajzik/lumos/commit/44c3093))
+- bump @babel/plugin-proposal-optional-catch-binding ([1706774](https://github.com/rajzik/lumos/commit/1706774))
+- bump @babel/plugin-proposal-optional-chaining from 7.6.0 to 7.7.4 ([c9bc65f](https://github.com/rajzik/lumos/commit/c9bc65f))
+- bump @babel/plugin-transform-runtime from 7.6.2 to 7.7.4 ([278cfcc](https://github.com/rajzik/lumos/commit/278cfcc))
+- bump @babel/preset-env from 7.7.1 to 7.7.4 ([811f795](https://github.com/rajzik/lumos/commit/811f795))
+- bump @babel/preset-react from 7.7.0 to 7.7.4 ([b687a58](https://github.com/rajzik/lumos/commit/b687a58))
+- bump @babel/preset-typescript from 7.7.2 to 7.7.4 ([4c67ea8](https://github.com/rajzik/lumos/commit/4c67ea8))
+- bump @beemo/core from 1.0.8 to 1.0.9 ([059451a](https://github.com/rajzik/lumos/commit/059451a))
+
+#### 📋 Misc
+
+- bump @babel/plugin-proposal-optional-chaining from 7.6.0 to 7.7.4 ([53b2655](https://github.com/rajzik/lumos/commit/53b2655))
+- bump @babel/plugin-transform-runtime from 7.6.2 to 7.7.4 ([01f67a7](https://github.com/rajzik/lumos/commit/01f67a7))
+- bump @babel/preset-react from 7.7.0 to 7.7.4 ([1765a82](https://github.com/rajzik/lumos/commit/1765a82))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.2.6 - 2019-11-25
 
 #### 📋 Misc

@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.0 - 2019-11-26
+
+#### 🚀 Updates
+
+- **[eslint]** Update typescript eslint. ([f2349d7](https://github.com/rajzik/lumos/commit/f2349d7))
+
+#### 📋 Misc
+
+- **[eslint]** Update typescript eslint. ([73bc7bb](https://github.com/rajzik/lumos/commit/73bc7bb))
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.0.8 to 1.0.9 ([059451a](https://github.com/rajzik/lumos/commit/059451a))
+- bump @typescript-eslint/eslint-plugin from 2.8.0 to 2.9.0 ([d9e8b38](https://github.com/rajzik/lumos/commit/d9e8b38))
+- bump @typescript-eslint/parser from 2.8.0 to 2.9.0 ([fa4dcf1](https://github.com/rajzik/lumos/commit/fa4dcf1))
+
+#### 🛠 Internals
+
+- Eslint fixes. ([abba1b5](https://github.com/rajzik/lumos/commit/abba1b5))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.2.13 - 2019-11-25
 
 #### 📦 Dependencies
