@@ -924,14 +924,14 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@beemo/cli@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.6.tgz#4cc801211cec374c4b4859cdc8bae0315f2e6f22"
-  integrity sha512-RMwmPsjTwXx7077496Zgz6UEXvtWky+JghZZkAmLD19kW+XCMPNPlgMlmrvvOBpJNN52x4kQ5y04zQcABv77ug==
+"@beemo/cli@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.7.tgz#bbda42abccc6d6e0fb2c54c4238330372743a68d"
+  integrity sha512-NDPx/gxqXXWH0rsL3AbUyANeNd2mNEGE8w1avSHqifAKxha5nx3KPpiEkicw/GKFTROwIqFBs9VwbQ4FAEUkAA==
   dependencies:
     chalk "^3.0.0"
     semver "^6.3.0"
-    yargs "^14.2.0"
+    yargs "^15.0.2"
 
 "@beemo/core@^1.0.8":
   version "1.0.8"
@@ -3827,6 +3827,15 @@ cliui@^5.0.0:
     string-width "^3.1.0"
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
+
+cliui@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
+  integrity sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.0"
+    wrap-ansi "^6.2.0"
 
 clone-deep@^4.0.1:
   version "4.0.1"
@@ -11167,6 +11176,15 @@ string-width@^4.1.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^5.2.0"
 
+string-width@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
+  integrity sha512-zUz5JD+tgqtuDjMhwIg5uFVV3dtqZ9yQJlZVfq4I01/K5Paj5UHj7VyrQOJvzawSVlKpObApbfD0Ed6yJc+1eg==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.0"
+
 "string.prototype.matchall@^4.0.0 || ^3.0.1":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/string.prototype.matchall/-/string.prototype.matchall-4.0.0.tgz#47191e37b67dca43131706bc9c4550df31b2c471"
@@ -12531,24 +12549,7 @@ yargs@^13.3.0:
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
 
-yargs@^14.2.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.0.tgz#f116a9242c4ed8668790b40759b4906c276e76c3"
-  integrity sha512-/is78VKbKs70bVZH7w4YaZea6xcJWOAwkhbR0CFuZBmYtfTYF0xjGJF43AYd8g2Uii1yJwmS5GR2vBmrc32sbg==
-  dependencies:
-    cliui "^5.0.0"
-    decamelize "^1.2.0"
-    find-up "^3.0.0"
-    get-caller-file "^2.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^3.0.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^15.0.0"
-
-yargs@^14.2.2:
+yargs@^14.2.0, yargs@^14.2.2:
   version "14.2.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.2.tgz#2769564379009ff8597cdd38fba09da9b493c4b5"
   integrity sha512-/4ld+4VV5RnrynMhPZJ/ZpOCGSCeghMykZ3BhdFBDa9Wy/RH6uEGNWDJog+aUlq+9OM1CFTgtYRW5Is1Po9NOA==
@@ -12564,3 +12565,20 @@ yargs@^14.2.2:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^15.0.0"
+
+yargs@^15.0.2:
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.0.2.tgz#4248bf218ef050385c4f7e14ebdf425653d13bd3"
+  integrity sha512-GH/X/hYt+x5hOat4LMnCqMd8r5Cv78heOMIJn1hr7QPPBqfeC6p89Y78+WB9yGDvfpCvgasfmWLzNzEioOUD9Q==
+  dependencies:
+    cliui "^6.0.0"
+    decamelize "^1.2.0"
+    find-up "^4.1.0"
+    get-caller-file "^2.0.1"
+    require-directory "^2.1.1"
+    require-main-filename "^2.0.0"
+    set-blocking "^2.0.0"
+    string-width "^4.2.0"
+    which-module "^2.0.0"
+    y18n "^4.0.0"
+    yargs-parser "^16.1.0"
