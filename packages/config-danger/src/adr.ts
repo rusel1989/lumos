@@ -1,9 +1,9 @@
 import { touchedFiles, countChangesInFile, debug, isRevert, TEST_EXT, SNAP_EXT } from './helpers';
-import { CommonOptions } from './types';
+import { ICommonOptions } from './types';
 
 // Check that large PRs have an associated ADR file documenting the change.
 // Ignore lock, tests, and snapshot files in the calculation.
-export type CheckAdrOptions = CommonOptions & {
+export type CheckAdrOptions = ICommonOptions & {
   changeThreshold?: number;
   docsUrl?: string;
   exclusions?: string[];

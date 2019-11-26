@@ -10,11 +10,11 @@ import {
   IS_TEST,
   JS_EXT,
 } from './helpers';
-import { CommonOptions } from './types';
+import { ICommonOptions } from './types';
 
 const changedSrcFiles = updatedFiles.filter(file => IS_SRC.test(file) && SRC_EXT.test(file));
 
-export interface TestOptions extends CommonOptions {
+export interface ITestOptions extends ICommonOptions {
   ignorePattern?: RegExp;
   root?: string;
 }
@@ -33,7 +33,7 @@ export function checkForInvalidLocks() {
 }
 
 // Check that any test file exists when source files are updated.
-export function checkForAnyTests({ root, ...options }: TestOptions = {}) {
+export function checkForAnyTests({ root, ...options }: ITestOptions = {}) {
   if (isRevert()) {
     return;
   }
@@ -55,7 +55,7 @@ export function checkForAnyTests({ root, ...options }: TestOptions = {}) {
 }
 
 // Check that all touched source files have an accompanying test file change.
-export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: TestOptions = {}) {
+export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: ITestOptions = {}) {
   if (isRevert()) {
     return;
   }
@@ -66,7 +66,7 @@ export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: T
     : changedSrcFiles;
 
   srcFiles.forEach(srcFile => {
-    if ((ignorePattern && srcFile.match(ignorePattern)) || srcFile.match(GLOBAL_IGNORE)) {
+    if ((ignorePattern && srcFile.match(ignorePattern)) ?? srcFile.match(GLOBAL_IGNORE)) {
       return;
     }
 
@@ -105,11 +105,11 @@ export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: T
 }
 
 // Component snapshot testing is deprecated, so disallow new snapshots.
-export interface SnapshotOptions {
+export interface ISnapshotOptions {
   docsUrl?: string;
 }
 
-export function disableComponentSnapshots(options: SnapshotOptions = {}) {
+export function disableComponentSnapshots(options: ISnapshotOptions = {}) {
   if (isRevert()) {
     return;
   }
