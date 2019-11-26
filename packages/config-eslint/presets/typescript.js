@@ -115,9 +115,11 @@ module.exports = {
         '@typescript-eslint/interface-name-prefix': ['warn', { prefixWithI: 'always' }],
         '@typescript-eslint/no-unused-expressions': 'error',
         '@typescript-eslint/prefer-optional-chain': 'error',
-        '@typescript-eslint/prefer-nullish-coalescing': ['warn', { ignoreConditionalTests: false, ignoreMixedLogicalExpressions: false }],
-        '@typescript-eslint/camelcase': 'warn',
-        '@typescript-eslint/no-unnecessary-condition': 'warn',
+        '@typescript-eslint/prefer-nullish-coalescing': [
+          'warn',
+          { ignoreConditionalTests: false, ignoreMixedLogicalExpressions: false },
+        ],
+        // '@typescript-eslint/no-unnecessary-condition': 'warn', // disabled for now
       },
     },
   ],
