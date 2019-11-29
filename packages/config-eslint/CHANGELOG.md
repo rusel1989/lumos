@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.2 - 2019-11-29
+
+#### 📋 Misc
+
+- bump eslint-plugin-react from 7.16.0 to 7.17.0 ([3222b21](https://github.com/rajzik/lumos/commit/3222b21))
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-react from 7.16.0 to 7.17.0 ([96576df](https://github.com/rajzik/lumos/commit/96576df))
+- bump eslint-plugin-unicorn from 13.0.0 to 14.0.0 ([189c987](https://github.com/rajzik/lumos/commit/189c987))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.3.1 - 2019-11-27
 
 #### 📦 Dependencies
