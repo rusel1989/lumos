@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.2 - 2019-12-02
+
+#### 📦 Dependencies
+
+- bump fast-glob from 3.1.0 to 3.1.1 ([ce742db](https://github.com/rajzik/lumos/commit/ce742db))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 1.2.1 - 2019-11-17
 
 #### 🐞 Fixes

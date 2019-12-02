@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.2.9 - 2019-12-02
+
+#### 📦 Dependencies
+
+- bump fast-glob from 3.1.0 to 3.1.1 ([ce742db](https://github.com/rajzik/lumos/commit/ce742db))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.2.8 - 2019-11-26
 
 #### 📦 Dependencies
