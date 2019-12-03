@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.0 - 2019-12-03
+
+#### 🚀 Updates
+
+- Updated commitlintrc. ([306a40d](https://github.com/rajzik/lumos/commit/306a40d))
+
+#### 📦 Dependencies
+
+- bump conventional-changelog-beemo from 1.5.3 to 1.6.0 ([a699ed1](https://github.com/rajzik/lumos/commit/a699ed1))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.3.2 - 2019-12-03
 
 #### 📦 Dependencies
