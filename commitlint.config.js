@@ -5,6 +5,8 @@ module.exports = {
     'subject-case': [2, 'always', 'sentence-case'],
     'type-enum': [2, 'always',
       [
+        'type',
+        'tests',
         'break',
         'breaking',
         'release',
