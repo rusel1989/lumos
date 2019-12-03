@@ -3633,17 +3633,17 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-check-node-version@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/check-node-version/-/check-node-version-4.0.1.tgz#ae35200e5434c1aae3712c8d9f63b9a2144a10bd"
-  integrity sha512-pWV+uuJJoOGbODDC6+DPUYeprv1CUg/jr1SGKpgkANstGN22f9T0Vn40mdv6hvRZ25KMH/IjkVc0LZH5ms+qEg==
+check-node-version@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/check-node-version/-/check-node-version-4.0.2.tgz#0385880c42425651ce4aaee8de8008e4a640f5dc"
+  integrity sha512-PsIRqtX9i4oWuScZrBf7I3fDfGfo8aS5uU7F1jJ771X0lNwW6hd+SYgIfs9w8Cw9mY4bF2QlU8ZZ1KdYdCobFA==
   dependencies:
-    chalk "^2.3.0"
+    chalk "^3.0.0"
     map-values "^1.0.1"
     minimist "^1.2.0"
     object-filter "^1.0.2"
     run-parallel "^1.1.4"
-    semver "^5.7.0"
+    semver "^6.3.0"
 
 check-types@^8.0.3:
   version "8.0.3"
