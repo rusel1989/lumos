@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "conventional-changelog-beemo": "^1.6.0",
-    "danger": "^9.2.8"
+    "danger": "^9.2.9"
   }
 }

@@ -8,11 +8,12 @@ Centralized CLI for JavaScript and TypeScript dev tools.
 ### Prerequisites
 
 - package.json
+- install @rajzik/lumos
 
 Setup initial project with this package.
 
 ```bash
-npx @rajzik/lumos-setup
+npx lumos-setup
 ```
 
 ## Eject files
@@ -20,7 +21,7 @@ npx @rajzik/lumos-setup
 This will eject files and remove dependency of this package.
 
 ```bash
-npx @rajzik/lumos-eject
+npx lumos-eject
 ```
 
 ## Rest of documentation
