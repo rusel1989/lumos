@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.2 - 2019-12-10
+
+#### 📋 Misc
+
+- bump @beemo/core from 1.1.0 to 1.1.1 ([48bf1f3](https://github.com/rajzik/lumos/commit/48bf1f3))
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.0 to 1.1.1 ([ba080f5](https://github.com/rajzik/lumos/commit/ba080f5))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.5.1 - 2019-12-10
 
 #### 🐞 Fixes
