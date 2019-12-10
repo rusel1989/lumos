@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.3 - 2019-12-10
+
+#### 📋 Misc
+
+- bump @beemo/driver-eslint from 1.1.0 to 1.2.0 ([477e70f](https://github.com/rajzik/lumos/commit/477e70f))
+- bump @typescript-eslint/parser from 2.10.0 to 2.11.0 ([5334249](https://github.com/rajzik/lumos/commit/5334249))
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-eslint from 1.1.0 to 1.2.0 ([3eeaca9](https://github.com/rajzik/lumos/commit/3eeaca9))
+- bump @typescript-eslint/parser from 2.10.0 to 2.11.0 ([612fa4d](https://github.com/rajzik/lumos/commit/612fa4d))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.4.2 - 2019-12-10
 
 #### 📦 Dependencies
