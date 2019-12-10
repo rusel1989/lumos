@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.1 - 2019-12-10
+
+#### 🐞 Fixes
+
+- Update babel driver. ([fe1b611](https://github.com/rajzik/lumos/commit/fe1b611))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ## 1.5.0 - 2019-12-08
 
 #### 🚀 Updates
