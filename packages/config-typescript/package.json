@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@beemo/core": "^1.1.0",
-    "@beemo/driver-typescript": "^1.2.0",
+    "@beemo/driver-typescript": "^1.3.0",
     "typescript": "^3.7.3"
   }
 }
