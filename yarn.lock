@@ -896,10 +896,10 @@
     semver "^6.3.0"
     yargs "^15.0.2"
 
-"@beemo/core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-1.1.0.tgz#11efbf0871870b2ff2914d0a2fe28c0d39037986"
-  integrity sha512-U6wj/IgEpIyBzjNrSjTIagyXFcvT0576PpCNTNSB4N0/PEuGBHJ+EsUp8QtEhX0aKf6xLuhLo8yKeNNCFuztMQ==
+"@beemo/core@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-1.1.1.tgz#8ff82bb248975eb752398b7ee53f263e2469af1c"
+  integrity sha512-26rXyW2Y0ipTtiVRNf5blHKQZe3DLYjNVEMUx99fFktr41w7ZzHJIPfrWZIj8/vc4wFJopkJOKrTKpw6KDmEkg==
   dependencies:
     "@beemo/dependency-graph" "^1.0.1"
     "@boost/common" "^1.6.0"
