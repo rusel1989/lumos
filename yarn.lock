@@ -962,10 +962,10 @@
     "@boost/event" "^1.1.1"
     rimraf "^3.0.0"
 
-"@beemo/driver-webpack@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-webpack/-/driver-webpack-1.1.0.tgz#a61148ac86ed62b16f32f9fd32cbb4e9aaba30ed"
-  integrity sha512-qFzdhedCIQxAAHe4N5j4LU5y1vKfl8wTO4YvwWbbeYSQKzYTq7tYk3I9rHEPFW0kN5dP25doYEmEDLoNRZXVkA==
+"@beemo/driver-webpack@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-webpack/-/driver-webpack-1.2.0.tgz#c9bb52578b0844c799f62b63ed2d9955903f05f0"
+  integrity sha512-tHrBVwfgn/PZSng3S9Tfq9xl5UJmquRSlQPaFhE2TWO48WugzSC55OwWcwBgcJoGHNECB1RuJ48vr+r/vMrw2w==
   dependencies:
     "@types/webpack" "*"
 
