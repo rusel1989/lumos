@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.3 - 2019-12-20
+
+#### 📋 Misc
+
+- bump @babel/preset-env from 7.7.6 to 7.7.7 ([02fb171](https://github.com/rajzik/lumos/commit/02fb171))
+- bump @babel/preset-typescript from 7.7.4 to 7.7.7 ([1e41a1b](https://github.com/rajzik/lumos/commit/1e41a1b))
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.7.5 to 7.7.7 ([be706cf](https://github.com/rajzik/lumos/commit/be706cf))
+- bump @babel/preset-env from 7.7.6 to 7.7.7 ([673d1f8](https://github.com/rajzik/lumos/commit/673d1f8))
+- bump @babel/preset-typescript from 7.7.4 to 7.7.7 ([4c53b44](https://github.com/rajzik/lumos/commit/4c53b44))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.3.2 - 2019-12-10
 
 #### 📦 Dependencies

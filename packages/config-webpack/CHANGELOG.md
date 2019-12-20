@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.6 - 2019-12-20
+
+#### 📋 Misc
+
+- bump execa from 3.4.0 to 4.0.0 ([ba79be5](https://github.com/rajzik/lumos/commit/ba79be5))
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.7.5 to 7.7.7 ([be706cf](https://github.com/rajzik/lumos/commit/be706cf))
+- bump execa from 3.4.0 to 4.0.0 ([7c3dc3f](https://github.com/rajzik/lumos/commit/7c3dc3f))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.3.5 - 2019-12-17
 
 #### 📦 Dependencies

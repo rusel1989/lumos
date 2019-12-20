@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.3 - 2019-12-20
+
+#### 📦 Dependencies
+
+- bump execa from 3.4.0 to 4.0.0 ([7c3dc3f](https://github.com/rajzik/lumos/commit/7c3dc3f))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.5.2 - 2019-12-10
 
 #### 📋 Misc
