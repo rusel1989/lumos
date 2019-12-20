@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.4 - 2019-12-20
+
+#### 📋 Misc
+
+- bump @babel/cli from 7.7.5 to 7.7.7 ([1a15b2c](https://github.com/rajzik/lumos/commit/1a15b2c))
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.7.5 to 7.7.7 ([5da43e1](https://github.com/rajzik/lumos/commit/5da43e1))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.3.3 - 2019-12-20
 
 #### 📋 Misc
