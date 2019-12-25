@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.10 - 2019-12-25
+
+#### 📋 Misc
+
+- bump @typescript-eslint/parser from 2.12.0 to 2.13.0 ([b354183](https://github.com/rajzik/lumos/commit/b354183))
+- bump eslint-plugin-unicorn from 15.0.0 to 15.0.1 ([ff9a454](https://github.com/rajzik/lumos/commit/ff9a454))
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/parser from 2.12.0 to 2.13.0 ([f191be7](https://github.com/rajzik/lumos/commit/f191be7))
+- bump eslint-config-prettier from 6.7.0 to 6.8.0 ([a248f16](https://github.com/rajzik/lumos/commit/a248f16))
+- bump eslint-plugin-unicorn from 15.0.0 to 15.0.1 ([d1bb195](https://github.com/rajzik/lumos/commit/d1bb195))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.4.9 - 2019-12-22
 
 #### 📋 Misc
