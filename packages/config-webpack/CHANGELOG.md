@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.8 - 2019-12-28
+
+#### 📦 Dependencies
+
+- bump webpack from 4.41.4 to 4.41.5 ([c8a90e3](https://github.com/rajzik/lumos/commit/c8a90e3))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.3.7 - 2019-12-20
 
 #### 📋 Misc
