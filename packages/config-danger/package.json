@@ -20,7 +20,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/node": "^13.1.1"
+    "@types/node": "^13.1.2"
   },
   "dependencies": {
     "conventional-changelog-beemo": "^1.6.0",
