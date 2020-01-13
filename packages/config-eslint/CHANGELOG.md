@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.19 - 2020-01-13
+
+#### 📋 Misc
+
+- bump eslint-plugin-import from 2.19.1 to 2.20.0 ([014ad93](https://github.com/rajzik/lumos/commit/014ad93))
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-import from 2.19.1 to 2.20.0 ([dcb9f61](https://github.com/rajzik/lumos/commit/dcb9f61))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.4.18 - 2020-01-13
 
 #### 📦 Dependencies
