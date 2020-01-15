@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.1 - 2020-01-15
+
+#### 📋 Misc
+
+- bump @babel/plugin-proposal-optional-chaining from 7.8.0 to 7.8.3 ([b1cb2b3](https://github.com/rajzik/lumos/commit/b1cb2b3))
+- bump @babel/plugin-transform-spread from 7.8.0 to 7.8.3 ([28b855e](https://github.com/rajzik/lumos/commit/28b855e))
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.8.0 to 7.8.3 ([b89e82a](https://github.com/rajzik/lumos/commit/b89e82a))
+- bump @babel/plugin-proposal-optional-chaining from 7.8.0 to 7.8.3 ([81eb1b5](https://github.com/rajzik/lumos/commit/81eb1b5))
+- bump @babel/plugin-transform-spread from 7.8.0 to 7.8.3 ([0d942b2](https://github.com/rajzik/lumos/commit/0d942b2))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ## 1.4.0 - 2020-01-13
 
 #### 🚀 Updates
