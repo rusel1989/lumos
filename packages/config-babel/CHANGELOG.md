@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.2 - 2020-01-15
+
+#### 📋 Misc
+
+- bump @babel/plugin-transform-react-jsx-self from 7.8.0 to 7.8.3 ([e592dfb](https://github.com/rajzik/lumos/commit/e592dfb))
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-transform-react-jsx-self from 7.8.0 to 7.8.3 ([9742cd0](https://github.com/rajzik/lumos/commit/9742cd0))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.4.1 - 2020-01-15
 
 #### 📋 Misc
