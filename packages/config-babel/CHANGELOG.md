@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.4 - 2020-01-18
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-proposal-nullish-coalescing-operator ([8528351](https://github.com/rajzik/lumos/commit/8528351))
+- bump @babel/preset-typescript from 7.8.0 to 7.8.3 ([807f7f0](https://github.com/rajzik/lumos/commit/807f7f0))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.4.3 - 2020-01-18
 
 #### 📦 Dependencies
