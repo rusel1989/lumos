@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.10 - 2020-01-18
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.8.0 to 7.8.3 ([ff690bd](https://github.com/rajzik/lumos/commit/ff690bd))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.3.9 - 2020-01-13
 
 #### 📦 Dependencies

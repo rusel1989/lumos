@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.3 - 2020-01-18
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.8.0 to 7.8.3 ([ff690bd](https://github.com/rajzik/lumos/commit/ff690bd))
+- bump @babel/plugin-proposal-optional-catch-binding ([a2bc715](https://github.com/rajzik/lumos/commit/a2bc715))
+- bump @babel/preset-react from 7.8.0 to 7.8.3 ([b7ed083](https://github.com/rajzik/lumos/commit/b7ed083))
+
+#### 📋 Misc
+
+- bump @babel/plugin-proposal-optional-catch-binding from 7.8.0 to 7.8.3 ([650952a](https://github.com/rajzik/lumos/commit/650952a))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.4.2 - 2020-01-15
 
 #### 📋 Misc
