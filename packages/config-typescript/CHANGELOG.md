@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.4 - 2020-01-19
+
+#### 📦 Dependencies
+
+- bump typescript from 3.7.4 to 3.7.5 ([ddd5c4d](https://github.com/rajzik/lumos/commit/ddd5c4d))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.3.3 - 2019-12-22
 
 #### 📦 Dependencies
