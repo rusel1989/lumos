@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.6 - 2020-01-21
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-proposal-class-properties from 7.8.0 to 7.8.3 ([7151b53](https://github.com/rajzik/lumos/commit/7151b53))
+- bump @babel/plugin-transform-runtime from 7.8.0 to 7.8.3 ([502adf4](https://github.com/rajzik/lumos/commit/502adf4))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.4.5 - 2020-01-18
 
 #### 📦 Dependencies
