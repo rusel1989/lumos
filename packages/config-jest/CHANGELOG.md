@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.8 - 2020-01-27
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-babel from 1.2.0 to 1.2.1 ([5b44e49](https://github.com/rajzik/lumos/commit/5b44e49))
+- bump @beemo/driver-jest from 1.1.1 to 1.2.0 ([94c7e84](https://github.com/rajzik/lumos/commit/94c7e84))
+- bump @types/jest from 24.9.0 to 24.9.1 ([2641f76](https://github.com/rajzik/lumos/commit/2641f76))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.3.7 - 2020-01-22
 
 #### 📦 Dependencies

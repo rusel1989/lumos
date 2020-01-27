@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.5 - 2020-01-27
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-typescript from 1.3.0 to 1.3.1 ([6767237](https://github.com/rajzik/lumos/commit/6767237))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.3.4 - 2020-01-19
 
 #### 📦 Dependencies
