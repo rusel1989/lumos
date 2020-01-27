@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.11 - 2020-01-27
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.1 to 1.1.2 ([027f5cf](https://github.com/rajzik/lumos/commit/027f5cf))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.3.10 - 2020-01-18
 
 #### 📦 Dependencies
