@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-eslint",
-  "version": "1.4.26",
+  "version": "1.4.27",
   "description": "Reusable ESLint config.",
   "keywords": [
     "lumos",
