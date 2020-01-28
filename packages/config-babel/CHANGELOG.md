@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.9 - 2020-01-28
+
+#### 📦 Dependencies
+
+- bump babel-plugin-typescript-to-proptypes from 1.1.0 to 1.2.1 ([ee65713](https://github.com/rajzik/lumos/commit/ee65713))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.4.8 - 2020-01-27
 
 #### 📦 Dependencies
