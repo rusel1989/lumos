@@ -43,7 +43,11 @@ exports.getConfig = function getConfig({
   /** @type {Preset[]} */
   const presets = [['@babel/preset-env', envOptions]];
   /** @type {Plugin[]} */
-  const plugins = ['babel-plugin-idx', ['babel-plugin-transform-dev', { evaluate: false }]];
+  const plugins = [
+    'babel-plugin-idx',
+    ['babel-plugin-transform-dev', { evaluate: false }],
+    'babel-plugin-styled-components',
+  ];
 
   // Flags
   let useNext = next;
