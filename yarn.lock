@@ -972,12 +972,12 @@
     "@boost/event" "^1.2.1"
     rimraf "^3.0.0"
 
-"@beemo/driver-webpack@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-webpack/-/driver-webpack-1.2.0.tgz#c9bb52578b0844c799f62b63ed2d9955903f05f0"
-  integrity sha512-tHrBVwfgn/PZSng3S9Tfq9xl5UJmquRSlQPaFhE2TWO48WugzSC55OwWcwBgcJoGHNECB1RuJ48vr+r/vMrw2w==
+"@beemo/driver-webpack@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-webpack/-/driver-webpack-1.2.1.tgz#dc372edca2bc4781a926ed80cc0d65529c93248b"
+  integrity sha512-Pm0pHwsxZc1J+v6Tfo80LVs13xM9Afrs/8xKewdiDmlY4x4h8Q3XDeaJq5RkFhbbi54xy/XFgGZ0ku+S8s87lA==
   dependencies:
-    "@types/webpack" "*"
+    "@types/webpack" "4.41.3"
 
 "@boost/common@^1.8.1":
   version "1.8.1"
@@ -2445,10 +2445,10 @@
     "@types/source-list-map" "*"
     source-map "^0.6.1"
 
-"@types/webpack@*":
-  version "4.39.7"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.39.7.tgz#50ee509a206f9ab2ff812788efb896250068c659"
-  integrity sha512-xXNSgKu6KNNEhATLEDRI/T7hT3n3DVOCE1YWFXIP+XSDedRDAGaGTq8fr51Ntb9L0Bpopx9zJuGwK0/sj5my7g==
+"@types/webpack@4.41.3":
+  version "4.41.3"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.3.tgz#30c2251db1d69a45bbffd79c0577dd9baf50e7ba"
+  integrity sha512-dH+BZ6pHBZFrXpnif0YU/PbmUq3lQrvRPnqkxsciSIzvG/DE+Vm/Wrjn56T7V3+B5ryQa5fw0oGnHL8tk4ll6w==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
