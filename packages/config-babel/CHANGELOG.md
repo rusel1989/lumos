@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.0 - 2020-01-28
+
+#### 🚀 Updates
+
+- Add plugin. ([6e09d43](https://github.com/rajzik/lumos/commit/6e09d43))
+
+#### 📦 Dependencies
+
+- Update package. ([0831b0b](https://github.com/rajzik/lumos/commit/0831b0b))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.4.9 - 2020-01-28
 
 #### 📦 Dependencies
