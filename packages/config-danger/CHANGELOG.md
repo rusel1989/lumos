@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.16 - 2020-01-31
+
+#### 🛠 Internals
+
+- bump @types/node from 13.5.1 to 13.5.3 ([bee67cb](https://github.com/rajzik/lumos/commit/bee67cb))
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.3.15 - 2020-01-29
 
 #### 🛠 Internals

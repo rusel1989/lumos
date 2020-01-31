@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.14 - 2020-01-31
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.8.3 to 7.8.4 ([42ed41e](https://github.com/rajzik/lumos/commit/42ed41e))
+- bump terser-webpack-plugin from 2.3.3 to 2.3.4 ([e0cd6fe](https://github.com/rajzik/lumos/commit/e0cd6fe))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.3.13 - 2020-01-29
 
 #### 📦 Dependencies

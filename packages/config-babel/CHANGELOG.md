@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.1 - 2020-01-31
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.8.3 to 7.8.4 ([42ed41e](https://github.com/rajzik/lumos/commit/42ed41e))
+- bump @babel/preset-env from 7.8.3 to 7.8.4 ([5ecde7b](https://github.com/rajzik/lumos/commit/5ecde7b))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ## 1.5.0 - 2020-01-28
 
 #### 🚀 Updates
