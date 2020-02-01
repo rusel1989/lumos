@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.6.0 - 2020-02-01
+
+#### 🚀 Updates
+
+- Move to typescript. ([294b4fb](https://github.com/rajzik/lumos/commit/294b4fb))
+
+#### 🛠 Internals
+
+- Change structure. ([5d4a08a](https://github.com/rajzik/lumos/commit/5d4a08a))
+- Fix bin. ([ac4f10f](https://github.com/rajzik/lumos/commit/ac4f10f))
+- Fix. ([16ea755](https://github.com/rajzik/lumos/commit/16ea755))
+- Move to src folder. ([5a5a48e](https://github.com/rajzik/lumos/commit/5a5a48e))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.5.7 - 2020-01-27
 
 #### 📦 Dependencies

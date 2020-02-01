@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.6.0 - 2020-02-01
+
+#### 🚀 Updates
+
+- Move to typescript. ([294b4fb](https://github.com/rajzik/lumos/commit/294b4fb))
+
+#### 🛠 Internals
+
+- Fix. ([16ea755](https://github.com/rajzik/lumos/commit/16ea755))
+- Move to src folder. ([5a5a48e](https://github.com/rajzik/lumos/commit/5a5a48e))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.5.2 - 2020-01-31
 
 #### 📦 Dependencies
