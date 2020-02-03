@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.6 - 2020-02-03
+
+#### 🛠 Internals
+
+- **[Lumos]** Update commitlint template. ([80cf118](https://github.com/rajzik/lumos/commit/80cf118))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.6.5 - 2020-02-03
 
 **Note:** Version bump only for package @rajzik/lumos
