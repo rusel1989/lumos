@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.0 - 2020-02-05
+
+#### 🚀 Updates
+
+- **[webpack]** Update config. ([df50101](https://github.com/rajzik/lumos/commit/df50101))
+
+#### 🐞 Fixes
+
+- **[webpack]** Update config. ([4e03ca3](https://github.com/rajzik/lumos/commit/4e03ca3))
+- **[webpack]** Update getConfig. ([df32c6b](https://github.com/rajzik/lumos/commit/df32c6b))
+- **[webpack]** Update webpack config. ([5048a54](https://github.com/rajzik/lumos/commit/5048a54))
+
+#### 📦 Dependencies
+
+- bump webpack-dev-server from 3.10.2 to 3.10.3 ([ec33fd3](https://github.com/rajzik/lumos/commit/ec33fd3))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.4.2 - 2020-02-04
 
 **Note:** Version bump only for package @rajzik/config-webpack

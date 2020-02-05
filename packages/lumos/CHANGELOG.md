@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.8 - 2020-02-05
+
+#### 🐞 Fixes
+
+- **[webpack]** Update webpack config. ([5048a54](https://github.com/rajzik/lumos/commit/5048a54))
+
+#### 🛠 Internals
+
+- Fix typo. ([94efc21](https://github.com/rajzik/lumos/commit/94efc21))
+- Update typescript files. ([3433e7f](https://github.com/rajzik/lumos/commit/3433e7f))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.6.7 - 2020-02-04
 
 **Note:** Version bump only for package @rajzik/lumos

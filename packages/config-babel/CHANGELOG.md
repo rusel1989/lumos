@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.2 - 2020-02-05
+
+#### 🐞 Fixes
+
+- **[babel]** Remove styled components from babel config. ([b795e10](https://github.com/rajzik/lumos/commit/b795e10))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.6.1 - 2020-02-04
 
 **Note:** Version bump only for package @rajzik/config-babel
