@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.9 - 2020-02-06
+
+#### 🐞 Fixes
+
+- **[lumos,jest]** Cross env and script update. ([2d6de27](https://github.com/rajzik/lumos/commit/2d6de27))
+- **[typescript,lumos]** Config. ([4fb2d6e](https://github.com/rajzik/lumos/commit/4fb2d6e))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.6.8 - 2020-02-05
 
 #### 🐞 Fixes
