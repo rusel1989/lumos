@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.10 - 2020-02-06
+
+#### 🐞 Fixes
+
+- Webpack config. ([b6cbc35](https://github.com/rajzik/lumos/commit/b6cbc35))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.6.9 - 2020-02-06
 
 #### 🐞 Fixes

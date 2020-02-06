@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/lumos",
-  "version": "1.6.9",
+  "version": "1.6.10",
   "description": "Centralized CLI for JavaScript and TypeScript dev tools.",
   "keywords": [
     "lumos",
