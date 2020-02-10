@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.4 - 2020-02-10
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-babel from 1.2.1 to 1.2.2 ([43ff19b](https://github.com/rajzik/lumos/commit/43ff19b))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.6.3 - 2020-02-10
 
 #### 📦 Dependencies
