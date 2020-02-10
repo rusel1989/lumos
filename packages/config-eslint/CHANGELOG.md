@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.8 - 2020-02-10
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.2 to 1.1.4 ([f35f30d](https://github.com/rajzik/lumos/commit/f35f30d))
+- bump @typescript-eslint/eslint-plugin from 2.19.0 to 2.19.1 ([8c3dfde](https://github.com/rajzik/lumos/commit/8c3dfde))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.5.7 - 2020-02-09
 
 #### 📦 Dependencies

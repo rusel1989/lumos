@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.3 - 2020-02-10
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.2 to 1.1.4 ([f35f30d](https://github.com/rajzik/lumos/commit/f35f30d))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.6.2 - 2020-02-05
 
 #### 🐞 Fixes
