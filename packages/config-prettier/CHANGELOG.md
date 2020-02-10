@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.4 - 2020-02-10
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-prettier from 1.2.1 to 1.2.2 ([ddb5a22](https://github.com/rajzik/lumos/commit/ddb5a22))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.4.3 - 2020-02-10
 
 #### 📦 Dependencies
