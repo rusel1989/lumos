@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.5 - 2020-02-12
+
+#### 📦 Dependencies
+
+- bump webpack-cli from 3.3.10 to 3.3.11 ([fe231e6](https://github.com/rajzik/lumos/commit/fe231e6))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.5.4 - 2020-02-11
 
 #### 📦 Dependencies
