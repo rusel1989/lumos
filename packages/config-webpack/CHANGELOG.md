@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.6 - 2020-02-14
+
+#### 📦 Dependencies
+
+- bump terser-webpack-plugin from 2.3.4 to 2.3.5 ([999d765](https://github.com/rajzik/lumos/commit/999d765))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.5.5 - 2020-02-12
 
 #### 📦 Dependencies
