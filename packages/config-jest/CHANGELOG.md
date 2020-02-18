@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.0 - 2020-02-18
+
+#### 🚀 Updates
+
+- Add testing library to lumos. ([e0f04ec](https://github.com/rajzik/lumos/commit/e0f04ec))
+
+#### 🛠 Internals
+
+- Migrated to tests instead of test. ([15c34bd](https://github.com/rajzik/lumos/commit/15c34bd))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.4.7 - 2020-02-10
 
 #### 📦 Dependencies

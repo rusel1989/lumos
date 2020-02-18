@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.4 - 2020-02-18
+
+#### 🛠 Internals
+
+- Migrated to tests instead of test. ([15c34bd](https://github.com/rajzik/lumos/commit/15c34bd))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.4.3 - 2020-02-10
 
 #### 📦 Dependencies

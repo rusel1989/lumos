@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-prettier",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Reusable Prettier config.",
   "keywords": [
     "lumos",
@@ -23,7 +23,7 @@
   "dependencies": {
     "@beemo/core": "^1.1.4",
     "@beemo/driver-prettier": "^1.2.2",
-    "@rajzik/lumos-common": "^1.4.3",
+    "@rajzik/lumos-common": "^1.5.0",
     "prettier": "^1.19.1"
   }
 }

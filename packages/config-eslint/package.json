@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-eslint",
-  "version": "1.5.15",
+  "version": "1.5.16",
   "description": "Reusable ESLint config.",
   "keywords": [
     "lumos",
@@ -20,7 +20,7 @@
   "dependencies": {
     "@beemo/core": "^1.1.4",
     "@beemo/driver-eslint": "^1.2.2",
-    "@rajzik/lumos-common": "^1.4.3",
+    "@rajzik/lumos-common": "^1.5.0",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
     "babel-eslint": "^10.0.3",
