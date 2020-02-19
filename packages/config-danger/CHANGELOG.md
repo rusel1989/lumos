@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.19 - 2020-02-19
+
+#### 🛠 Internals
+
+- bump @types/node from 13.7.1 to 13.7.2 ([f231536](https://github.com/rajzik/lumos/commit/f231536))
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.3.18 - 2020-02-11
 
 #### 🛠 Internals
