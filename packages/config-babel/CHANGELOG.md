@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.6 - 2020-02-20
+
+#### 🛠 Internals
+
+- Update tsconfig. ([fb5be86](https://github.com/rajzik/lumos/commit/fb5be86))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.6.5 - 2020-02-18
 
 **Note:** Version bump only for package @rajzik/config-babel
