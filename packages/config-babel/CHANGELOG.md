@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.7 - 2020-02-21
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.6.6 - 2020-02-20
 
 #### 🛠 Internals

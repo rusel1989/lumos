@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.2 - 2020-02-21
+
+#### 📦 Dependencies
+
+- bump fast-glob from 3.1.1 to 3.2.1 ([02fedec](https://github.com/rajzik/lumos/commit/02fedec))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 1.5.1 - 2020-02-20
 
 #### 🛠 Internals
