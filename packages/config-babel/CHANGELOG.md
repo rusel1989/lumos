@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.7.0 - 2020-02-21
+
+#### 🚀 Updates
+
+- Add support for new typescript. ([84e1831](https://github.com/rajzik/lumos/commit/84e1831))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.6.7 - 2020-02-21
 
 **Note:** Version bump only for package @rajzik/config-babel
