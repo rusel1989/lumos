@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.4 - 2020-02-22
+
+#### 📦 Dependencies
+
+- bump @testing-library/react from 9.4.0 to 9.4.1 ([2cf513e](https://github.com/rajzik/lumos/commit/2cf513e))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.5.3 - 2020-02-21
 
 **Note:** Version bump only for package @rajzik/config-jest

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.12 - 2020-02-22
+
+#### 📦 Dependencies
+
+- bump fast-glob from 3.2.1 to 3.2.2 ([08a63f6](https://github.com/rajzik/lumos/commit/08a63f6))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.5.11 - 2020-02-21
 
 #### 📦 Dependencies
