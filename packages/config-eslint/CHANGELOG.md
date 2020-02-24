@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.6 - 2020-02-24
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/parser from 2.20.0 to 2.21.0 ([cafa496](https://github.com/rajzik/lumos/commit/cafa496))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.6.5 - 2020-02-24
 
 #### 📦 Dependencies
