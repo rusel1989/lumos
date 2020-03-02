@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-webpack",
-  "version": "1.5.12",
+  "version": "1.5.13",
   "description": "Reusable Webpack configs.",
   "keywords": [
     "lumos",
@@ -29,7 +29,7 @@
     "@babel/core": "^7.8.4",
     "@beemo/core": "^1.1.5",
     "@beemo/driver-webpack": "^1.2.3",
-    "@rajzik/lumos-common": "^1.5.3",
+    "@rajzik/lumos-common": "^1.5.4",
     "babel-loader": "^8.0.6",
     "cross-env": "^7.0.0",
     "execa": "^4.0.0",

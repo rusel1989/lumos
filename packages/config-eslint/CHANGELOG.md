@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.7 - 2020-03-02
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.4 to 1.1.5 ([d5fb666](https://github.com/rajzik/lumos/commit/d5fb666))
+- bump babel-eslint from 10.0.3 to 10.1.0 ([2358054](https://github.com/rajzik/lumos/commit/2358054))
+- bump eslint-plugin-jest from 23.8.0 to 23.8.1 ([4fd2ba5](https://github.com/rajzik/lumos/commit/4fd2ba5))
+- bump eslint-plugin-react-hooks from 2.4.0 to 2.5.0 ([7a3ea0f](https://github.com/rajzik/lumos/commit/7a3ea0f))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.6.6 - 2020-02-24
 
 #### 📦 Dependencies

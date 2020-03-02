@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.2 - 2020-03-02
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.4 to 1.1.5 ([d5fb666](https://github.com/rajzik/lumos/commit/d5fb666))
+- bump babel-plugin-typescript-to-proptypes from 1.2.1 to 1.3.0 ([1bfcd5c](https://github.com/rajzik/lumos/commit/1bfcd5c))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.7.1 - 2020-02-22
 
 **Note:** Version bump only for package @rajzik/config-babel
