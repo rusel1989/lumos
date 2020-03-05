@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.17 - 2020-03-05
+
+#### 📦 Dependencies
+
+- bump cross-env from 7.0.1 to 7.0.2 ([3ca795c](https://github.com/rajzik/lumos/commit/3ca795c))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.5.16 - 2020-03-05
 
 #### 📦 Dependencies

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.19 - 2020-03-05
+
+#### 📦 Dependencies
+
+- bump cross-env from 7.0.1 to 7.0.2 ([3ca795c](https://github.com/rajzik/lumos/commit/3ca795c))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.7.18 - 2020-03-05
 
 #### 📦 Dependencies

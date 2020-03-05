@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/lumos",
-  "version": "1.7.18",
+  "version": "1.7.19",
   "description": "Centralized CLI for JavaScript and TypeScript dev tools.",
   "keywords": [
     "lumos",
@@ -45,9 +45,9 @@
     "@rajzik/config-babel": "^1.7.4",
     "@rajzik/config-danger": "^1.3.22",
     "@rajzik/config-eslint": "^1.6.9",
-    "@rajzik/config-jest": "^1.5.7",
+    "@rajzik/config-jest": "^1.5.8",
     "@rajzik/config-prettier": "^1.4.9",
     "@rajzik/config-typescript": "^1.4.8",
-    "@rajzik/config-webpack": "^1.5.16"
+    "@rajzik/config-webpack": "^1.5.17"
   }
 }
