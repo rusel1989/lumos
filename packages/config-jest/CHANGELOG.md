@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.7 - 2020-03-05
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.8.6 to 7.8.7 ([8fc39cd](https://github.com/rajzik/lumos/commit/8fc39cd))
+- bump @testing-library/react from 9.4.1 to 9.5.0 ([f774ea9](https://github.com/rajzik/lumos/commit/f774ea9))
+- bump cross-env from 7.0.0 to 7.0.1 ([1da5f20](https://github.com/rajzik/lumos/commit/1da5f20))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.5.6 - 2020-03-02
 
 #### 📦 Dependencies
