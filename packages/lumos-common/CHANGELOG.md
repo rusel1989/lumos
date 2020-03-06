@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.6.0 - 2020-03-06
+
+#### 🚀 Updates
+
+- Migrate to new packages. (#87) ([4c15f2c](https://github.com/rajzik/lumos/commit/4c15f2c)), closes [#87](https://github.com/rajzik/lumos/issues/87)
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 1.5.4 - 2020-03-02
 
 #### 📦 Dependencies

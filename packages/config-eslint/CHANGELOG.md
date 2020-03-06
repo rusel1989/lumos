@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.11 - 2020-03-06
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.6.10 - 2020-03-06
 
 #### 📦 Dependencies
