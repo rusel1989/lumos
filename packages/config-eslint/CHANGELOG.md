@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.16 - 2020-03-11
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-unicorn from 17.1.0 to 17.2.0 ([ea099f8](https://github.com/rajzik/lumos/commit/ea099f8))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.6.15 - 2020-03-10
 
 #### 📦 Dependencies
