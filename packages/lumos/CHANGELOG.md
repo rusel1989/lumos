@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.8.7 - 2020-03-16
+
+#### 🛠 Internals
+
+- Migrate to travis-ci. ([cc8649e](https://github.com/rajzik/lumos/commit/cc8649e))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.8.6 - 2020-03-14
 
 **Note:** Version bump only for package @rajzik/lumos
