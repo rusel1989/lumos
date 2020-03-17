@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.9.0 - 2020-03-17
+
+#### 🚀 Updates
+
+- Add unique jsonp function name. ([eb8b444](https://github.com/rajzik/lumos/commit/eb8b444))
+
+#### 📘 Docs
+
+- Update readme. ([5f3a707](https://github.com/rajzik/lumos/commit/5f3a707))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.8.7 - 2020-03-16
 
 #### 🛠 Internals
