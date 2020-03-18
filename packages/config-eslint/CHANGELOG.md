@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.0 - 2020-03-18
+
+#### 🚀 Updates
+
+- Migrate to LTS node. ([6625184](https://github.com/rajzik/lumos/commit/6625184))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 # 2.0.0 - 2020-03-18
 
 #### 💥 Breaking

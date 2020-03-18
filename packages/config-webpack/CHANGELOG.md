@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.7.0 - 2020-03-18
+
+#### 🚀 Updates
+
+- Migrate to LTS node. ([6625184](https://github.com/rajzik/lumos/commit/6625184))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.6.1 - 2020-03-18
 
 #### 📦 Dependencies
