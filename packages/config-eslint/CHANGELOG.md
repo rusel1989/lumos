@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 - 2020-03-18
+
+#### 💥 Breaking
+
+- **[Eslint]** Warning to errors. ([8fe734e](https://github.com/rajzik/lumos/commit/8fe734e))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 1.6.19 - 2020-03-17
 
 #### 📦 Dependencies

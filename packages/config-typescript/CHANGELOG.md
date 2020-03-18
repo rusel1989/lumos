@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.4.9 - 2020-03-18
+
+#### 🛠 Internals
+
+- Polish. ([76cab70](https://github.com/rajzik/lumos/commit/76cab70))
+- release [ci skip]. ([c741186](https://github.com/rajzik/lumos/commit/c741186))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.4.8 - 2020-03-02
 
 #### 📦 Dependencies
