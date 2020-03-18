@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.1 - 2020-03-18
+
+#### ⚙️ Types
+
+- Changed to boost/common package. ([c8659ce](https://github.com/rajzik/lumos/commit/c8659ce))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ## 1.7.0 - 2020-03-18
 
 #### 🚀 Updates
