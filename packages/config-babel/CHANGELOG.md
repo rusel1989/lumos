@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.9.2 - 2020-03-20
+
+#### 📦 Dependencies
+
+- Update babel. ([270ed41](https://github.com/rajzik/lumos/commit/270ed41))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.9.1 - 2020-03-20
 
 #### 📘 Docs
