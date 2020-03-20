@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.10.4 - 2020-03-20
+
+#### 📘 Docs
+
+- Update docu. (#115) ([4faa57c](https://github.com/rajzik/lumos/commit/4faa57c)), closes [#115](https://github.com/rajzik/lumos/issues/115)
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.10.3 - 2020-03-19
 
 **Note:** Version bump only for package @rajzik/lumos
