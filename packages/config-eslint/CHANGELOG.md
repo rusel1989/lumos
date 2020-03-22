@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.3 - 2020-03-22
+
+#### 📦 Dependencies
+
+- bump eslint-config-prettier from 6.10.0 to 6.10.1 ([83cf879](https://github.com/rajzik/lumos/commit/83cf879))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.1.2 - 2020-03-20
 
 #### 📘 Docs
