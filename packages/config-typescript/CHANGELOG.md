@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.2 - 2020-03-22
+
+#### 🐞 Fixes
+
+- Migration to new octokit. ([e64c932](https://github.com/rajzik/lumos/commit/e64c932))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.5.1 - 2020-03-22
 
 #### 📘 Docs
