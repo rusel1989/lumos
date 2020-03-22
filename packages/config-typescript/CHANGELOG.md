@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.1 - 2020-03-22
+
+#### 📘 Docs
+
+- Update docu. (#115) ([4faa57c](https://github.com/rajzik/lumos/commit/4faa57c)), closes [#115](https://github.com/rajzik/lumos/issues/115)
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.5 to 1.1.6 ([900e51a](https://github.com/rajzik/lumos/commit/900e51a))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ## 1.5.0 - 2020-03-18
 
 #### 🚀 Updates
