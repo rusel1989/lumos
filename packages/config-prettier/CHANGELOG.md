@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.6.0 - 2020-03-22
+
+#### 🚀 Updates
+
+- Prettier update. ([a6b1ec1](https://github.com/rajzik/lumos/commit/a6b1ec1))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.5.3 - 2020-03-22
 
 #### 📦 Dependencies
