@@ -7,6 +7,7 @@ configurations. [Built on and powered by Beemo](https://github.com/beemojs/beemo
 
 Lumos is designed around my projects. _Use at your own risk._
 
+
 [Lumos Documentation](./packages/lumos)
 
 </div>
@@ -69,10 +70,10 @@ Our linter will catch most issues that may exist in your code.
 
 Most of the dependencies are updated automatically with dependabot.
 
-Otherwise follow this guide:
-To update dependencies in Lumos, run `yarn upgrade-interactive --latest` in the root of the
-project. This will display an interactive menu in which you can select dependencies to update (to
-the latest version) using the space bar and arrow keys.
+Otherwise follow this guide: To update dependencies in Lumos, run
+`yarn upgrade-interactive --latest` in the root of the project. This will display an interactive
+menu in which you can select dependencies to update (to the latest version) using the space bar and
+arrow keys.
 
 However, there are a few caveats and requirements to follow when updating.
 
