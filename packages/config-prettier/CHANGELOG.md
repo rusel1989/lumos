@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.3 - 2020-03-24
+
+#### 📦 Dependencies
+
+- bump prettier from 2.0.1 to 2.0.2 ([b9b4bfb](https://github.com/rajzik/lumos/commit/b9b4bfb))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.6.2 - 2020-03-23
 
 **Note:** Version bump only for package @rajzik/config-prettier
