@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.13 - 2020-04-01
+
+#### 📘 Docs
+
+- Update documentation. ([ffd09f3](https://github.com/rajzik/lumos/commit/ffd09f3))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.1.12 - 2020-03-31
 
 #### 📦 Dependencies

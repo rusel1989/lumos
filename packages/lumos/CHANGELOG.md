@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.11.0 - 2020-04-01
+
+#### 🚀 Updates
+
+- Add support for junit test result. ([fa45aac](https://github.com/rajzik/lumos/commit/fa45aac))
+
+#### 📘 Docs
+
+- Update documentation. ([ffd09f3](https://github.com/rajzik/lumos/commit/ffd09f3))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.10.25 - 2020-04-01
 
 **Note:** Version bump only for package @rajzik/lumos

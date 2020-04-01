@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.4 - 2020-04-01
+
+#### 📘 Docs
+
+- Update documentation. ([ffd09f3](https://github.com/rajzik/lumos/commit/ffd09f3))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.6.3 - 2020-03-24
 
 #### 📦 Dependencies

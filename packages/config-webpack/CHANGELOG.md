@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.12 - 2020-04-01
+
+#### 📘 Docs
+
+- Update documentation. ([ffd09f3](https://github.com/rajzik/lumos/commit/ffd09f3))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.7.11 - 2020-04-01
 
 #### 📦 Dependencies
