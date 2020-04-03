@@ -24,6 +24,17 @@ const config: ESLintConfig = {
     global: 'readonly',
     // Mostly references to `process.env.NODE_ENV`
     process: 'readonly',
+    // references for globalThis
+    globalThis: 'readonly',
+    // Webpack variables
+    __webpack_public_path__: 'writeable',
+    __webpack_require__: 'readonly',
+    __webpack_chunk_load__: 'readonly',
+    __webpack_modules__: 'readonly',
+    __webpack_hash__: 'readonly',
+    __non_webpack_require__: 'readonly',
+    __webpack_exports_info__: 'readonly',
+    DEBUG: 'readonly',
   },
 
   env: {
