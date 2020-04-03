@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.14 - 2020-04-03
+
+#### 🐞 Fixes
+
+- Define global variables in eslint. ([0d96206](https://github.com/rajzik/lumos/commit/0d96206))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.1.13 - 2020-04-01
 
 #### 📘 Docs
