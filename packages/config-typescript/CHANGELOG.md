@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.6.0 - 2020-04-04
+
+#### 🚀 Updates
+
+- Add strict null check to typescript. ([9a73db8](https://github.com/rajzik/lumos/commit/9a73db8))
+
+#### 📘 Docs
+
+- Update documentation. ([ffd09f3](https://github.com/rajzik/lumos/commit/ffd09f3))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([373113e](https://github.com/rajzik/lumos/commit/373113e))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.5.2 - 2020-03-22
 
 #### 🐞 Fixes
