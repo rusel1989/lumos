@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.9.0 - 2020-04-05
+
+#### 🚀 Updates
+
+- Add reporter for azure pipelines. ([4c73800](https://github.com/rajzik/lumos/commit/4c73800))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.8.3 - 2020-04-04
 
 #### 📦 Dependencies
