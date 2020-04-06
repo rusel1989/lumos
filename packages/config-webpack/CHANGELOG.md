@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 - 2020-04-06
+
+#### 💥 Breaking
+
+- Update webpack config. ([e203466](https://github.com/rajzik/lumos/commit/e203466))
+
+#### 🛠 Internals
+
+- Wip. ([23bb0a4](https://github.com/rajzik/lumos/commit/23bb0a4))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 1.7.12 - 2020-04-01
 
 #### 📘 Docs

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.1 - 2020-04-06
+
+#### 📋 Misc
+
+- Change required node version to 10. ([959b81d](https://github.com/rajzik/lumos/commit/959b81d))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ## 1.6.0 - 2020-04-04
 
 #### 🚀 Updates

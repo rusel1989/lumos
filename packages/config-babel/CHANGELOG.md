@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.9.9 - 2020-04-06
+
+#### 📋 Misc
+
+- Change required node version to 10. ([959b81d](https://github.com/rajzik/lumos/commit/959b81d))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.9.8 - 2020-04-01
 
 #### 📘 Docs

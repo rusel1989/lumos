@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 - 2020-04-06
+
+#### 💥 Breaking
+
+- Update webpack config. ([e203466](https://github.com/rajzik/lumos/commit/e203466))
+
+#### 🚀 Updates
+
+- Add testing library to eslint. ([f18bca1](https://github.com/rajzik/lumos/commit/f18bca1))
+
+#### 📦 Dependencies
+
+- bump check-node-version from 4.0.2 to 4.0.3 ([20c5882](https://github.com/rajzik/lumos/commit/20c5882))
+
+#### 🛠 Internals
+
+- Wip. ([23bb0a4](https://github.com/rajzik/lumos/commit/23bb0a4))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 1.11.7 - 2020-04-05
 
 **Note:** Version bump only for package @rajzik/lumos

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.2.0 - 2020-04-06
+
+#### 🚀 Updates
+
+- Add testing library to eslint. ([12be6d2](https://github.com/rajzik/lumos/commit/12be6d2))
+
+#### 🛠 Internals
+
+- Wip. ([23bb0a4](https://github.com/rajzik/lumos/commit/23bb0a4))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.1.14 - 2020-04-03
 
 #### 🐞 Fixes
