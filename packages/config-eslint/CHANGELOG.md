@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.3.0 - 2020-04-07
+
+#### 🚀 Updates
+
+- Accept args. ([b9dd423](https://github.com/rajzik/lumos/commit/b9dd423))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.2.2 - 2020-04-07
 
 #### 🐞 Fixes
