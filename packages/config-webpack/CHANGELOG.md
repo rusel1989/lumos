@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.1 - 2020-04-07
+
+#### 🐞 Fixes
+
+- Webpack support for css. ([41f7882](https://github.com/rajzik/lumos/commit/41f7882))
+
+#### 🛠 Internals
+
+- Update tests. ([f49421a](https://github.com/rajzik/lumos/commit/f49421a))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 # 2.0.0 - 2020-04-06
 
 #### 💥 Breaking

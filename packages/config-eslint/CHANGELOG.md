@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.2.2 - 2020-04-07
+
+#### 🐞 Fixes
+
+- Webpack support for css. ([41f7882](https://github.com/rajzik/lumos/commit/41f7882))
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-testing-library from 3.0.2 to 3.0.3 ([60a09b0](https://github.com/rajzik/lumos/commit/60a09b0))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.2.1 - 2020-04-06
 
 #### 📦 Dependencies
