@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.1 - 2020-04-08
+
+#### 📦 Dependencies
+
+- bump url-loader from 4.0.0 to 4.1.0 ([9bd4794](https://github.com/rajzik/lumos/commit/9bd4794))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ## 2.1.0 - 2020-04-07
 
 #### 🚀 Updates
