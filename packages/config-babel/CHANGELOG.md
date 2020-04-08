@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.9.12 - 2020-04-08
+
+#### 📦 Dependencies
+
+- bump @babel/preset-env from 7.9.0 to 7.9.5 ([f9ba2eb](https://github.com/rajzik/lumos/commit/f9ba2eb))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.9.11 - 2020-04-07
 
 **Note:** Version bump only for package @rajzik/config-babel
