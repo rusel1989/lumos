@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.3 - 2020-04-11
+
+#### 📦 Dependencies
+
+- bump css-loader from 3.5.1 to 3.5.2 ([0854b40](https://github.com/rajzik/lumos/commit/0854b40))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 2.1.2 - 2020-04-09
 
 #### 📦 Dependencies
