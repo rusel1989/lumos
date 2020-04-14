@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.6 - 2020-04-14
+
+#### 🐞 Fixes
+
+- **[webpack]** Config. ([b58dcad](https://github.com/rajzik/lumos/commit/b58dcad))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 2.1.5 - 2020-04-14
 
 #### 📦 Dependencies
