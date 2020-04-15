@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.13 - 2020-04-15
+
+#### 🐞 Fixes
+
+- Support for js. ([6d71e84](https://github.com/rajzik/lumos/commit/6d71e84))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 2.1.12 - 2020-04-14
 
 **Note:** Version bump only for package @rajzik/lumos
