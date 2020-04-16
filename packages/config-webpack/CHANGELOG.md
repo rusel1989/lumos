@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.7 - 2020-04-16
+
+#### 📦 Dependencies
+
+- bump style-loader from 1.1.3 to 1.1.4 ([558ba80](https://github.com/rajzik/lumos/commit/558ba80))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 2.1.6 - 2020-04-14
 
 #### 🐞 Fixes
