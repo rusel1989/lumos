@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-babel",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "Reusable Babel config.",
   "keywords": [
     "lumos",
@@ -33,7 +33,7 @@
     "@babel/preset-typescript": "^7.9.0",
     "@beemo/core": "^1.1.6",
     "@beemo/driver-babel": "^1.2.3",
-    "@rajzik/lumos-common": "^1.11.0",
+    "@rajzik/lumos-common": "^1.11.1",
     "babel-plugin-graphql-tag": "^2.5.0",
     "babel-plugin-transform-dev": "^2.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
