@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.10.0 - 2020-04-17
+
+#### 🚀 Updates
+
+- Add empty option for babel. ([1b8640a](https://github.com/rajzik/lumos/commit/1b8640a))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.9.12 - 2020-04-08
 
 #### 📦 Dependencies

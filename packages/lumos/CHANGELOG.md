@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.2.0 - 2020-04-17
+
+#### 🚀 Updates
+
+- Add empty option for babel. ([1b8640a](https://github.com/rajzik/lumos/commit/1b8640a))
+
+#### 🐞 Fixes
+
+- Better naming. ([dddaca7](https://github.com/rajzik/lumos/commit/dddaca7))
+- Eslint issues. ([e0077fc](https://github.com/rajzik/lumos/commit/e0077fc))
+
+#### 🛠 Internals
+
+- Update config. ([2b2168a](https://github.com/rajzik/lumos/commit/2b2168a))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 2.1.15 - 2020-04-17
 
 **Note:** Version bump only for package @rajzik/lumos
