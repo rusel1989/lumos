@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/lumos",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Centralized CLI for JavaScript and TypeScript dev tools.",
   "keywords": [
     "lumos",
@@ -33,7 +33,7 @@
     "@beemo/cli": "^1.0.10",
     "@beemo/core": "^1.1.6",
     "@rajzik/conventional-changelog-beemo": "^2.0.1",
-    "@rajzik/lumos-common": "^1.11.1",
+    "@rajzik/lumos-common": "^1.11.2",
     "chalk": "^4.0.0",
     "check-node-version": "^4.0.3",
     "cross-env": "^7.0.2",
@@ -42,12 +42,12 @@
     "execa": "^4.0.0"
   },
   "devDependencies": {
-    "@rajzik/config-babel": "^1.10.1",
+    "@rajzik/config-babel": "^1.10.2",
     "@rajzik/config-danger": "^1.5.11",
-    "@rajzik/config-eslint": "^2.3.5",
-    "@rajzik/config-jest": "^1.9.7",
-    "@rajzik/config-prettier": "^1.6.10",
+    "@rajzik/config-eslint": "^2.3.6",
+    "@rajzik/config-jest": "^1.9.8",
+    "@rajzik/config-prettier": "^1.6.11",
     "@rajzik/config-typescript": "^1.6.1",
-    "@rajzik/config-webpack": "^2.1.9"
+    "@rajzik/config-webpack": "^2.1.10"
   }
 }

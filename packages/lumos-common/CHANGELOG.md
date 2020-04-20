@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.2 - 2020-04-20
+
+#### 🐞 Fixes
+
+- Republish lumos-common. ([9569e2f](https://github.com/rajzik/lumos/commit/9569e2f))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 1.11.1 - 2020-04-17
 
 #### 📦 Dependencies
