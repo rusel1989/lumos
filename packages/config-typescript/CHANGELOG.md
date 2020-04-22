@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.2 - 2020-04-22
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-typescript from 1.3.2 to 1.3.3 ([8792305](https://github.com/rajzik/lumos/commit/8792305))
+
+#### 🛠 Internals
+
+- bump husky from 4.2.3 to 4.2.4 ([651433f](https://github.com/rajzik/lumos/commit/651433f))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.6.1 - 2020-04-06
 
 #### 📋 Misc

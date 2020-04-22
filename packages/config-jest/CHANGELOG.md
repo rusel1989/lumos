@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.9.9 - 2020-04-22
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-jest from 1.2.1 to 1.2.2 ([5aff2bf](https://github.com/rajzik/lumos/commit/5aff2bf))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.9.8 - 2020-04-20
 
 **Note:** Version bump only for package @rajzik/config-jest
