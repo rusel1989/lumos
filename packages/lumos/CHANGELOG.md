@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.2.8 - 2020-04-22
+
+#### 📦 Dependencies
+
+- bump @beemo/cli from 1.0.10 to 1.0.11 ([42ade32](https://github.com/rajzik/lumos/commit/42ade32))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 2.2.7 - 2020-04-22
 
 **Note:** Version bump only for package @rajzik/lumos

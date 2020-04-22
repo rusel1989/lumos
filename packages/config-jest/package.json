@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-jest",
-  "version": "1.9.9",
+  "version": "1.9.10",
   "description": "Reusable Jest config.",
   "keywords": [
     "lumos",
