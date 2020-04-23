@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.14 - 2020-04-23
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-prettier from 1.3.0 to 1.3.1 ([ecf7952](https://github.com/rajzik/lumos/commit/ecf7952))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.6.13 - 2020-04-22
 
 #### 📦 Dependencies
