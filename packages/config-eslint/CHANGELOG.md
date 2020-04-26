@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.3.12 - 2020-04-26
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-unicorn from 19.0.0 to 19.0.1 ([dbbd316](https://github.com/rajzik/lumos/commit/dbbd316))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.3.11 - 2020-04-25
 
 #### 📦 Dependencies
