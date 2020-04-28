@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.16 - 2020-04-28
+
+#### 📦 Dependencies
+
+- bump postcss-flexbugs-fixes from 4.2.0 to 4.2.1 ([6b9143a](https://github.com/rajzik/lumos/commit/6b9143a))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 2.1.15 - 2020-04-25
 
 #### 📦 Dependencies
