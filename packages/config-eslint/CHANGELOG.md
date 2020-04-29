@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.4.0 - 2020-04-29
+
+#### 🚀 Updates
+
+- Alias resolver for app. ([9357f94](https://github.com/rajzik/lumos/commit/9357f94))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.3.15 - 2020-04-29
 
 **Note:** Version bump only for package @rajzik/config-eslint

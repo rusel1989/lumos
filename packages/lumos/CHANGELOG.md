@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.3.0 - 2020-04-29
+
+#### 🚀 Updates
+
+- Add alias pattern setting. ([6a7f0c8](https://github.com/rajzik/lumos/commit/6a7f0c8))
+- Add support for alias. ([0ee7796](https://github.com/rajzik/lumos/commit/0ee7796))
+- Alias resolver for app. ([9357f94](https://github.com/rajzik/lumos/commit/9357f94))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 2.2.18 - 2020-04-29
 
 **Note:** Version bump only for package @rajzik/lumos

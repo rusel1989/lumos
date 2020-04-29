@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.7.0 - 2020-04-29
+
+#### 🚀 Updates
+
+- Add alias pattern setting. ([6a7f0c8](https://github.com/rajzik/lumos/commit/6a7f0c8))
+- Add support for alias. ([ce127c5](https://github.com/rajzik/lumos/commit/ce127c5))
+- Alias resolver for app. ([9357f94](https://github.com/rajzik/lumos/commit/9357f94))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.6.3 - 2020-04-22
 
 #### 📦 Dependencies
