@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.4 - 2020-04-29
+
+#### 📦 Dependencies
+
+- bump @boost/common from 1.8.4 to 1.8.5 ([14aa9f7](https://github.com/rajzik/lumos/commit/14aa9f7))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 1.11.3 - 2020-04-22
 
 #### 📦 Dependencies
