@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.2 - 2020-04-30
+
+#### 🐞 Fixes
+
+- Next config. ([9c97a0b](https://github.com/rajzik/lumos/commit/9c97a0b))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.1 - 2020-04-30
 
 #### 🛠 Internals
