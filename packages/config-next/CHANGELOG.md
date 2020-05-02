@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.6 - 2020-05-02
+
+#### 🐞 Fixes
+
+- Dependency. ([d6b77c7](https://github.com/rajzik/lumos/commit/d6b77c7))
+
+**Note:** Version bump only for package @rajzik/config-next
+
+
+
+
+
 ### 1.0.5 - 2020-05-02
 
 #### 🐞 Fixes

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.8 - 2020-05-02
+
+#### 🐞 Fixes
+
+- Add next.config to gitignore. ([9202678](https://github.com/rajzik/lumos/commit/9202678))
+- Update ignore configs. ([fc01217](https://github.com/rajzik/lumos/commit/fc01217))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.7 - 2020-05-02
 
 #### 🐞 Fixes
