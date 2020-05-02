@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.2 - 2020-05-02
+
+#### 🐞 Fixes
+
+- Typescript config. ([3d59972](https://github.com/rajzik/lumos/commit/3d59972))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.1 - 2020-05-02
 
 #### 🐞 Fixes
