@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.3 - 2020-05-02
+
+#### 🐞 Fixes
+
+- Next js full support. ([7f38c41](https://github.com/rajzik/lumos/commit/7f38c41))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.2 - 2020-04-30
 
 #### 🐞 Fixes
