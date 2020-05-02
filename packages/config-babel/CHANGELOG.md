@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.6 - 2020-05-02
+
+#### 📘 Docs
+
+- Update documentation. ([b811f04](https://github.com/rajzik/lumos/commit/b811f04))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.5 - 2020-05-02
 
 **Note:** Version bump only for package @rajzik/config-babel

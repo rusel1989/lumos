@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.7 - 2020-05-02
+
+#### 🐞 Fixes
+
+- Add typescript option. ([94b8ecf](https://github.com/rajzik/lumos/commit/94b8ecf))
+- Remove next options from setting. ([3dbdf4f](https://github.com/rajzik/lumos/commit/3dbdf4f))
+
+#### 📘 Docs
+
+- Update documentation. ([b811f04](https://github.com/rajzik/lumos/commit/b811f04))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.6 - 2020-05-02
 
 #### 🐞 Fixes
