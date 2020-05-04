@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-next",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Reusable Next config.",
   "keywords": [
     "lumos",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@beemo/core": "^1.1.7",
     "@next/bundle-analyzer": "^9.3.6",
-    "@rajzik/lumos-common": "^2.0.5",
+    "@rajzik/lumos-common": "^2.0.6",
     "beemo-driver-next": "^0.1.3",
     "lodash": "^4.17.15",
     "next": "^9.3.6"

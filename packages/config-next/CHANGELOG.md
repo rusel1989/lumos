@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.7 - 2020-05-04
+
+#### 🐞 Fixes
+
+- Alias pattern. ([71ec631](https://github.com/rajzik/lumos/commit/71ec631))
+- Tests. ([67dbad3](https://github.com/rajzik/lumos/commit/67dbad3))
+
+**Note:** Version bump only for package @rajzik/config-next
+
+
+
+
+
 ### 1.0.6 - 2020-05-02
 
 #### 🐞 Fixes

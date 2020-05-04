@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.8 - 2020-05-04
+
+#### 🐞 Fixes
+
+- Alias pattern. ([71ec631](https://github.com/rajzik/lumos/commit/71ec631))
+- Alias pattern. ([9633879](https://github.com/rajzik/lumos/commit/9633879))
+- Tests. ([30af0b4](https://github.com/rajzik/lumos/commit/30af0b4))
+- Tests. ([67dbad3](https://github.com/rajzik/lumos/commit/67dbad3))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.7 - 2020-05-03
 
 #### 📦 Dependencies

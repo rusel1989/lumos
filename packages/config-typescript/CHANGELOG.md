@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.3 - 2020-05-04
+
+#### 🐞 Fixes
+
+- Alias pattern. ([9633879](https://github.com/rajzik/lumos/commit/9633879))
+
+#### 📘 Docs
+
+- Update documentation. ([b811f04](https://github.com/rajzik/lumos/commit/b811f04))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.2 - 2020-05-02
 
 #### 🐞 Fixes
