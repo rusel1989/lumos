@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.9 - 2020-05-05
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-testing-library from 3.0.4 to 3.1.0 ([aecad4c](https://github.com/rajzik/lumos/commit/aecad4c))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.8 - 2020-05-04
 
 **Note:** Version bump only for package @rajzik/config-eslint

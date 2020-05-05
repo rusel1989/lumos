@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.9 - 2020-05-05
+
+#### 📦 Dependencies
+
+- bump postcss from 7.0.28 to 7.0.29 ([0d2c2f5](https://github.com/rajzik/lumos/commit/0d2c2f5))
+
+#### 🛠 Internals
+
+- bump @types/html-minifier-terser from 5.0.0 to 5.1.0 ([11ad22b](https://github.com/rajzik/lumos/commit/11ad22b))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.8 - 2020-05-04
 
 #### 🐞 Fixes
