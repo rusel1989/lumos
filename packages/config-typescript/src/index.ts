@@ -35,7 +35,7 @@ export function getCompilerOptions({
     declaration: library || emitDeclarationOnly,
     esModuleInterop: true,
     forceConsistentCasingInFileNames: true,
-    isolatedModules: next && !library,
+    isolatedModules: !next && !library,
     jsx: 'preserve',
     lib: ['dom', 'esnext'],
     module: node ? 'commonjs' : 'esnext',
