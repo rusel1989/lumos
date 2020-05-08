@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.17 - 2020-05-08
+
+#### 📦 Dependencies
+
+- bump @rajzik/conventional-changelog-beemo from 2.0.1 to 2.0.2 ([fda1464](https://github.com/rajzik/lumos/commit/fda1464))
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.5.16 - 2020-05-08
 
 #### 📦 Dependencies

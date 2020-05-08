@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.11 - 2020-05-08
+
+#### 📦 Dependencies
+
+- bump execa from 4.0.0 to 4.0.1 ([a4692e9](https://github.com/rajzik/lumos/commit/a4692e9))
+- bump webpack-dev-server from 3.10.3 to 3.11.0 ([0c1a632](https://github.com/rajzik/lumos/commit/0c1a632))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.10 - 2020-05-07
 
 #### 📦 Dependencies

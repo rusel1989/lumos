@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.7 - 2020-05-08
+
+#### 📦 Dependencies
+
+- bump execa from 4.0.0 to 4.0.1 ([a4692e9](https://github.com/rajzik/lumos/commit/a4692e9))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.6 - 2020-05-04
 
 #### 🐞 Fixes

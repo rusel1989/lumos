@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.17 - 2020-05-08
+
+#### 📦 Dependencies
+
+- bump @rajzik/conventional-changelog-beemo from 2.0.1 to 2.0.2 ([fda1464](https://github.com/rajzik/lumos/commit/fda1464))
+- bump execa from 4.0.0 to 4.0.1 ([a4692e9](https://github.com/rajzik/lumos/commit/a4692e9))
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.16 - 2020-05-08
 
 **Note:** Version bump only for package @rajzik/lumos
