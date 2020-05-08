@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.16 - 2020-05-08
+
+#### 📦 Dependencies
+
+- bump danger from 10.1.1 to 10.2.0 ([2369a51](https://github.com/rajzik/lumos/commit/2369a51))
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.5.15 - 2020-05-06
 
 #### 🛠 Internals
