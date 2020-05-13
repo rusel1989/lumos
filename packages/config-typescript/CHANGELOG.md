@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.5 - 2020-05-13
+
+#### 📦 Dependencies
+
+- bump typescript from 3.8.3 to 3.9.2 ([276119b](https://github.com/rajzik/lumos/commit/276119b))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.4 - 2020-05-05
 
 #### 🐞 Fixes
