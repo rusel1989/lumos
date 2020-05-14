@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.20 - 2020-05-14
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-react-hooks from 4.0.1 to 4.0.2 ([183feaa](https://github.com/rajzik/lumos/commit/183feaa))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.19 - 2020-05-13
 
 #### 📦 Dependencies
