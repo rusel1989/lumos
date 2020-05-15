@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.13 - 2020-05-15
+
+#### 🛠 Internals
+
+- bump @types/html-webpack-plugin from 3.2.2 to 3.2.3 ([fb4b2d1](https://github.com/rajzik/lumos/commit/fb4b2d1))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.12 - 2020-05-12
 
 #### 📦 Dependencies
