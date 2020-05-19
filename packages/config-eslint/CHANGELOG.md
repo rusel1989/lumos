@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.27 - 2020-05-19
+
+#### 🐞 Fixes
+
+- React no literals rule. ([753473d](https://github.com/rajzik/lumos/commit/753473d))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.26 - 2020-05-19
 
 #### 📦 Dependencies
