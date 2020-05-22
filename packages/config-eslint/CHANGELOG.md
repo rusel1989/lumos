@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.28 - 2020-05-22
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-eslint from 1.2.2 to 1.2.3 ([28c4d82](https://github.com/rajzik/lumos/commit/28c4d82))
+- bump @typescript-eslint/eslint-plugin from 2.34.0 to 3.0.0 ([0211c31](https://github.com/rajzik/lumos/commit/0211c31))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.27 - 2020-05-19
 
 #### 🐞 Fixes

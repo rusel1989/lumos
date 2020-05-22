@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.14 - 2020-05-22
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-webpack from 1.2.5 to 1.2.6 ([3bb1631](https://github.com/rajzik/lumos/commit/3bb1631))
+- bump webpack-bundle-analyzer from 3.7.0 to 3.8.0 ([d032d55](https://github.com/rajzik/lumos/commit/d032d55))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.13 - 2020-05-15
 
 #### 🛠 Internals
