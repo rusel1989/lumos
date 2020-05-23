@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.25 - 2020-05-23
+
+#### 🛠 Internals
+
+- release [ci skip]. ([98be6d2](https://github.com/rajzik/lumos/commit/98be6d2))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.6.24 - 2020-05-08
 
 **Note:** Version bump only for package @rajzik/config-prettier

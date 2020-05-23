@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.15 - 2020-05-23
+
+#### 📦 Dependencies
+
+- bump execa from 4.0.1 to 4.0.2 ([411ffac](https://github.com/rajzik/lumos/commit/411ffac))
+
+#### 🛠 Internals
+
+- bump @types/webpack-bundle-analyzer from 2.13.3 to 3.8.0 ([7300c77](https://github.com/rajzik/lumos/commit/7300c77))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.14 - 2020-05-22
 
 #### 📦 Dependencies
