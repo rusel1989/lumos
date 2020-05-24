@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.30 - 2020-05-24
+
+#### 🐞 Fixes
+
+- Eslint rule. ([d3a13b9](https://github.com/rajzik/lumos/commit/d3a13b9))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.29 - 2020-05-23
 
 #### 📦 Dependencies
