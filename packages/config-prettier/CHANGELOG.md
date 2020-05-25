@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.26 - 2020-05-25
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-prettier from 1.3.1 to 1.3.2 ([9864a1e](https://github.com/rajzik/lumos/commit/9864a1e))
+
+#### 🛠 Internals
+
+- bump @types/prettier from 2.0.0 to 2.0.1 ([4b5853c](https://github.com/rajzik/lumos/commit/4b5853c))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.6.25 - 2020-05-23
 
 #### 🛠 Internals
