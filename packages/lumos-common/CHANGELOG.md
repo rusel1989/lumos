@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.9 - 2020-05-25
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.7 to 1.1.8 ([202c5da](https://github.com/rajzik/lumos/commit/202c5da))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.8 - 2020-05-23
 
 #### 📦 Dependencies

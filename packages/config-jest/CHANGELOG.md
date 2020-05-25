@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.10.17 - 2020-05-25
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.7 to 1.1.8 ([202c5da](https://github.com/rajzik/lumos/commit/202c5da))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.10.16 - 2020-05-25
 
 #### 📦 Dependencies

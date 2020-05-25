@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.8 - 2020-05-25
+
+#### 📦 Dependencies
+
+- bump @beemo/core from 1.1.7 to 1.1.8 ([202c5da](https://github.com/rajzik/lumos/commit/202c5da))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.7 - 2020-05-25
 
 #### 📦 Dependencies
