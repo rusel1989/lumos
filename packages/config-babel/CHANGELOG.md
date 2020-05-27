@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.13 - 2020-05-27
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.8.4 to 7.10.0 ([49b428a](https://github.com/rajzik/lumos/commit/49b428a))
+- bump @babel/plugin-transform-react-jsx-source from 7.9.0 to 7.10.0 ([5448ba3](https://github.com/rajzik/lumos/commit/5448ba3))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.12 - 2020-05-25
 
 #### 📦 Dependencies
