@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.16 - 2020-05-28
+
+#### 📦 Dependencies
+
+- Update babel. ([070c75f](https://github.com/rajzik/lumos/commit/070c75f))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.15 - 2020-05-27
 
 #### 📦 Dependencies
