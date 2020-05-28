@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.17 - 2020-05-28
+
+#### 🐞 Fixes
+
+- Babel config. ([17308ef](https://github.com/rajzik/lumos/commit/17308ef))
+- Eslint ignore files. ([a41a0e3](https://github.com/rajzik/lumos/commit/a41a0e3))
+
+#### 🛠 Internals
+
+- Add babel tests. ([57e88a7](https://github.com/rajzik/lumos/commit/57e88a7))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.16 - 2020-05-28
 
 #### 📦 Dependencies

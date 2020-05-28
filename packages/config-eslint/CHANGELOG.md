@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.35 - 2020-05-28
+
+#### 🐞 Fixes
+
+- Eslint ignore files. ([a41a0e3](https://github.com/rajzik/lumos/commit/a41a0e3))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.34 - 2020-05-27
 
 #### 📦 Dependencies
