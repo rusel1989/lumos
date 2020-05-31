@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.19 - 2020-05-31
+
+#### 📦 Dependencies
+
+- bump @babel/preset-env from 7.10.1 to 7.10.2 ([953a63e](https://github.com/rajzik/lumos/commit/953a63e))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.18 - 2020-05-30
 
 #### 📦 Dependencies
