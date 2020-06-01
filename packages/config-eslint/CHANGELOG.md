@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.39 - 2020-06-01
+
+#### 🐞 Fixes
+
+- **[eslint]** Issue with imports. ([fdc3afd](https://github.com/rajzik/lumos/commit/fdc3afd))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.38 - 2020-05-30
 
 #### 📦 Dependencies
