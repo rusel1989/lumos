@@ -175,6 +175,8 @@ const config: ESLintConfig = {
       files: [`*.test.${EXTS_GROUP}`],
       rules: {
         'unicorn/no-fn-reference-in-iterator': 'off',
+        'import/no-extraneous-dependencies': 'off',
+        'react/jsx-no-literals': 'off',
       },
     },
   ],
