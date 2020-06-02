@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.24 - 2020-06-02
+
+#### 📦 Dependencies
+
+- bump beemo-driver-next from 0.1.10 to 0.1.11 (#384) ([5dbf421](https://github.com/rajzik/lumos/commit/5dbf421)), closes [#384](https://github.com/rajzik/lumos/issues/384)
+
+**Note:** Version bump only for package @rajzik/config-next
+
+
+
+
+
 ### 1.0.23 - 2020-05-31
 
 #### 📦 Dependencies
