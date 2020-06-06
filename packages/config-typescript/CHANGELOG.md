@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.9 - 2020-06-06
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.8.4 to 7.10.0 ([49b428a](https://github.com/rajzik/lumos/commit/49b428a))
+- bump typescript from 3.9.3 to 3.9.5 (#390) ([ecb101f](https://github.com/rajzik/lumos/commit/ecb101f)), closes [#390](https://github.com/rajzik/lumos/issues/390)
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.8 - 2020-05-25
 
 #### 📦 Dependencies
