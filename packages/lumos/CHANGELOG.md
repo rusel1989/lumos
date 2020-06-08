@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.60 - 2020-06-08
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.59 - 2020-06-06
 
 **Note:** Version bump only for package @rajzik/lumos
