@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-jest",
-  "version": "1.10.20",
+  "version": "1.10.21",
   "description": "Reusable Jest config.",
   "keywords": [
     "lumos",
@@ -31,8 +31,8 @@
     "cross-env": "^7.0.2",
     "dom-storage": "^2.1.0",
     "jest": "^26.0.1",
-    "jest-junit": "^10.0.0",
-    "jest-environment-jsdom-sixteen": "^1.0.3"
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "jest-junit": "^10.0.0"
   },
   "peerDependencies": {
     "@testing-library/jest-dom": ">=5",

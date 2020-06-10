@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.10.21 - 2020-06-10
+
+#### 🐞 Fixes
+
+- Jest jsdom 16. (#404) ([13cf6c8](https://github.com/rajzik/lumos/commit/13cf6c8)), closes [#404](https://github.com/rajzik/lumos/issues/404)
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.10.20 - 2020-06-10
 
 #### 📦 Dependencies
