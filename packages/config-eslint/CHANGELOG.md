@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.48 - 2020-06-15
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-prettier from 3.1.3 to 3.1.4 (#409) ([4c4d171](https://github.com/rajzik/lumos/commit/4c4d171)), closes [#409](https://github.com/rajzik/lumos/issues/409)
+- bump eslint-plugin-testing-library from 3.2.2 to 3.3.0 (#410) ([021e058](https://github.com/rajzik/lumos/commit/021e058)), closes [#410](https://github.com/rajzik/lumos/issues/410)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.47 - 2020-06-12
 
 #### 📦 Dependencies
