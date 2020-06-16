@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.24 - 2020-06-16
+
+#### 📦 Dependencies
+
+- bump fast-glob from 3.2.2 to 3.2.4 (#413) ([e954304](https://github.com/rajzik/lumos/commit/e954304)), closes [#413](https://github.com/rajzik/lumos/issues/413)
+- bump terser-webpack-plugin from 3.0.4 to 3.0.5 (#411) ([7bfc275](https://github.com/rajzik/lumos/commit/7bfc275)), closes [#411](https://github.com/rajzik/lumos/issues/411)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.23 - 2020-06-15
 
 #### 📦 Dependencies

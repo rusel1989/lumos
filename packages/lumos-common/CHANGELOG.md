@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.10 - 2020-06-16
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.10.1 to 7.10.2 ([90e86e9](https://github.com/rajzik/lumos/commit/90e86e9))
+- bump fast-glob from 3.2.2 to 3.2.4 (#413) ([e954304](https://github.com/rajzik/lumos/commit/e954304)), closes [#413](https://github.com/rajzik/lumos/issues/413)
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.9 - 2020-05-25
 
 #### 📦 Dependencies
