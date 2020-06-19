@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.51 - 2020-06-19
+
+#### 📦 Dependencies
+
+- bump eslint-config-airbnb from 18.1.0 to 18.2.0 (#419) ([9c9e0de](https://github.com/rajzik/lumos/commit/9c9e0de)), closes [#419](https://github.com/rajzik/lumos/issues/419)
+- bump eslint-plugin-jsx-a11y from 6.2.3 to 6.3.0 (#418) ([c03b5f8](https://github.com/rajzik/lumos/commit/c03b5f8)), closes [#418](https://github.com/rajzik/lumos/issues/418)
+- bump eslint-plugin-testing-library from 3.3.0 to 3.3.1 (#415) ([efe1d33](https://github.com/rajzik/lumos/commit/efe1d33)), closes [#415](https://github.com/rajzik/lumos/issues/415)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.50 - 2020-06-16
 
 #### 📦 Dependencies
