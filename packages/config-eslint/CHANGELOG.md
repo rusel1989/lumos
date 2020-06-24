@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.53 - 2020-06-24
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-jsx-a11y from 6.3.0 to 6.3.1 (#427) ([c919272](https://github.com/rajzik/lumos/commit/c919272)), closes [#427](https://github.com/rajzik/lumos/issues/427)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.52 - 2020-06-23
 
 #### 📦 Dependencies

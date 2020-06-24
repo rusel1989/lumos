@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.10 - 2020-06-24
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-typescript from 1.3.4 to 1.4.0 (#436) ([01a171a](https://github.com/rajzik/lumos/commit/01a171a)), closes [#436](https://github.com/rajzik/lumos/issues/436)
+- bump eslint from 7.1.0 to 7.2.0 (#393) ([807865e](https://github.com/rajzik/lumos/commit/807865e)), closes [#393](https://github.com/rajzik/lumos/issues/393)
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.9 - 2020-06-06
 
 #### 📦 Dependencies

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.22 - 2020-06-24
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.10.2 to 7.10.3 (#428) ([fe714c3](https://github.com/rajzik/lumos/commit/fe714c3)), closes [#428](https://github.com/rajzik/lumos/issues/428)
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.21 - 2020-06-23
 
 #### 📦 Dependencies
