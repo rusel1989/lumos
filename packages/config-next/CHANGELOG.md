@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.29 - 2020-06-25
+
+#### 🛠 Internals
+
+- bump @types/lodash from 4.14.156 to 4.14.157 (#439) ([04600c5](https://github.com/rajzik/lumos/commit/04600c5)), closes [#439](https://github.com/rajzik/lumos/issues/439)
+
+**Note:** Version bump only for package @rajzik/config-next
+
+
+
+
+
 ### 1.0.28 - 2020-06-24
 
 #### 🛠 Internals
