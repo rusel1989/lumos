@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.28 - 2020-06-30
+
+#### 📦 Dependencies
+
+- bump postcss-modules from 3.1.0 to 3.2.0 (#451) ([2bbc9a9](https://github.com/rajzik/lumos/commit/2bbc9a9)), closes [#451](https://github.com/rajzik/lumos/issues/451)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.27 - 2020-06-24
 
 #### 📦 Dependencies
