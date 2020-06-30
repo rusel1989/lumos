@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.60 - 2020-06-30
+
+#### 📦 Dependencies
+
+- Update to latest. (#462) ([bd76c32](https://github.com/rajzik/lumos/commit/bd76c32)), closes [#462](https://github.com/rajzik/lumos/issues/462)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.59 - 2020-06-30
 
 #### 📦 Dependencies
