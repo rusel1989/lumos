@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.61 - 2020-07-02
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-react from 7.20.2 to 7.20.3 (#463) ([46a7288](https://github.com/rajzik/lumos/commit/46a7288)), closes [#463](https://github.com/rajzik/lumos/issues/463)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.60 - 2020-06-30
 
 #### 📦 Dependencies
