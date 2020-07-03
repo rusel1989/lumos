@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.84 - 2020-07-03
+
+#### 📦 Dependencies
+
+- bump enquirer from 2.3.5 to 2.3.6 (#465) ([77145c2](https://github.com/rajzik/lumos/commit/77145c2)), closes [#465](https://github.com/rajzik/lumos/issues/465)
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.83 - 2020-07-02
 
 **Note:** Version bump only for package @rajzik/lumos
