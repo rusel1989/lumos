@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.6.30 - 2020-07-07
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.10.2 to 7.10.3 (#428) ([fe714c3](https://github.com/rajzik/lumos/commit/fe714c3)), closes [#428](https://github.com/rajzik/lumos/issues/428)
+
+#### 🛠 Internals
+
+- bump @types/prettier from 2.0.1 to 2.0.2 (#474) ([f9ac48b](https://github.com/rajzik/lumos/commit/f9ac48b)), closes [#474](https://github.com/rajzik/lumos/issues/474)
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 1.6.29 - 2020-06-23
 
 **Note:** Version bump only for package @rajzik/config-prettier
