@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.12 - 2020-07-08
+
+#### 📦 Dependencies
+
+- bump execa from 4.0.2 to 4.0.3 (#476) ([53321a0](https://github.com/rajzik/lumos/commit/53321a0)), closes [#476](https://github.com/rajzik/lumos/issues/476)
+- bump postcss-modules from 2.0.0 to 3.1.0 (#434) ([c763e02](https://github.com/rajzik/lumos/commit/c763e02)), closes [#434](https://github.com/rajzik/lumos/issues/434)
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.11 - 2020-06-23
 
 #### 📦 Dependencies
