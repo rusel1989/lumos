@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.30 - 2020-07-10
+
+#### 📦 Dependencies
+
+- bump @rajzik/conventional-changelog-beemo from 2.0.4 to 2.0.5 (#484) ([27504ec](https://github.com/rajzik/lumos/commit/27504ec)), closes [#484](https://github.com/rajzik/lumos/issues/484)
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.5.29 - 2020-07-09
 
 #### 📦 Dependencies
