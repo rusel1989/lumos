@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.68 - 2020-07-14
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/parser from 3.6.0 to 3.6.1 (#492) ([0dda595](https://github.com/rajzik/lumos/commit/0dda595)), closes [#492](https://github.com/rajzik/lumos/issues/492)
+- bump eslint-plugin-react-hooks from 4.0.7 to 4.0.8 (#491) ([1322934](https://github.com/rajzik/lumos/commit/1322934)), closes [#491](https://github.com/rajzik/lumos/issues/491)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.67 - 2020-07-11
 
 #### 📦 Dependencies
