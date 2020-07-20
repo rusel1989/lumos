@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.12 - 2020-07-20
+
+#### 📦 Dependencies
+
+- bump @types/jest from 26.0.3 to 26.0.4 (#473) ([024ad9c](https://github.com/rajzik/lumos/commit/024ad9c)), closes [#473](https://github.com/rajzik/lumos/issues/473)
+- bump typescript from 3.9.6 to 3.9.7 (#503) ([3a3262a](https://github.com/rajzik/lumos/commit/3a3262a)), closes [#503](https://github.com/rajzik/lumos/issues/503)
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.11 - 2020-07-02
 
 #### 📦 Dependencies
