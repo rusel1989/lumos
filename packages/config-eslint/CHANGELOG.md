@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.71 - 2020-07-21
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/parser from 3.6.1 to 3.7.0 (#509) ([e6b21a3](https://github.com/rajzik/lumos/commit/e6b21a3)), closes [#509](https://github.com/rajzik/lumos/issues/509)
+- bump eslint-plugin-testing-library from 3.3.1 to 3.3.2 (#507) ([ffa50f6](https://github.com/rajzik/lumos/commit/ffa50f6)), closes [#507](https://github.com/rajzik/lumos/issues/507)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.70 - 2020-07-20
 
 #### 📦 Dependencies
