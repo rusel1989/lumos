@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.34 - 2020-07-24
+
+#### 📦 Dependencies
+
+- bump webpack from 4.43.0 to 4.44.0 (#515) ([843d79a](https://github.com/rajzik/lumos/commit/843d79a)), closes [#515](https://github.com/rajzik/lumos/issues/515)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.33 - 2020-07-20
 
 #### 📦 Dependencies
