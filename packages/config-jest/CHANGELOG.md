@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.10.34 - 2020-07-26
+
+#### 📦 Dependencies
+
+- bump jest-junit from 11.0.1 to 11.1.0 (#521) ([50f9443](https://github.com/rajzik/lumos/commit/50f9443)), closes [#521](https://github.com/rajzik/lumos/issues/521)
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.10.33 - 2020-07-24
 
 #### 📦 Dependencies
