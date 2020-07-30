@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.39 - 2020-07-30
+
+#### 📦 Dependencies
+
+- bump @next/bundle-analyzer from 9.5.0 to 9.5.1 (#537) ([3857cf6](https://github.com/rajzik/lumos/commit/3857cf6)), closes [#537](https://github.com/rajzik/lumos/issues/537)
+- bump beemo-driver-next from 0.1.14 to 0.1.15 (#529) ([943f9b8](https://github.com/rajzik/lumos/commit/943f9b8)), closes [#529](https://github.com/rajzik/lumos/issues/529)
+
+**Note:** Version bump only for package @rajzik/config-next
+
+
+
+
+
 ### 1.0.38 - 2020-07-28
 
 #### 📦 Dependencies

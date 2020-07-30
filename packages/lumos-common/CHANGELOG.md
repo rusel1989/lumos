@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.14 - 2020-07-30
+
+#### 📦 Dependencies
+
+- bump @boost/common from 2.0.0 to 2.1.0 (#533) ([e463e74](https://github.com/rajzik/lumos/commit/e463e74)), closes [#533](https://github.com/rajzik/lumos/issues/533)
+- bump eslint from 7.4.0 to 7.5.0 (#506) ([de5299f](https://github.com/rajzik/lumos/commit/de5299f)), closes [#506](https://github.com/rajzik/lumos/issues/506)
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.13 - 2020-07-15
 
 #### 📦 Dependencies

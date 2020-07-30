@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.77 - 2020-07-30
+
+#### 📦 Dependencies
+
+- bump eslint-import-resolver-typescript from 2.0.0 to 2.2.0 (#539) ([e4afc58](https://github.com/rajzik/lumos/commit/e4afc58)), closes [#539](https://github.com/rajzik/lumos/issues/539)
+- bump eslint-plugin-react from 7.20.4 to 7.20.5 (#531) ([1b36a45](https://github.com/rajzik/lumos/commit/1b36a45)), closes [#531](https://github.com/rajzik/lumos/issues/531)
+- bump eslint-plugin-testing-library from 3.3.2 to 3.4.0 (#535) ([7af904a](https://github.com/rajzik/lumos/commit/7af904a)), closes [#535](https://github.com/rajzik/lumos/issues/535)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.76 - 2020-07-28
 
 #### 📦 Dependencies
