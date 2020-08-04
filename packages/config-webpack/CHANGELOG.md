@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.40 - 2020-08-04
+
+#### 📦 Dependencies
+
+- bump is-docker from 2.0.0 to 2.1.0 (#552) ([ab813a6](https://github.com/rajzik/lumos/commit/ab813a6)), closes [#552](https://github.com/rajzik/lumos/issues/552)
+- bump terser-webpack-plugin from 3.0.8 to 3.1.0 (#557) ([f541651](https://github.com/rajzik/lumos/commit/f541651)), closes [#557](https://github.com/rajzik/lumos/issues/557)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.39 - 2020-08-01
 
 #### 📦 Dependencies

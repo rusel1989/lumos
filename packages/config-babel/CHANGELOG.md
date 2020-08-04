@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.33 - 2020-08-04
+
+#### 📦 Dependencies
+
+- bump @babel/preset-env from 7.10.4 to 7.11.0 (#547) ([4646bbd](https://github.com/rajzik/lumos/commit/4646bbd)), closes [#547](https://github.com/rajzik/lumos/issues/547)
+- bump babel-plugin-graphql-tag from 2.5.0 to 3.0.0 (#554) ([fdf6046](https://github.com/rajzik/lumos/commit/fdf6046)), closes [#554](https://github.com/rajzik/lumos/issues/554)
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.32 - 2020-08-01
 
 #### 📦 Dependencies
