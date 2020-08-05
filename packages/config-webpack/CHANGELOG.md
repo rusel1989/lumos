@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.41 - 2020-08-05
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.11.0 to 7.11.1 (#560) ([9f42b08](https://github.com/rajzik/lumos/commit/9f42b08)), closes [#560](https://github.com/rajzik/lumos/issues/560)
+- bump is-docker from 2.1.0 to 2.1.1 (#559) ([993415b](https://github.com/rajzik/lumos/commit/993415b)), closes [#559](https://github.com/rajzik/lumos/issues/559)
+- bump terser-webpack-plugin from 3.1.0 to 4.0.0 (#558) ([b831642](https://github.com/rajzik/lumos/commit/b831642)), closes [#558](https://github.com/rajzik/lumos/issues/558)
+
+#### 🛠 Internals
+
+- bump @types/terser-webpack-plugin from 3.0.0 to 4.0.0 (#561) ([ee0482e](https://github.com/rajzik/lumos/commit/ee0482e)), closes [#561](https://github.com/rajzik/lumos/issues/561)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.40 - 2020-08-04
 
 #### 📦 Dependencies

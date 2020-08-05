@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.10.38 - 2020-08-05
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.11.0 to 7.11.1 (#560) ([9f42b08](https://github.com/rajzik/lumos/commit/9f42b08)), closes [#560](https://github.com/rajzik/lumos/issues/560)
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.10.37 - 2020-08-01
 
 #### 📦 Dependencies
