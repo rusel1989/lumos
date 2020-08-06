@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.81 - 2020-08-06
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-testing-library from 3.4.0 to 3.4.1 (#562) ([e494191](https://github.com/rajzik/lumos/commit/e494191)), closes [#562](https://github.com/rajzik/lumos/issues/562)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.80 - 2020-08-04
 
 #### 📦 Dependencies
