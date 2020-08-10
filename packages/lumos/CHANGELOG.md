@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.118 - 2020-08-10
+
+#### 📦 Dependencies
+
+- bump edit-json-file from 1.4.0 to 1.4.1 (#566) ([99f53a4](https://github.com/rajzik/lumos/commit/99f53a4)), closes [#566](https://github.com/rajzik/lumos/issues/566)
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.117 - 2020-08-06
 
 **Note:** Version bump only for package @rajzik/lumos
