@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.38 - 2020-08-18
+
+#### 📦 Dependencies
+
+- bump css-loader from 4.1.0 to 4.2.0 (#551) ([6c99788](https://github.com/rajzik/lumos/commit/6c99788)), closes [#551](https://github.com/rajzik/lumos/issues/551)
+
+#### 🛠 Internals
+
+- bump @types/node from 14.0.27 to 14.6.0 (#586) ([4604c15](https://github.com/rajzik/lumos/commit/4604c15)), closes [#586](https://github.com/rajzik/lumos/issues/586)
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.5.37 - 2020-07-30
 
 #### 🛠 Internals

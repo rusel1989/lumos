@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.15 - 2020-08-18
+
+#### 📦 Dependencies
+
+- bump @boost/common from 2.1.0 to 2.2.0 (#584) ([b7f66df](https://github.com/rajzik/lumos/commit/b7f66df)), closes [#584](https://github.com/rajzik/lumos/issues/584)
+- bump css-loader from 4.1.0 to 4.2.0 (#551) ([6c99788](https://github.com/rajzik/lumos/commit/6c99788)), closes [#551](https://github.com/rajzik/lumos/issues/551)
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.14 - 2020-07-30
 
 #### 📦 Dependencies
