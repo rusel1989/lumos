@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.46 - 2020-08-20
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.11.1 to 7.11.4 (#592) ([552f06a](https://github.com/rajzik/lumos/commit/552f06a)), closes [#592](https://github.com/rajzik/lumos/issues/592)
+- bump postcss-modules from 3.2.0 to 3.2.1 (#590) ([0155d00](https://github.com/rajzik/lumos/commit/0155d00)), closes [#590](https://github.com/rajzik/lumos/issues/590)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 3.0.45 - 2020-08-18
 
 **Note:** Version bump only for package @rajzik/config-webpack

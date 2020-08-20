@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.13 - 2020-08-20
+
+#### 📦 Dependencies
+
+- bump is-docker from 2.0.0 to 2.1.0 (#552) ([ab813a6](https://github.com/rajzik/lumos/commit/ab813a6)), closes [#552](https://github.com/rajzik/lumos/issues/552)
+- bump typescript from 3.9.7 to 4.0.2 (#591) ([a36b8b9](https://github.com/rajzik/lumos/commit/a36b8b9)), closes [#591](https://github.com/rajzik/lumos/issues/591)
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.12 - 2020-07-20
 
 #### 📦 Dependencies
