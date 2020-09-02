@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.96 - 2020-09-02
+
+#### 📦 Dependencies
+
+- bump eslint from 7.8.0 to 7.8.1 (#620) ([cba244b](https://github.com/rajzik/lumos/commit/cba244b)), closes [#620](https://github.com/rajzik/lumos/issues/620)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.95 - 2020-09-02
 
 #### 📦 Dependencies
