@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.48 - 2020-09-02
+
+#### 📦 Dependencies
+
+- bump @next/bundle-analyzer from 9.5.2 to 9.5.3 (#625) ([4b98b4b](https://github.com/rajzik/lumos/commit/4b98b4b)), closes [#625](https://github.com/rajzik/lumos/issues/625)
+- bump next from 9.5.2 to 9.5.3 (#621) ([6f00c00](https://github.com/rajzik/lumos/commit/6f00c00)), closes [#621](https://github.com/rajzik/lumos/issues/621)
+
+**Note:** Version bump only for package @rajzik/config-next
+
+
+
+
+
 ### 1.0.47 - 2020-08-29
 
 #### 🛠 Internals
