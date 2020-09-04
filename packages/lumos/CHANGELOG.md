@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.0 - 2020-09-04
+
+#### 🚀 Updates
+
+- Add devserverContentBase path. (#632) ([7a1284d](https://github.com/rajzik/lumos/commit/7a1284d)), closes [#632](https://github.com/rajzik/lumos/issues/632)
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 3.0.144 - 2020-09-03
 
 **Note:** Version bump only for package @rajzik/lumos

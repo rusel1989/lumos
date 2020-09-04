@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.0 - 2020-09-04
+
+#### 🚀 Updates
+
+- Add devserverContentBase path. (#632) ([7a1284d](https://github.com/rajzik/lumos/commit/7a1284d)), closes [#632](https://github.com/rajzik/lumos/issues/632)
+
+#### 📦 Dependencies
+
+- bump jest from 26.4.1 to 26.4.2 (#595) ([a70ccb3](https://github.com/rajzik/lumos/commit/a70ccb3)), closes [#595](https://github.com/rajzik/lumos/issues/595)
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 2.0.15 - 2020-08-18
 
 #### 📦 Dependencies
