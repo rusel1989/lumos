@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.40 - 2020-09-04
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.11.5 to 7.11.6 (#630) ([f3b5301](https://github.com/rajzik/lumos/commit/f3b5301)), closes [#630](https://github.com/rajzik/lumos/issues/630)
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.39 - 2020-09-04
 
 #### 📦 Dependencies
