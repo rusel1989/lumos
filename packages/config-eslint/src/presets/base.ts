@@ -104,7 +104,6 @@ const config: ESLintConfig = {
         'jest/no-jasmine-globals': 'error',
         'jest/no-jest-import': 'error',
         'jest/no-standalone-expect': 'error',
-        'jest/no-test-callback': 'error',
         'jest/no-test-prefixes': 'error',
         'jest/no-test-return-statement': 'error',
         'jest/prefer-hooks-on-top': 'error',
