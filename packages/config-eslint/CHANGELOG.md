@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.100 - 2020-09-05
+
+#### 🐞 Fixes
+
+- **[eslint]** Remove obsolete rule. ([0aa7034](https://github.com/rajzik/lumos/commit/0aa7034))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.99 - 2020-09-05
 
 #### 📦 Dependencies
