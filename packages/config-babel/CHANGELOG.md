@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.11.41 - 2020-09-05
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-babel from 1.2.5 to 1.2.6 (#634) ([22237f9](https://github.com/rajzik/lumos/commit/22237f9)), closes [#634](https://github.com/rajzik/lumos/issues/634)
+- bump babel-plugin-typescript-to-proptypes from 1.4.0 to 1.4.1 (#636) ([5547ad1](https://github.com/rajzik/lumos/commit/5547ad1)), closes [#636](https://github.com/rajzik/lumos/issues/636)
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 1.11.40 - 2020-09-04
 
 #### 📦 Dependencies

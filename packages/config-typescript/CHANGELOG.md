@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.14 - 2020-09-05
+
+#### 📦 Dependencies
+
+- bump @beemo/driver-typescript from 1.4.0 to 1.4.1 (#635) ([227932d](https://github.com/rajzik/lumos/commit/227932d)), closes [#635](https://github.com/rajzik/lumos/issues/635)
+- bump css-loader from 4.2.1 to 4.2.2 (#599) ([19722ee](https://github.com/rajzik/lumos/commit/19722ee)), closes [#599](https://github.com/rajzik/lumos/issues/599)
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.13 - 2020-08-20
 
 #### 📦 Dependencies
