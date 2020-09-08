@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.2.0 - 2020-09-08
+
+#### 🚀 Updates
+
+- Add react refresh to babel and webpack. (#640) ([421f7be](https://github.com/rajzik/lumos/commit/421f7be)), closes [#640](https://github.com/rajzik/lumos/issues/640)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ## 3.1.0 - 2020-09-04
 
 #### 🚀 Updates
