@@ -42,6 +42,7 @@ export function getNextConfig({
         plugins.push(
           '@babel/plugin-transform-react-jsx-source',
           '@babel/plugin-transform-react-jsx-self',
+          'react-refresh/babel',
         );
       }
       break;
@@ -213,6 +214,7 @@ export function getConfig({
     plugins.push(
       ['@babel/plugin-proposal-class-properties', { loose: envOptions.loose }],
       ['@babel/plugin-proposal-private-methods', { loose: envOptions.loose }],
+      ['@babel/plugin-proposal-private-property-in-object', { loose: envOptions.loose }],
       '@babel/plugin-proposal-export-namespace-from',
     );
   }

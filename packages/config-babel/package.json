@@ -23,9 +23,7 @@
   "dependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-export-namespace-from": "^7.10.4",
-    "@babel/plugin-proposal-private-methods": "^7.10.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.10.4",
     "@babel/plugin-transform-react-jsx-self": "^7.10.4",
     "@babel/plugin-transform-react-jsx-source": "^7.10.5",
     "@babel/plugin-transform-runtime": "^7.11.5",
@@ -39,7 +37,8 @@
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-transform-dev": "^2.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "babel-plugin-typescript-to-proptypes": "^1.4.1"
+    "babel-plugin-typescript-to-proptypes": "^1.4.1",
+    "react-refresh": "^0.8.3"
   },
   "devDependencies": {
     "babel-test": "^0.2.3",
