@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.101 - 2020-09-09
+
+#### 🛠 Internals
+
+- Release test. ([267dd5e](https://github.com/rajzik/lumos/commit/267dd5e))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 2.4.100 - 2020-09-05
 
 #### 🐞 Fixes
