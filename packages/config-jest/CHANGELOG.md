@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.10.52 - 2020-09-09
+
+#### 🛠 Internals
+
+- release [ci skip]. ([d845179](https://github.com/rajzik/lumos/commit/d845179))
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.10.51 - 2020-09-09
 
 #### 🛠 Internals

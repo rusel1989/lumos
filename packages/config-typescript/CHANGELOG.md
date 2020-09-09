@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.7.16 - 2020-09-09
+
+#### 🛠 Internals
+
+- release [ci skip]. ([d845179](https://github.com/rajzik/lumos/commit/d845179))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ### 1.7.15 - 2020-09-09
 
 #### 🛠 Internals
