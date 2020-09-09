@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.5.46 - 2020-09-09
+
+#### 🛠 Internals
+
+- Fix ci fix. ([f2448e3](https://github.com/rajzik/lumos/commit/f2448e3))
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 1.5.45 - 2020-09-09
 
 #### 🛠 Internals
