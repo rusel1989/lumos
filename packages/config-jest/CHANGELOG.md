@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 - 2020-09-09
+
+#### 💥 Breaking
+
+- Update eslint config. (#647) ([575345d](https://github.com/rajzik/lumos/commit/575345d)), closes [#647](https://github.com/rajzik/lumos/issues/647)
+
+**Note:** Version bump only for package @rajzik/config-jest
+
+
+
+
+
 ### 1.10.53 - 2020-09-09
 
 #### 🛠 Internals
