@@ -9,13 +9,13 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - name: Git Identity
         run: |
           git config --global user.name 'lumos bot'
           git config --global user.email 'lumos.bot@users.noreply.github.com'
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
+          git remote set-url origin https://${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
+          git checkout master
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
