@@ -37,6 +37,7 @@ const config: ESLintConfig = {
         'no-unused-vars': 'off',
         'no-unused-expressions': 'off', // Replaced with typescript version
         camelcase: 'off', // Replaced with typescript version
+        'no-shadow': 'off', // Broken at the moment
 
         // IMPORT (Conflicts with TS patterns)
         'import/extensions': [
@@ -142,7 +143,7 @@ const config: ESLintConfig = {
         '@typescript-eslint/no-unsafe-member-access': 'warn',
         '@typescript-eslint/no-unsafe-return': 'warn',
         '@typescript-eslint/no-unused-vars': ['error', noUnused],
-        '@typescript-eslint/no-use-before-define': 'error',
+        '@typescript-eslint/no-use-before-define': 'warn', // Broken at the moment
         '@typescript-eslint/prefer-as-const': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/prefer-namespace-keyword': 'error',

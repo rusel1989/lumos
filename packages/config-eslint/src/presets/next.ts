@@ -160,7 +160,7 @@ const config: ESLintConfig = {
     'unicorn/no-zero-fractions': 'error',
     'unicorn/number-literal-case': 'error',
     'unicorn/prefer-add-event-listener': 'error',
-    'prefer-array-find': 'error',
+    'unicorn/prefer-array-find': 'error',
     'unicorn/prefer-dataset': 'error',
     'unicorn/prefer-event-key': 'error',
     'unicorn/prefer-flat-map': 'error',
