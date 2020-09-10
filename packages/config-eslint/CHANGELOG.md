@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.1.2 - 2020-09-10
+
+#### 🐞 Fixes
+
+- **[config-eslint]** Typescript config. ([a06c56d](https://github.com/rajzik/lumos/commit/a06c56d))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 3.1.1 - 2020-09-10
 
 #### 🐞 Fixes
