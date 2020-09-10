@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.2.0 - 2020-09-10
+
+#### 🚀 Updates
+
+- **[config-typescript]** Enable decorators. (#650) ([a7e0f02](https://github.com/rajzik/lumos/commit/a7e0f02)), closes [#650](https://github.com/rajzik/lumos/issues/650)
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ## 2.1.0 - 2020-09-10
 
 #### 🚀 Updates
