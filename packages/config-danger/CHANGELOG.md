@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.2 - 2020-09-10
+
+#### 📋 Misc
+
+- Run eslint fix. (#648) ([e645e17](https://github.com/rajzik/lumos/commit/e645e17)), closes [#648](https://github.com/rajzik/lumos/issues/648)
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 2.0.1 - 2020-09-10
 
 #### 🛠 Internals
