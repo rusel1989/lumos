@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.0 - 2020-09-10
+
+#### 🚀 Updates
+
+- **[config-webpack]** Update deps. (#649) ([c823d54](https://github.com/rajzik/lumos/commit/c823d54)), closes [#649](https://github.com/rajzik/lumos/issues/649)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 3.0.2 - 2020-09-10
 
 #### 📋 Misc
