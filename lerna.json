@@ -5,6 +5,9 @@
   "command": {
     "publish": {
       "ignoreChanges": [
+        "./.github/**",
+        "./.dependabot/**",
+        "./types/**",
         "*.md",
         "*.test"
       ],
