@@ -39,6 +39,7 @@ const config: ESLintConfig = {
         camelcase: 'off', // Replaced with typescript version
         'no-shadow': 'off', // Broken at the moment
         'no-use-before-define': 'off',
+        'no-undef': 'off', // Broken at the moment
 
         // IMPORT (Conflicts with TS patterns)
         'import/extensions': [
