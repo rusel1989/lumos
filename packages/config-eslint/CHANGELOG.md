@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.1.3 - 2020-09-10
+
+#### 🐞 Fixes
+
+- **[config-eslint]** Fix no undef for typescript. ([7314cb4](https://github.com/rajzik/lumos/commit/7314cb4))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 3.1.2 - 2020-09-10
 
 #### 🐞 Fixes
