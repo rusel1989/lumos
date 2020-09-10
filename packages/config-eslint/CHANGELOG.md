@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.1.1 - 2020-09-10
+
+#### 🐞 Fixes
+
+- **[config-eslint]** Fix rules. ([137faa2](https://github.com/rajzik/lumos/commit/137faa2))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([7a2caab](https://github.com/rajzik/lumos/commit/7a2caab))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ## 3.1.0 - 2020-09-10
 
 #### 🚀 Updates
