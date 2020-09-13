@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.1 - 2020-09-13
+
+#### 📦 Dependencies
+
+- bump babel-plugin-graphql-tag from 3.0.0 to 3.1.0 (#658) ([e1b5374](https://github.com/rajzik/lumos/commit/e1b5374)), closes [#658](https://github.com/rajzik/lumos/issues/658)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([aa50b57](https://github.com/rajzik/lumos/commit/aa50b57))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ## 2.1.0 - 2020-09-10
 
 #### 🚀 Updates
