@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/config-webpack",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "Reusable Webpack configs.",
   "keywords": [
     "lumos",
