@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.13 - 2020-09-18
+
+#### 📦 Dependencies
+
+- bump @rajzik/conventional-changelog-beemo from 2.1.0 to 2.1.1 (#679) ([b39094d](https://github.com/rajzik/lumos/commit/b39094d)), closes [#679](https://github.com/rajzik/lumos/issues/679)
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 4.1.12 - 2020-09-17
 
 **Note:** Version bump only for package @rajzik/lumos

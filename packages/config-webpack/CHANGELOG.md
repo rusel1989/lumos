@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.5 - 2020-09-18
+
+#### 📦 Dependencies
+
+- bump webpack-bundle-analyzer from 3.8.0 to 3.9.0 (#678) ([a49391e](https://github.com/rajzik/lumos/commit/a49391e)), closes [#678](https://github.com/rajzik/lumos/issues/678)
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 4.1.4 - 2020-09-17
 
 #### 📦 Dependencies
