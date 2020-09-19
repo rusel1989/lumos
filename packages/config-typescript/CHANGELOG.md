@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.2.1 - 2020-09-19
+
+#### 📦 Dependencies
+
+- bump typescript from 4.0.2 to 4.0.3 (#681) ([d05bce3](https://github.com/rajzik/lumos/commit/d05bce3)), closes [#681](https://github.com/rajzik/lumos/issues/681)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([1f3eda8](https://github.com/rajzik/lumos/commit/1f3eda8))
+
+**Note:** Version bump only for package @rajzik/config-typescript
+
+
+
+
+
 ## 2.2.0 - 2020-09-10
 
 #### 🚀 Updates

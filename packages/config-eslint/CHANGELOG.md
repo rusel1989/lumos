@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.1.11 - 2020-09-19
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-unicorn from 21.0.0 to 22.0.0 (#682) ([e12abf9](https://github.com/rajzik/lumos/commit/e12abf9)), closes [#682](https://github.com/rajzik/lumos/issues/682)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([1f3eda8](https://github.com/rajzik/lumos/commit/1f3eda8))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 3.1.10 - 2020-09-17
 
 #### 🛠 Internals
