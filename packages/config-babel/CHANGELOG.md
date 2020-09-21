@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.2.0 - 2020-09-21
+
+#### 🚀 Updates
+
+- **[babel-config]** Add support for the decorators. (#687) ([df2b4c1](https://github.com/rajzik/lumos/commit/df2b4c1)), closes [#687](https://github.com/rajzik/lumos/issues/687)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([5658082](https://github.com/rajzik/lumos/commit/5658082))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 2.1.2 - 2020-09-17
 
 #### 🛠 Internals
