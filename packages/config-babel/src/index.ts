@@ -170,6 +170,7 @@ export function getConfig({
         plugins.push(
           '@babel/plugin-transform-react-jsx-source',
           '@babel/plugin-transform-react-jsx-self',
+          'react-refresh/babel',
         );
       }
       break;
