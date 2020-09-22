@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.8 - 2020-09-22
+
+#### 📦 Dependencies
+
+- bump html-webpack-plugin from 4.4.1 to 4.5.0 (#688) ([663df34](https://github.com/rajzik/lumos/commit/663df34)), closes [#688](https://github.com/rajzik/lumos/issues/688)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([aceab1f](https://github.com/rajzik/lumos/commit/aceab1f))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 4.1.7 - 2020-09-20
 
 #### 📦 Dependencies
