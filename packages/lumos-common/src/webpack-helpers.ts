@@ -6,8 +6,8 @@ const { WEBPACK_ESM_SCOPES, WEBPACK_ESM_PACKAGES } = process.env;
 
 export const WEBPACK_ROOT = process.cwd();
 
-const esmScopes = ['@ori'];
-const esmPackages = ['@ori-*'];
+const esmScopes = ['@ori', '@ori-ui', '@ori-events'];
+const esmPackages: string[] = [];
 
 if (WEBPACK_ESM_SCOPES) {
   esmScopes.push(...WEBPACK_ESM_SCOPES.split(','));
