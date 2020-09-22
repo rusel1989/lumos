@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.2.2 - 2020-09-22
+
+#### 🐞 Fixes
+
+- **[babel-config]** React refresh. ([7954a44](https://github.com/rajzik/lumos/commit/7954a44))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ### 2.2.1 - 2020-09-22
 
 #### 🛠 Internals
