@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.2.0 - 2020-09-22
+
+#### 🚀 Updates
+
+- **[webpack-config]** Update esm scopes. ([a0b2b73](https://github.com/rajzik/lumos/commit/a0b2b73))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([6aa97b5](https://github.com/rajzik/lumos/commit/6aa97b5))
+
+**Note:** Version bump only for package @rajzik/lumos-common
+
+
+
+
+
 ### 3.1.1 - 2020-09-17
 
 #### 📦 Dependencies

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.2.1 - 2020-09-22
+
+#### 🛠 Internals
+
+- release [ci skip]. ([6aa97b5](https://github.com/rajzik/lumos/commit/6aa97b5))
+
+**Note:** Version bump only for package @rajzik/config-babel
+
+
+
+
+
 ## 2.2.0 - 2020-09-21
 
 #### 🚀 Updates

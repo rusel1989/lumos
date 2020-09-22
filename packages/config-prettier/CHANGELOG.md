@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.3 - 2020-09-22
+
+#### 🛠 Internals
+
+- release [ci skip]. ([6aa97b5](https://github.com/rajzik/lumos/commit/6aa97b5))
+
+**Note:** Version bump only for package @rajzik/config-prettier
+
+
+
+
+
 ### 2.1.2 - 2020-09-17
 
 #### 📦 Dependencies
