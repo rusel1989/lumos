@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.1.14 - 2020-09-23
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/parser from 4.1.1 to 4.2.0 (#690) ([66f39c9](https://github.com/rajzik/lumos/commit/66f39c9)), closes [#690](https://github.com/rajzik/lumos/issues/690)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([1973ef0](https://github.com/rajzik/lumos/commit/1973ef0))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 3.1.13 - 2020-09-22
 
 #### 🛠 Internals
