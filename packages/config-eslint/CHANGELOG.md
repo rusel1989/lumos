@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.1.15 - 2020-09-23
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/eslint-plugin from 4.1.1 to 4.2.0 (#692) ([01eda0d](https://github.com/rajzik/lumos/commit/01eda0d)), closes [#692](https://github.com/rajzik/lumos/issues/692)
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 3.1.14 - 2020-09-23
 
 #### 📦 Dependencies
