@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.11 - 2020-09-24
+
+#### 📦 Dependencies
+
+- bump postcss from 8.0.7 to 8.0.9 (#693) ([a4417fd](https://github.com/rajzik/lumos/commit/a4417fd)), closes [#693](https://github.com/rajzik/lumos/issues/693)
+
+#### 🛠 Internals
+
+- bump @types/html-minifier-terser from 5.1.0 to 5.1.1 (#696) ([34bd496](https://github.com/rajzik/lumos/commit/34bd496)), closes [#696](https://github.com/rajzik/lumos/issues/696)
+- release [ci skip]. ([b1e3ec2](https://github.com/rajzik/lumos/commit/b1e3ec2))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 4.1.10 - 2020-09-22
 
 **Note:** Version bump only for package @rajzik/config-webpack

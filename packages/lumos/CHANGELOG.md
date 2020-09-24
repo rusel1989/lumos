@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.24 - 2020-09-24
+
+#### 📦 Dependencies
+
+- bump @actions/core from 1.2.5 to 1.2.6 (#695) ([273dd63](https://github.com/rajzik/lumos/commit/273dd63)), closes [#695](https://github.com/rajzik/lumos/issues/695)
+
+**Note:** Version bump only for package @rajzik/lumos
+
+
+
+
+
 ### 4.1.23 - 2020-09-23
 
 **Note:** Version bump only for package @rajzik/lumos
