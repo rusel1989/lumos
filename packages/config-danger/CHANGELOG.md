@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.7 - 2020-09-26
+
+#### 📦 Dependencies
+
+- bump danger from 10.4.0 to 10.4.1 (#699) ([62c555a](https://github.com/rajzik/lumos/commit/62c555a)), closes [#699](https://github.com/rajzik/lumos/issues/699)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([22575fc](https://github.com/rajzik/lumos/commit/22575fc))
+
+**Note:** Version bump only for package @rajzik/config-danger
+
+
+
+
+
 ### 2.1.6 - 2020-09-23
 
 #### 🛠 Internals
