@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.12 - 2020-09-27
+
+#### 📦 Dependencies
+
+- bump postcss from 8.0.9 to 8.1.0 (#701) ([e59359c](https://github.com/rajzik/lumos/commit/e59359c)), closes [#701](https://github.com/rajzik/lumos/issues/701)
+- bump postcss-reporter from 7.0.0 to 7.0.1 (#702) ([bb14ae8](https://github.com/rajzik/lumos/commit/bb14ae8)), closes [#702](https://github.com/rajzik/lumos/issues/702)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a237a6c](https://github.com/rajzik/lumos/commit/a237a6c))
+
+**Note:** Version bump only for package @rajzik/config-webpack
+
+
+
+
+
 ### 4.1.11 - 2020-09-24
 
 #### 📦 Dependencies
