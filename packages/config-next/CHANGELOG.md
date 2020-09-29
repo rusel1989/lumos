@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 - 2020-09-29
+
+#### 💥 Breaking
+
+- Update jest and remove setting. (#705) ([a994b0a](https://github.com/rajzik/lumos/commit/a994b0a)), closes [#705](https://github.com/rajzik/lumos/issues/705)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([26ce7c4](https://github.com/rajzik/lumos/commit/26ce7c4))
+
+**Note:** Version bump only for package @rajzik/config-next
+
+
+
+
+
 ### 2.1.2 - 2020-09-22
 
 #### 🛠 Internals
