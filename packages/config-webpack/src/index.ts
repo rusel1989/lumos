@@ -1,6 +1,7 @@
 /* eslint-disable no-nested-ternary */
 import { WebpackConfig } from '@beemo/driver-webpack';
 import {
+  ALIAS_PATTERN,
   ASSET_EXT_PATTERN,
   CSS_EXT_PATTERN,
   CSS_MODULE_EXT_PATTERN,
@@ -30,7 +31,6 @@ export function getConfig({
   publicPath = '/',
   srcFolder,
   entryPoint,
-  aliasPattern,
   devServerContentBase = 'public',
 }: WebpackOptions): WebpackConfig {
   const srcPath = path.join(root, srcFolder);
@@ -54,7 +54,6 @@ export function getConfig({
     sourceMaps,
     entryPoint,
     srcFolder,
-    aliasPattern,
   });
 
   if (entryPoint && PROD) {
@@ -149,8 +148,7 @@ export function getConfig({
     resolve: {
       alias: {
         ...getESMAliases(),
-        [`${aliasPattern}`]: path.join(root, srcFolder, '/'),
-        [`${aliasPattern}/(.+)`]: `${path.join(root, srcFolder)}/\\1`,
+        [`${ALIAS_PATTERN}`]: path.join(root, srcFolder, '/'),
       },
       extensions: ['.wasm', '.mjs', ...EXTS],
     },
