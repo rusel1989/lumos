@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.0 - 2020-10-01
+
+#### 🚀 Updates
+
+- **[eslint-config]** Add jsx-no-bind rule. ([9de1311](https://github.com/rajzik/lumos/commit/9de1311))
+
+**Note:** Version bump only for package @rajzik/config-eslint
+
+
+
+
+
 ### 4.0.2 - 2020-09-30
 
 #### 📦 Dependencies
