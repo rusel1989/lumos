@@ -35,6 +35,7 @@ const config: ESLintConfig = {
     'react/jsx-props-no-spreading': 'off',
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
+
     // IMPORT
     'import/default': 'error',
     'import/namespace': 'error',
@@ -128,6 +129,16 @@ const config: ESLintConfig = {
         callbacksLast: true,
         requiredFirst: false,
         sortShapeProp: true,
+      },
+    ],
+    'react/jsx-no-bind': [
+      'warn',
+      {
+        ignoreDOMComponents: false,
+        ignoreRefs: false,
+        allowArrowFunctions: false,
+        allowFunctions: false,
+        allowBind: false,
       },
     ],
 
