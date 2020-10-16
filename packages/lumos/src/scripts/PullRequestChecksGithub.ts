@@ -1,7 +1,7 @@
 import { context } from '@actions/github';
 import { Script } from '@beemo/core';
 import { Octokit } from '@octokit/rest';
-import { checkCommitFormat } from '@rajzik/conventional-changelog-beemo';
+import { checkCommitFormat } from '@oriflame/conventional-changelog';
 import path from 'path';
 import { createGitHubClient } from '../helpers/createGitHubClient';
 
@@ -76,7 +76,7 @@ export default class PullRequestChecksScript extends Script {
 
     if (!checkCommitFormat(pr.title)) {
       throw new Error(
-        'Pull request title requires a conventional changelog prefix. More information: https://github.com/rajzik/conventional-changelog-beemo#commit-message-format',
+        'Pull request title requires a conventional changelog prefix. More information: https://github.com/Oriflame/conventional-changelog-tools/tree/master/packages/conventional-changelog#commit-message-format',
       );
     }
   }

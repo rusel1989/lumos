@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/lumos",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Centralized CLI for JavaScript and TypeScript dev tools.",
   "keywords": [
     "lumos",
@@ -34,22 +34,22 @@
     "@actions/github": "^4.0.0",
     "@beemo/cli": "^1.0.11",
     "@beemo/core": "^1.1.8",
-    "@oriflame/lumos-common": "^0.1.0",
-    "@rajzik/conventional-changelog-beemo": "^2.1.1",
+    "@oriflame/lumos-common": "^1.0.0",
+    "@oriflame/conventional-changelog": "^0.1.0",
     "chalk": "^4.1.0",
     "check-node-version": "^4.0.3",
     "cross-env": "^7.0.2",
-    "edit-json-file": "^1.4.1",
+    "edit-json-file": "^1.5.0",
     "enquirer": "^2.3.6",
     "execa": "^4.0.3"
   },
   "devDependencies": {
-    "@oriflame/config-babel": "^0.1.0",
-    "@oriflame/config-danger": "^0.1.0",
-    "@oriflame/config-eslint": "^0.1.0",
-    "@oriflame/config-jest": "^0.1.0",
-    "@oriflame/config-prettier": "^0.1.0",
-    "@oriflame/config-typescript": "^0.1.0",
-    "@oriflame/config-webpack": "^0.1.0"
+    "@oriflame/config-babel": "^1.0.0",
+    "@oriflame/config-danger": "^1.0.0",
+    "@oriflame/config-eslint": "^1.0.0",
+    "@oriflame/config-jest": "^1.0.0",
+    "@oriflame/config-prettier": "^1.0.0",
+    "@oriflame/config-typescript": "^1.0.0",
+    "@oriflame/config-webpack": "^1.0.0"
   }
 }
