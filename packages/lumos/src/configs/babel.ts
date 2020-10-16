@@ -1,5 +1,5 @@
-import { getConfig, getNextConfig } from '@rajzik/config-babel';
-import { getSettings } from '@rajzik/lumos-common';
+import { getConfig } from '@oriflame/config-babel';
+import { getSettings } from '@oriflame/lumos-common';
 
 const { context, tool } = process.beemo;
 const {
@@ -13,23 +13,15 @@ const {
   srcFolder,
 } = getSettings();
 
-export = tool.isPluginEnabled('driver', 'next')
-  ? getNextConfig({
-      graphql,
-      next,
-      react,
-      typescript: tool.isPluginEnabled('driver', 'typescript'),
-      srcFolder,
-    })
-  : getConfig({
-      env,
-      esm: !!(context.args.esm || process.env.ESM),
-      graphql,
-      library,
-      next,
-      node,
-      react,
-      typescript: tool.isPluginEnabled('driver', 'typescript'),
-      empty,
-      srcFolder,
-    });
+export = getConfig({
+  env,
+  esm: !!(context.args.esm || process.env.ESM),
+  graphql,
+  library,
+  next,
+  node,
+  react,
+  typescript: tool.isPluginEnabled('driver', 'typescript'),
+  empty,
+  srcFolder,
+});

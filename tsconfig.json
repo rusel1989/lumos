@@ -14,9 +14,6 @@
       "path": "packages/config-jest"
     },
     {
-      "path": "packages/config-next"
-    },
-    {
       "path": "packages/config-prettier"
     },
     {

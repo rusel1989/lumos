@@ -1,6 +1,6 @@
 {
-  "name": "@rajzik/config-webpack",
-  "version": "5.0.0",
+  "name": "@oriflame/config-webpack",
+  "version": "0.0.0",
   "description": "Reusable Webpack configs.",
   "keywords": [
     "lumos",
@@ -10,7 +10,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rajzik/lumos.git"
+    "url": "git@github.com:Oriflame/lumos.git"
   },
   "author": "Silhan Jan",
   "license": "MIT",
@@ -34,7 +34,7 @@
     "@beemo/core": "^1.1.8",
     "@beemo/driver-webpack": "^1.2.6",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.2",
-    "@rajzik/lumos-common": "^4.0.0",
+    "@oriflame/lumos-common": "^0.0.0",
     "babel-loader": "^8.1.0",
     "cross-env": "^7.0.2",
     "css-loader": "^4.3.0",

@@ -1,5 +1,5 @@
 import { Path } from '@beemo/core';
-import { LumosPackage, SCAFFOLD_DEPS } from '@rajzik/lumos-common';
+import { LumosPackage, SCAFFOLD_DEPS } from '@oriflame/lumos-common';
 import chalk from 'chalk';
 import editJsonFile from 'edit-json-file';
 import { prompt } from 'enquirer';
@@ -41,11 +41,6 @@ function addLumosToPackage(response: SetupPrompt) {
 
   if (response.type === 'app') {
     lumos.settings!.entryPoint = 'app-loader.tsx';
-  }
-
-  if (response.type === 'ssr-app') {
-    lumos.settings!.buildFolder = '.next';
-    lumos.settings!.nextTarget = 'server';
   }
 
   if (response.next) {
@@ -113,15 +108,6 @@ function addScriptsToPackage(response: SetupPrompt) {
     delete scripts.postbuild;
   }
 
-  if (drivers.includes('next')) {
-    scripts.build = 'lumos next build';
-    scripts.start = 'lumos create-config next --silent && next dev -p 3000';
-    scripts['start-next'] = 'lumos create-config next --silent && next start';
-
-    delete scripts.prebuild;
-    delete scripts.postbuild;
-  }
-
   pkg.set('scripts', scripts);
   pkg.save();
 }
@@ -160,7 +146,6 @@ export async function setup() {
       message: 'Which type of project is this?',
       choices: [
         { message: 'Application', name: 'app' },
-        { message: 'Next App(SSR)', name: 'ssr-app' },
         { message: 'Library', name: 'lib' },
         { message: 'Library (monorepo)', name: 'monolib' },
       ],
@@ -196,14 +181,6 @@ export async function setup() {
     response.drivers.push('babel');
   }
 
-  if (response.drivers.includes('next') && !response.drivers.includes('typescript')) {
-    response.drivers.push('typescript');
-  }
-
-  if (response.type === 'ssr-app' && !response.drivers.includes('next')) {
-    response.drivers.push('next');
-  }
-
   console.log(`${chalk.cyan('[2/6]')} Updating package settings`);
 
   addLumosToPackage(response);
@@ -211,8 +188,8 @@ export async function setup() {
   console.log(`${chalk.cyan('[3/6]')} Installing dependencies`);
 
   let dependencies = [
-    '@rajzik/lumos',
-    ...response.drivers.map(driver => `@rajzik/config-${driver}`),
+    '@oriflame/lumos',
+    ...response.drivers.map(driver => `@oriflame/config-${driver}`),
   ];
 
   if (response.scaffold) {

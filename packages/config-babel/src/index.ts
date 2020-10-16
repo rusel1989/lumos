@@ -1,12 +1,11 @@
 import { BabelConfig } from '@beemo/driver-babel';
 import {
   ALIAS_PATTERN,
-  EXTS,
   IGNORE_PATHS,
   LumosEnvSetting,
   NODE_TARGET,
   WEB_TARGET,
-} from '@rajzik/lumos-common';
+} from '@oriflame/lumos-common';
 
 interface BabelOptions {
   env?: LumosEnvSetting;
@@ -19,111 +18,6 @@ interface BabelOptions {
   typescript?: boolean;
   empty?: boolean;
   srcFolder: string;
-}
-
-export function getNextConfig({
-  graphql,
-  next,
-  react,
-  typescript,
-  srcFolder,
-}: BabelOptions): BabelConfig {
-  const presets: NonNullable<BabelConfig['presets']> = ['next/babel'];
-  const plugins: NonNullable<BabelConfig['plugins']> = ['babel-plugin-optimize-clsx'];
-
-  let useNext = next;
-  let removePropTypes = false;
-
-  switch (process.env.NODE_ENV) {
-    case 'test': {
-      plugins.push('babel-plugin-dynamic-import-node');
-      break;
-    }
-
-    case 'development': {
-      if (react) {
-        plugins.push(
-          '@babel/plugin-transform-react-jsx-source',
-          '@babel/plugin-transform-react-jsx-self',
-          'react-refresh/babel',
-        );
-      }
-      break;
-    }
-
-    case 'production':
-    default: {
-      if (react) {
-        plugins.push([
-          'babel-plugin-transform-react-remove-prop-types',
-          {
-            mode: 'remove',
-            removeImport: true,
-            additionalLibraries: [],
-            ignoreFilenames: ['node_modules'],
-          },
-        ]);
-
-        removePropTypes = true;
-      }
-      break;
-    }
-  }
-
-  if (graphql) {
-    plugins.push('babel-plugin-graphql-tag');
-  }
-
-  if (typescript) {
-    useNext = true;
-    presets.push([
-      '@babel/preset-typescript',
-      {
-        onlyRemoveTypeImports: true,
-      },
-    ]);
-
-    plugins.unshift(
-      [
-        '@babel/plugin-proposal-decorators',
-        {
-          legacy: true,
-        },
-      ],
-      'babel-plugin-parameter-decorator',
-    );
-
-    if (!removePropTypes) {
-      plugins.push('babel-plugin-typescript-to-proptypes');
-    }
-  }
-
-  if (useNext) {
-    plugins.push(
-      ['@babel/plugin-proposal-class-properties', { loose: true }],
-      ['@babel/plugin-proposal-private-methods', { loose: true }],
-      '@babel/plugin-proposal-export-namespace-from',
-    );
-  }
-
-  plugins.push(
-    [
-      'babel-plugin-module-resolver',
-      {
-        extensions: EXTS,
-        alias: {
-          [ALIAS_PATTERN]: `./${srcFolder}`,
-        },
-      },
-    ],
-    '@babel/plugin-transform-runtime',
-  );
-
-  return {
-    ignore: [...IGNORE_PATHS, '__tests__', '__mocks__'],
-    plugins,
-    presets,
-  };
 }
 
 export function getConfig({
@@ -173,6 +67,13 @@ export function getConfig({
         plugins.push(
           '@babel/plugin-transform-react-jsx-source',
           '@babel/plugin-transform-react-jsx-self',
+          [
+            '@babel/plugin-transform-react-jsx-development',
+            {
+              development: true,
+              runtime: 'automatic',
+            },
+          ],
           'react-refresh/babel',
         );
       }
@@ -203,7 +104,7 @@ export function getConfig({
   }
 
   if (react) {
-    presets.push('@babel/preset-react');
+    presets.push(['@babel/preset-react', { runtime: 'automatic' }]);
   }
 
   if (typescript) {

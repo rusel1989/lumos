@@ -1,5 +1,5 @@
-import { getConfig } from '@rajzik/config-jest';
-import { getSettings } from '@rajzik/lumos-common';
+import { getConfig } from '@oriflame/config-jest';
+import { getSettings } from '@oriflame/lumos-common';
 
 const { coverage, graphql, react, srcFolder, testsFolder, node } = getSettings();
 

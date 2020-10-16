@@ -1,5 +1,5 @@
 import { ESLintConfig } from '@beemo/driver-eslint';
-import { EXTS_GROUP } from '@rajzik/lumos-common';
+import { EXTS_GROUP } from '@oriflame/lumos-common';
 
 const config: ESLintConfig = {
   plugins: ['promise', 'unicorn'],
@@ -35,6 +35,10 @@ const config: ESLintConfig = {
     'react/jsx-props-no-spreading': 'off',
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
+
+    // Import React is no longer needed from latest version
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
 
     // IMPORT
     'import/default': 'error',
