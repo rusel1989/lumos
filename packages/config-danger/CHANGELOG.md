@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.1 - 2020-10-16
+
+#### 🛠 Internals
+
+- release [ci skip]. ([affd151](https://github.com/Oriflame/lumos/commit/affd151))
+- Remove rajzik deps. (#11) ([346d8da](https://github.com/Oriflame/lumos/commit/346d8da)), closes [#11](https://github.com/Oriflame/lumos/issues/11)
+
+**Note:** Version bump only for package @oriflame/config-danger
+
+
+
+
+
 # 0.1.0 - 2020-10-16
 
 #### 💥 Breaking
