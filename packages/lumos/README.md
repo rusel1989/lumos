@@ -8,13 +8,13 @@ Centralized CLI for JavaScript and TypeScript dev tools.
 ### Prerequisites
 
 - package.json
-- install @rajzik/lumos
+- install @oriflame/lumos
 
 **Setup initial project with this package:**
 
 ```bash
 npm init
-npm install --save-dev @rajzik/lumos
+npm install --save-dev @oriflame/lumos
 npx lumos-setup
 ```
 
@@ -22,7 +22,7 @@ npx lumos-setup
 
 ```bash
 yarn init
-yarn add --dev @rajzik/lumos
+yarn add --dev @oriflame/lumos
 npx lumos-setup
 ```
 
