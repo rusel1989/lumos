@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.5 - 2020-10-30
+
+#### 📦 Dependencies
+
+- Update to latest. ([0610368](https://github.com/Oriflame/lumos/commit/0610368))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 1.0.4 - 2020-10-28
 
 #### 📦 Dependencies
