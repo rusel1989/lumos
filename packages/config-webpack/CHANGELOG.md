@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.5 - 2020-11-01
+
+#### 📦 Dependencies
+
+- bump postcss-flexbugs-fixes from 4.2.1 to 5.0.0 (#41) ([3aa10c0](https://github.com/Oriflame/lumos/commit/3aa10c0)), closes [#41](https://github.com/Oriflame/lumos/issues/41)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.0.4 - 2020-10-30
 
 #### 📦 Dependencies
