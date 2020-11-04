@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.6 - 2020-11-04
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-transform-react-jsx-development (#49) ([47b682e](https://github.com/Oriflame/lumos/commit/47b682e)), closes [#49](https://github.com/Oriflame/lumos/issues/49)
+- bump @babel/preset-react from 7.12.1 to 7.12.5 (#50) ([b26801a](https://github.com/Oriflame/lumos/commit/b26801a)), closes [#50](https://github.com/Oriflame/lumos/issues/50)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([7555bbd](https://github.com/Oriflame/lumos/commit/7555bbd))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.5 - 2020-10-30
 
 #### 📦 Dependencies
