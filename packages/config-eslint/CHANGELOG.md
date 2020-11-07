@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.8 - 2020-11-07
+
+#### 📦 Dependencies
+
+- bump eslint-config-airbnb from 18.2.0 to 18.2.1 (#63) ([f6d9def](https://github.com/Oriflame/lumos/commit/f6d9def)), closes [#63](https://github.com/Oriflame/lumos/issues/63)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([6ab9e4a](https://github.com/Oriflame/lumos/commit/6ab9e4a))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 1.0.7 - 2020-11-03
 
 #### 📦 Dependencies
