@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.7 - 2020-11-07
+
+#### 📦 Dependencies
+
+- bump babel-plugin-typescript-to-proptypes from 1.4.1 to 1.4.2 (#64) ([e3e2a6e](https://github.com/Oriflame/lumos/commit/e3e2a6e)), closes [#64](https://github.com/Oriflame/lumos/issues/64)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([76313d8](https://github.com/Oriflame/lumos/commit/76313d8))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.6 - 2020-11-04
 
 #### 📦 Dependencies
