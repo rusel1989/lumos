@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.12 - 2020-11-12
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-jest from 24.1.0 to 24.1.3 (#77) ([5c5e8f0](https://github.com/Oriflame/lumos/commit/5c5e8f0)), closes [#77](https://github.com/Oriflame/lumos/issues/77)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([b1b93f9](https://github.com/Oriflame/lumos/commit/b1b93f9))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 1.0.11 - 2020-11-11
 
 #### 📦 Dependencies
