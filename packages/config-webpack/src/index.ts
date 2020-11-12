@@ -157,7 +157,7 @@ export function getConfig({
     output,
 
     devtool: PROD ? (sourceMaps ? 'source-map' : false) : 'cheap-module-source-map',
-
+    // @ts-expect-error
     devServer: {
       compress: true,
       contentBase: devServerPublicPath,
@@ -183,11 +183,9 @@ export function getConfig({
       runtimeChunk: entryPoint && PROD ? false : 'single',
       minimize: PROD,
       minimizer: [
-        // @ts-expect-error
         new TerserPlugin({
           parallel: getParallelValue(parallel),
         }),
-        // @ts-expect-error
         new CssMinimizerPlugin({
           sourceMap: sourceMaps,
           parallel: getParallelValue(parallel),
