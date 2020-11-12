@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.14 - 2020-11-12
+
+#### 🐞 Fixes
+
+- Webpack types. ([285bdb1](https://github.com/Oriflame/lumos/commit/285bdb1))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.0.13 - 2020-11-11
 
 #### 📦 Dependencies
