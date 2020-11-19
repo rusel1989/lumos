@@ -61,7 +61,6 @@ export function getConfig({
       plugins.push('babel-plugin-dynamic-import-node');
       break;
     }
-
     case 'development': {
       if (react) {
         plugins.push(
@@ -79,7 +78,6 @@ export function getConfig({
       }
       break;
     }
-
     case 'production':
     default: {
       if (!library && react) {

@@ -5,6 +5,7 @@ unison with the [Lumos](https://www.npmjs.com/package/@oriflame/lumos) CLI.
 
 ## Extending config
 
+
 **Update package.json:**
 
 ```json

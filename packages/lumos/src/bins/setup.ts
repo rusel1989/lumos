@@ -128,7 +128,6 @@ export async function setup() {
         { message: 'Prettier', name: 'prettier' },
         { message: 'TypeScript', name: 'typescript' },
         { message: 'Webpack', name: 'webpack' },
-        { message: 'Next', name: 'next' },
       ],
     },
     {

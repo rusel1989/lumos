@@ -7,6 +7,7 @@ used in unison with the [Lumos](https://www.npmjs.com/package/@oriflame/lumos) C
 
 **Update package.json:**
 
+
 ```json
 {
   "lumos": {
