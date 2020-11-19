@@ -44,7 +44,6 @@ export interface LumosSettings {
   typesFolder: string;
   entryPoint?: string;
   publicPath?: string;
-  nextTarget?: 'server' | 'serverless' | 'experimental-serverless-trace';
   root?: string;
   parallel?: boolean | string | number;
   testResultFileName?: string;
