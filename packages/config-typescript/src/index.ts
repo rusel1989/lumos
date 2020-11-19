@@ -64,7 +64,7 @@ export function getCompilerOptions({
   if (!library) {
     options.baseUrl = '.';
     options.paths = {
-      [`${ALIAS_PATTERN}*`]: [`./${srcFolder}/*`],
+      [`${ALIAS_PATTERN}/*`]: [`./${srcFolder}/*`],
     };
   }
 
