@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.7 - 2020-11-19
+
+#### 🐞 Fixes
+
+- Republish packages. ([3ac6f6b](https://github.com/Oriflame/lumos/commit/3ac6f6b))
+
+**Note:** Version bump only for package @oriflame/config-typescript
+
+
+
+
+
 ### 1.0.6 - 2020-11-19
 
 #### 🐞 Fixes

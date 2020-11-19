@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.29 - 2020-11-19
+
+#### 🐞 Fixes
+
+- Republish packages. ([3ac6f6b](https://github.com/Oriflame/lumos/commit/3ac6f6b))
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.0.28 - 2020-11-19
 
 **Note:** Version bump only for package @oriflame/lumos
