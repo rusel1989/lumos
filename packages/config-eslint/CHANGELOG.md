@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.0 - 2020-11-20
+
+#### 🚀 Updates
+
+- **[config-typescript]** Update jsx runtime. (#97) ([a534512](https://github.com/Oriflame/lumos/commit/a534512)), closes [#97](https://github.com/Oriflame/lumos/issues/97)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([d9a97ae](https://github.com/Oriflame/lumos/commit/d9a97ae))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 1.0.17 - 2020-11-19
 
 #### 🛠 Internals

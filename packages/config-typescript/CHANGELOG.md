@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.0 - 2020-11-20
+
+#### 🚀 Updates
+
+- **[config-typescript]** Update jsx runtime. (#97) ([a534512](https://github.com/Oriflame/lumos/commit/a534512)), closes [#97](https://github.com/Oriflame/lumos/issues/97)
+
+**Note:** Version bump only for package @oriflame/config-typescript
+
+
+
+
+
 ### 1.0.9 - 2020-11-20
 
 #### 📦 Dependencies
