@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.8 - 2020-11-20
+
+#### 📦 Dependencies
+
+- bump prettier from 2.1.2 to 2.2.0 (#96) ([018fd74](https://github.com/Oriflame/lumos/commit/018fd74)), closes [#96](https://github.com/Oriflame/lumos/issues/96)
+
+**Note:** Version bump only for package @oriflame/config-prettier
+
+
+
+
+
 ### 1.0.7 - 2020-11-19
 
 #### 🛠 Internals

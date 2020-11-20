@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.9 - 2020-11-20
+
+#### 📦 Dependencies
+
+- bump danger from 10.5.2 to 10.5.3 (#93) ([85884a8](https://github.com/Oriflame/lumos/commit/85884a8)), closes [#93](https://github.com/Oriflame/lumos/issues/93)
+
+#### 🛠 Internals
+
+- bump @types/node from 14.14.8 to 14.14.9 (#94) ([23f9fbc](https://github.com/Oriflame/lumos/commit/23f9fbc)), closes [#94](https://github.com/Oriflame/lumos/issues/94)
+- release [ci skip]. ([b0f0a24](https://github.com/Oriflame/lumos/commit/b0f0a24))
+
+**Note:** Version bump only for package @oriflame/config-danger
+
+
+
+
+
 ### 1.0.8 - 2020-11-19
 
 #### 📦 Dependencies
