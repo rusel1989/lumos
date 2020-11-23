@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.0 - 2020-11-23
+
+#### 🚀 Updates
+
+- **[config-babel]** Migrate to new web targets. (#109) ([97ffe55](https://github.com/Oriflame/lumos/commit/97ffe55)), closes [#109](https://github.com/Oriflame/lumos/issues/109)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([e1364c2](https://github.com/Oriflame/lumos/commit/e1364c2))
+
+**Note:** Version bump only for package @oriflame/lumos-common
+
+
+
+
+
 ### 2.0.4 - 2020-11-19
 
 #### 🐞 Fixes
