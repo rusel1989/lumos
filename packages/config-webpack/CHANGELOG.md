@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.24 - 2020-11-24
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.12.8 to 7.12.9 (#115) ([7fcb05e](https://github.com/Oriflame/lumos/commit/7fcb05e)), closes [#115](https://github.com/Oriflame/lumos/issues/115)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.0.23 - 2020-11-24
 
 #### 📦 Dependencies
