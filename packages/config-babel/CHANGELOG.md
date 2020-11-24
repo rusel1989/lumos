@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.13 - 2020-11-24
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.12.7 to 7.12.8 (#113) ([5e0a4fa](https://github.com/Oriflame/lumos/commit/5e0a4fa)), closes [#113](https://github.com/Oriflame/lumos/issues/113)
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.12 - 2020-11-23
 
 **Note:** Version bump only for package @oriflame/config-babel
