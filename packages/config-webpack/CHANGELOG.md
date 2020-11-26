@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.26 - 2020-11-26
+
+#### 📦 Dependencies
+
+- bump babel-loader from 8.2.1 to 8.2.2 (#120) ([de71248](https://github.com/Oriflame/lumos/commit/de71248)), closes [#120](https://github.com/Oriflame/lumos/issues/120)
+- bump postcss-url from 10.1.0 to 10.1.1 (#119) ([53d9392](https://github.com/Oriflame/lumos/commit/53d9392)), closes [#119](https://github.com/Oriflame/lumos/issues/119)
+- bump webpack from 5.7.0 to 5.8.0 (#118) ([6e8d9da](https://github.com/Oriflame/lumos/commit/6e8d9da)), closes [#118](https://github.com/Oriflame/lumos/issues/118)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.0.25 - 2020-11-26
 
 #### 📦 Dependencies
