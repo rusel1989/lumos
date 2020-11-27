@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.0 - 2020-11-27
+
+#### 🚀 Updates
+
+- **[webpack-config]** Add env plugin. ([6d010bc](https://github.com/Oriflame/lumos/commit/6d010bc))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.0.26 - 2020-11-26
 
 #### 📦 Dependencies
