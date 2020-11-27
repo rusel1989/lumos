@@ -7,6 +7,7 @@ import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import { INVALID_CHARS, NUMBER_REGEX } from './constants';
 import { WebpackOptions } from './types';
+import getClientEnvironment from './env';
 
 export const PROD = process.env.NODE_ENV === 'production';
 export const PORT = 3000;
@@ -57,6 +58,7 @@ export function getPlugins({
         filename: 'index.html',
         favicon: getFavIcon(srcPath),
       }),
+      new webpack.DefinePlugin(getClientEnvironment('development')),
     );
   }
 

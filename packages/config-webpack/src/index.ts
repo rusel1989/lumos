@@ -35,7 +35,7 @@ export function getConfig({
 }: WebpackOptions): WebpackConfig {
   const srcPath = path.join(root, srcFolder);
   const internalPath = path.join(root, buildFolder);
-  const devServerPublicPath = path.join(root, devServerContentBase);
+  const contentBase = path.join(root, devServerContentBase);
   let entryFiles: Configuration['entry'] = {
     core: [srcPath],
   };
@@ -160,7 +160,7 @@ export function getConfig({
     // @ts-expect-error
     devServer: {
       compress: true,
-      contentBase: devServerPublicPath,
+      contentBase,
       watchContentBase: true,
       disableHostCheck: true,
       clientLogLevel: 'none',
