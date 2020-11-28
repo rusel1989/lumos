@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/config-prettier",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Reusable Prettier config.",
   "keywords": [
     "lumos",
