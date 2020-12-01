@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.2 - 2020-12-01
+
+#### 📦 Dependencies
+
+- bump postcss-reporter from 7.0.1 to 7.0.2 (#129) ([b2dbf53](https://github.com/Oriflame/lumos/commit/b2dbf53)), closes [#129](https://github.com/Oriflame/lumos/issues/129)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.1.1 - 2020-11-29
 
 #### 📦 Dependencies
