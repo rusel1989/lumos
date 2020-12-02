@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.4 - 2020-12-02
+
+#### 📦 Dependencies
+
+- bump cross-env from 7.0.2 to 7.0.3 (#131) ([25d7e19](https://github.com/Oriflame/lumos/commit/25d7e19)), closes [#131](https://github.com/Oriflame/lumos/issues/131)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([8cc33ee](https://github.com/Oriflame/lumos/commit/8cc33ee))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.1.3 - 2020-12-01
 
 #### 📦 Dependencies
