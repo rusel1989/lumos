@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.17 - 2020-12-03
+
+#### 🛠 Internals
+
+- release [ci skip]. ([3d4df30](https://github.com/Oriflame/lumos/commit/3d4df30))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.16 - 2020-11-29
 
 #### 🛠 Internals

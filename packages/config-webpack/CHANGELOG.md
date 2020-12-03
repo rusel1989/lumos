@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.2.0 - 2020-12-03
+
+#### 🚀 Updates
+
+- Change arrow parent to always. ([7089e17](https://github.com/Oriflame/lumos/commit/7089e17))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.1.4 - 2020-12-02
 
 #### 📦 Dependencies
