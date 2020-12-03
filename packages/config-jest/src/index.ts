@@ -21,8 +21,8 @@ export interface JestOptions {
   testResultFileName?: string;
 }
 
-const exts = EXTS.map(ext => ext.slice(1));
-const extsWithoutJSON = exts.filter(ext => ext !== 'json');
+const exts = EXTS.map((ext) => ext.slice(1));
+const extsWithoutJSON = exts.filter((ext) => ext !== 'json');
 
 function fromHere(filePath: string): string {
   return `<rootDir>/${new Path(process.cwd()).relativeTo(
@@ -55,7 +55,7 @@ export function getConfig({
   const setupFilesAfterEnv = [fromHere('bootstrap/consumer.js')];
 
   if (workspaces.length > 0) {
-    workspaces.forEach(wsPath => {
+    workspaces.forEach((wsPath) => {
       roots.push(new Path('<rootDir>', wsPath.replace('/*', '')).path());
     });
   } else {
@@ -77,7 +77,7 @@ export function getConfig({
     bail: false,
     collectCoverageFrom: [createCoveragePattern(srcFolder), createCoveragePattern(testsFolder)],
     coverageDirectory: './coverage',
-    coveragePathIgnorePatterns: IGNORE_PATHS.filter(ignore => !ignore.startsWith('*')),
+    coveragePathIgnorePatterns: IGNORE_PATHS.filter((ignore) => !ignore.startsWith('*')),
     coverageReporters: ['lcov', 'json-summary', 'html', 'cobertura'],
     coverageThreshold: {
       global: {

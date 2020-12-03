@@ -13,7 +13,7 @@ export function getConfig(): PrettierConfig {
     trailingComma: 'all',
     bracketSpacing: true,
     jsxBracketSameLine: false,
-    arrowParens: 'avoid',
+    arrowParens: 'always',
     requirePragma: false,
     proseWrap: 'always',
   };

@@ -9,7 +9,7 @@ function hasNoPositionalArgs(context: DriverContext, name: string) {
 }
 
 function createWorkspacesGlob(workspaces: string[]): string {
-  const paths = workspaces.map(p => p.replace('./', ''));
+  const paths = workspaces.map((p) => p.replace('./', ''));
 
   return paths.length === 1 ? `${paths[0]}/` : `{${paths.join(',')}}/`;
 }
@@ -76,7 +76,7 @@ export default function cli(tool: Beemo) {
     }
 
     // Create a specialized tsconfig for ESLint
-    driver.onCreateConfigFile.listen(createContext => {
+    driver.onCreateConfigFile.listen((createContext) => {
       const configPath = createContext.cwd.append('tsconfig.eslint.json');
       const include = [`${typesFolder}/**/*`]; // Always allow global types
       let extendsFrom = './tsconfig.json';
@@ -86,7 +86,7 @@ export default function cli(tool: Beemo) {
       } else {
         extendsFrom = './tsconfig.options.json';
 
-        workspaces.forEach(ws => {
+        workspaces.forEach((ws) => {
           const wsPath = new Path(ws);
 
           include.push(
@@ -139,7 +139,7 @@ export default function cli(tool: Beemo) {
    * - Always write files.
    * - Glob a ton of files by default.
    */
-  tool.onRunDriver.listen(context => {
+  tool.onRunDriver.listen((context) => {
     context.addOption('--write');
 
     if (hasNoPositionalArgs(context, 'prettier')) {

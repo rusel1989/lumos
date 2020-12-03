@@ -87,9 +87,9 @@ However, there are a few caveats and requirements to follow when updating.
    `deps: Update plugins to latest.` or `deps(ESLint): Update to v6.`. This message format follows
    the [conventional-changelog-ori][conventional-changelog-ori] spec.
 3. Commit all dependency updates in the same branch, so they can be grouped under the same PR. Once
-   the PR has been approved, the PR in standard way (_do non-fast-forward merge or squash_) the PR so all commits and
-   their formatted messages are sent to master. This will trigger an auto-release with the correct
-   version bumps.
+   the PR has been approved, the PR in standard way (_do non-fast-forward merge or squash_) the PR
+   so all commits and their formatted messages are sent to master. This will trigger an auto-release
+   with the correct version bumps.
 
 <!-- prettier-ignore -->
 [conventional-changelog-ori]: https://github.com/Oriflame/conventional-changelog-ori#commit-message-format

@@ -25,7 +25,7 @@ function getClientEnvironment(mode: 'production' | 'development') {
     rootEnvFile,
   ];
 
-  dotenvFiles.forEach(dotenvFile => {
+  dotenvFiles.forEach((dotenvFile) => {
     if (fs.existsSync(dotenvFile)) {
       dotenvExpand(
         dotenv.config({
@@ -36,7 +36,7 @@ function getClientEnvironment(mode: 'production' | 'development') {
   });
 
   const raw = Object.keys(process.env)
-    .filter(key => REACT_APP.test(key))
+    .filter((key) => REACT_APP.test(key))
     .reduce(
       (env, key) => {
         // eslint-disable-next-line no-param-reassign

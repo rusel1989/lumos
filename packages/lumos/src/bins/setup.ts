@@ -188,7 +188,7 @@ export async function setup() {
 
   let dependencies = [
     '@oriflame/lumos',
-    ...response.drivers.map(driver => `@oriflame/config-${driver}`),
+    ...response.drivers.map((driver) => `@oriflame/config-${driver}`),
   ];
 
   if (response.scaffold) {

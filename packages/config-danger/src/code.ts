@@ -12,7 +12,7 @@ import {
 } from './helpers';
 import { ICommonOptions } from './types';
 
-const changedSrcFiles = updatedFiles.filter(file => IS_SRC.test(file) && SRC_EXT.test(file));
+const changedSrcFiles = updatedFiles.filter((file) => IS_SRC.test(file) && SRC_EXT.test(file));
 
 export interface ITestOptions extends ICommonOptions {
   ignorePattern?: RegExp;
@@ -21,7 +21,7 @@ export interface ITestOptions extends ICommonOptions {
 
 // Check for invalid NPM/Yarn installs by verifying the lock files.
 export function checkForInvalidLocks() {
-  const fileNames = touchedFiles.map(file => path.basename(file));
+  const fileNames = touchedFiles.map((file) => path.basename(file));
 
   if (fileNames.includes('package-lock.json') && !fileNames.includes('package.json')) {
     fail('Your PR contains changes to package-lock.json, but not package.json.');
@@ -38,9 +38,9 @@ export function checkForAnyTests({ root, ...options }: ITestOptions = {}) {
     return;
   }
 
-  const hasTestFiles = touchedFiles.some(file => !!file.match(TEST_EXT));
+  const hasTestFiles = touchedFiles.some((file) => !!file.match(TEST_EXT));
   const srcFiles = root
-    ? changedSrcFiles.filter(srcFile => srcFile.startsWith(root))
+    ? changedSrcFiles.filter((srcFile) => srcFile.startsWith(root))
     : changedSrcFiles;
 
   if (srcFiles.length > 0 && !hasTestFiles) {
@@ -62,10 +62,10 @@ export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: I
 
   const missingTestFiles: string[] = [];
   const srcFiles = root
-    ? changedSrcFiles.filter(srcFile => srcFile.startsWith(root))
+    ? changedSrcFiles.filter((srcFile) => srcFile.startsWith(root))
     : changedSrcFiles;
 
-  srcFiles.forEach(srcFile => {
+  srcFiles.forEach((srcFile) => {
     if ((ignorePattern && srcFile.match(ignorePattern)) ?? srcFile.match(GLOBAL_IGNORE)) {
       return;
     }
@@ -84,7 +84,7 @@ export function checkSourceFilesHaveTests({ ignorePattern, root, ...options }: I
 
     const regex = new RegExp(testFile);
 
-    updatedFiles.forEach(file => {
+    updatedFiles.forEach((file) => {
       if (file.match(regex)) {
         missingTestFiles.push(`- ${srcFile.split(IS_SRC)[1]}`);
       }
@@ -138,7 +138,7 @@ export function disableComponentSnapshots(options: ISnapshotOptions = {}) {
 // Disable new JavaScript files from being created.
 export function disableNewJavaScript() {
   const hasJS = danger.git.created_files.some(
-    file => (IS_SRC.test(file) || IS_TEST.test(file)) && JS_EXT.test(file),
+    (file) => (IS_SRC.test(file) || IS_TEST.test(file)) && JS_EXT.test(file),
   );
 
   if (hasJS) {
