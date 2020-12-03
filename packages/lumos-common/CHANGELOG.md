@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.2.1 - 2020-12-03
+
+#### 📦 Dependencies
+
+- bump execa from 4.1.0 to 5.0.0 (#135) ([2b42d0d](https://github.com/Oriflame/lumos/commit/2b42d0d)), closes [#135](https://github.com/Oriflame/lumos/issues/135)
+
+**Note:** Version bump only for package @oriflame/lumos-common
+
+
+
+
+
 ## 2.2.0 - 2020-12-03
 
 #### 🚀 Updates
