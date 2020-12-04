@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.3.0 - 2020-12-04
+
+#### 🚀 Updates
+
+- **[config-eslint]** New typescript rules. (#138) ([f31518e](https://github.com/Oriflame/lumos/commit/f31518e)), closes [#138](https://github.com/Oriflame/lumos/issues/138)
+
+#### 📦 Dependencies
+
+- bump postcss from 8.1.13 to 8.1.14 (#137) ([a2c545e](https://github.com/Oriflame/lumos/commit/a2c545e)), closes [#137](https://github.com/Oriflame/lumos/issues/137)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([0af8b1e](https://github.com/Oriflame/lumos/commit/0af8b1e))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.2.1 - 2020-12-03
 
 #### 📦 Dependencies
