@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.3 - 2020-12-08
+
+#### 📦 Dependencies
+
+- bump @types/jest from 26.0.16 to 26.0.17 (#146) ([b602d00](https://github.com/Oriflame/lumos/commit/b602d00)), closes [#146](https://github.com/Oriflame/lumos/issues/146)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([6b33db5](https://github.com/Oriflame/lumos/commit/6b33db5))
+
+**Note:** Version bump only for package @oriflame/config-jest
+
+
+
+
+
 ### 1.1.2 - 2020-12-04
 
 #### 🛠 Internals
