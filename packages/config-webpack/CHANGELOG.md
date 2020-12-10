@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.3.2 - 2020-12-10
+
+#### 📦 Dependencies
+
+- bump postcss from 8.1.14 to 8.2.1 (#150) ([4a82d6e](https://github.com/Oriflame/lumos/commit/4a82d6e)), closes [#150](https://github.com/Oriflame/lumos/issues/150)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([dd3bdd1](https://github.com/Oriflame/lumos/commit/dd3bdd1))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.3.1 - 2020-12-06
 
 #### 📦 Dependencies
