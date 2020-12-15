@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.3.4 - 2020-12-15
+
+#### 📦 Dependencies
+
+- bump postcss-import from 13.0.0 to 14.0.0 (#166) ([f435d5d](https://github.com/Oriflame/lumos/commit/f435d5d)), closes [#166](https://github.com/Oriflame/lumos/issues/166)
+- bump webpack from 5.10.1 to 5.10.2 (#167) ([259bfd9](https://github.com/Oriflame/lumos/commit/259bfd9)), closes [#167](https://github.com/Oriflame/lumos/issues/167)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.3.3 - 2020-12-14
 
 #### 📦 Dependencies
