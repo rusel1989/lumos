@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.6 - 2020-12-15
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-prettier from 3.2.0 to 3.3.0 (#163) ([729c9fa](https://github.com/Oriflame/lumos/commit/729c9fa)), closes [#163](https://github.com/Oriflame/lumos/issues/163)
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 1.3.5 - 2020-12-15
 
 #### 📦 Dependencies
