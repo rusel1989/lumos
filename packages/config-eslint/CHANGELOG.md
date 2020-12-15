@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.7 - 2020-12-15
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/eslint-plugin from 4.9.1 to 4.10.0 (#165) ([1c96dc1](https://github.com/Oriflame/lumos/commit/1c96dc1)), closes [#165](https://github.com/Oriflame/lumos/issues/165)
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 1.3.6 - 2020-12-15
 
 #### 📦 Dependencies
