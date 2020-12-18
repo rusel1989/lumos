@@ -31,7 +31,7 @@
     "@types/webpack-bundle-analyzer": "^3.9.0"
   },
   "dependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.12.10",
     "@beemo/core": "^1.1.8",
     "@beemo/driver-webpack": "^1.2.6",
     "@oriflame/lumos-common": "^2.3.0",
@@ -63,7 +63,7 @@
     "terser-webpack-plugin": "^5.0.3",
     "url-loader": "^4.1.1",
     "webpack": "^5.11.0",
-    "webpack-bundle-analyzer": "^4.2.0",
+    "webpack-bundle-analyzer": "^4.3.0",
     "webpack-cli": "4.2.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-graphql-loader": "^1.0.2"
