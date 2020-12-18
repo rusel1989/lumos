@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.20 - 2020-12-18
+
+#### 🛠 Internals
+
+- release [ci skip]. ([af109ce](https://github.com/Oriflame/lumos/commit/af109ce))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.19 - 2020-12-04
 
 #### 🛠 Internals
