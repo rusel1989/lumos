@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.3.8 - 2020-12-21
+
+#### 📦 Dependencies
+
+- bump eslint from 7.15.0 to 7.16.0 (#175) ([a3b7334](https://github.com/Oriflame/lumos/commit/a3b7334)), closes [#175](https://github.com/Oriflame/lumos/issues/175)
+- bump eslint-config-prettier from 7.0.0 to 7.1.0 (#176) ([9ebdbfd](https://github.com/Oriflame/lumos/commit/9ebdbfd)), closes [#176](https://github.com/Oriflame/lumos/issues/176)
+- bump eslint-plugin-unicorn from 23.0.0 to 24.0.0 (#177) ([c59d191](https://github.com/Oriflame/lumos/commit/c59d191)), closes [#177](https://github.com/Oriflame/lumos/issues/177)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a0af0c7](https://github.com/Oriflame/lumos/commit/a0af0c7))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 1.3.7 - 2020-12-15
 
 #### 📦 Dependencies
