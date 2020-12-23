@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.21 - 2020-12-23
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-proposal-decorators from 7.12.1 to 7.12.12 (#181) ([eaefd40](https://github.com/Oriflame/lumos/commit/eaefd40)), closes [#181](https://github.com/Oriflame/lumos/issues/181)
+- bump @babel/plugin-transform-react-jsx-development (#182) ([e12bbe2](https://github.com/Oriflame/lumos/commit/e12bbe2)), closes [#182](https://github.com/Oriflame/lumos/issues/182)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a65a4dc](https://github.com/Oriflame/lumos/commit/a65a4dc))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.20 - 2020-12-18
 
 #### 🛠 Internals
