@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.3.28 - 2021-01-03
+
+#### 📦 Dependencies
+
+- bump @oriflame/conventional-changelog from 1.0.7 to 1.0.8 (#202) ([6968a01](https://github.com/Oriflame/lumos/commit/6968a01)), closes [#202](https://github.com/Oriflame/lumos/issues/202)
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.3.27 - 2021-01-02
 
 **Note:** Version bump only for package @oriflame/lumos
