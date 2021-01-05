@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.4.0 - 2021-01-05
+
+#### 🚀 Updates
+
+- Add webpack host setting. (#210) ([b1c1eb2](https://github.com/Oriflame/lumos/commit/b1c1eb2)), closes [#210](https://github.com/Oriflame/lumos/issues/210)
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.3.32 - 2021-01-05
 
 **Note:** Version bump only for package @oriflame/lumos

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.22 - 2021-01-05
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a9348ba](https://github.com/Oriflame/lumos/commit/a9348ba))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.21 - 2020-12-23
 
 #### 📦 Dependencies
