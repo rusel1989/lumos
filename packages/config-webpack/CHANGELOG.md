@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.3 - 2021-01-09
+
+#### 📦 Dependencies
+
+- bump css-minimizer-webpack-plugin from 1.1.5 to 1.2.0 (#218) ([942dd95](https://github.com/Oriflame/lumos/commit/942dd95)), closes [#218](https://github.com/Oriflame/lumos/issues/218)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.2 - 2021-01-09
 
 #### 📦 Dependencies
