@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.2 - 2021-01-09
+
+#### 📦 Dependencies
+
+- bump postcss from 8.2.3 to 8.2.4 (#221) ([51c71f3](https://github.com/Oriflame/lumos/commit/51c71f3)), closes [#221](https://github.com/Oriflame/lumos/issues/221)
+- bump terser-webpack-plugin from 5.0.3 to 5.1.1 (#222) ([5a884e6](https://github.com/Oriflame/lumos/commit/5a884e6)), closes [#222](https://github.com/Oriflame/lumos/issues/222)
+- bump webpack from 5.12.0 to 5.12.2 (#220) ([27ef653](https://github.com/Oriflame/lumos/commit/27ef653)), closes [#220](https://github.com/Oriflame/lumos/issues/220)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.1 - 2021-01-08
 
 #### 📦 Dependencies
