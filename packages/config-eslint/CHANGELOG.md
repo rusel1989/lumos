@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.4 - 2021-01-11
+
+#### 🐞 Fixes
+
+- Disable prefer default export. (#225) ([2243303](https://github.com/Oriflame/lumos/commit/2243303)), closes [#225](https://github.com/Oriflame/lumos/issues/225)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([811cd11](https://github.com/Oriflame/lumos/commit/811cd11))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.0.3 - 2021-01-05
 
 **Note:** Version bump only for package @oriflame/config-eslint
