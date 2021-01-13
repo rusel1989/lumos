@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.6 - 2021-01-13
+
+#### 📦 Dependencies
+
+- bump webpack-dev-server from 3.11.1 to 3.11.2 (#231) ([fab6ccc](https://github.com/Oriflame/lumos/commit/fab6ccc)), closes [#231](https://github.com/Oriflame/lumos/issues/231)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([ab5efb0](https://github.com/Oriflame/lumos/commit/ab5efb0))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.5 - 2021-01-12
 
 #### 📦 Dependencies
