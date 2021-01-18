@@ -19,7 +19,7 @@ const config: ESLintConfig = {
 
   extends: ['airbnb', 'plugin:jsx-a11y/recommended'],
 
-  plugins: ['import', 'react', 'react-hooks'],
+  plugins: ['import', 'react', 'react-hooks', 'eslint-comments'],
 
   globals: {
     __DEV__: 'readonly',
@@ -77,6 +77,17 @@ const config: ESLintConfig = {
     // import React is no longer needed from latest version
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+
+    // eslint-comments plugin
+    'eslint-comments/disable-enable-pair': 'error', // require a eslint-enable comment for every eslint-disable comment
+    'eslint-comments/no-aggregating-enable': 'error', // disallow a eslint-enable comment for multiple eslint-disable comments
+    'eslint-comments/no-duplicate-disable': 'error', // disallow duplicate eslint-disable comments
+    'eslint-comments/no-restricted-disable': 'off', // disallow eslint-disable comments about specific rules
+    'eslint-comments/no-unlimited-disable': 'error', // disallow eslint-disable comments without rule names
+    'eslint-comments/no-unused-disable': 'error', // disallow unused eslint-disable comments
+    'eslint-comments/no-unused-enable': 'error', // disallow unused eslint-enable comments
+    'eslint-comments/no-use': 'off', // disallow ESLint directive-comments
+    'eslint-comments/require-description': 'error', // require include descriptions in ESLint directive-comments
   },
 
   overrides: [

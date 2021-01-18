@@ -9,9 +9,9 @@ export interface ESLintOptions {
 }
 
 function fromHere(filePath: string): string {
-  return `./${new Path(process.cwd()).relativeTo(
-    new Path(__dirname, '../lib', filePath).resolve(),
-  )}`;
+  return `./${new Path(process.cwd())
+    .relativeTo(new Path(__dirname, '../lib', filePath).resolve())
+    .toString()}`;
 }
 
 export function getExtendsList({
