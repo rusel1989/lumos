@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.8 - 2021-01-24
+
+#### 📦 Dependencies
+
+- bump fast-glob from 3.2.4 to 3.2.5 (#238) ([62c3e7c](https://github.com/Oriflame/lumos/commit/62c3e7c)), closes [#238](https://github.com/Oriflame/lumos/issues/238)
+- bump webpack from 5.14.0 to 5.17.0 (#245) ([663a319](https://github.com/Oriflame/lumos/commit/663a319)), closes [#245](https://github.com/Oriflame/lumos/issues/245)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.7 - 2021-01-14
 
 #### 📦 Dependencies

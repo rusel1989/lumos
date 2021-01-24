@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.8 - 2021-01-24
+
+#### 🛠 Internals
+
+- release [ci skip]. ([5b85d27](https://github.com/Oriflame/lumos/commit/5b85d27))
+
+**Note:** Version bump only for package @oriflame/config-typescript
+
+
+
+
+
 ### 1.1.7 - 2021-01-05
 
 #### 🛠 Internals
