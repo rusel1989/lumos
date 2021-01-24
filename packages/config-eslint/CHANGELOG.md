@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.8 - 2021-01-24
+
+#### 📦 Dependencies
+
+- bump eslint-config-prettier from 7.1.0 to 7.2.0 (#242) ([d2aeeef](https://github.com/Oriflame/lumos/commit/d2aeeef)), closes [#242](https://github.com/Oriflame/lumos/issues/242)
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.0.7 - 2021-01-24
 
 #### 📦 Dependencies
