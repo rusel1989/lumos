@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.9 - 2021-01-25
+
+#### 📦 Dependencies
+
+- bump postcss-loader from 4.1.0 to 4.2.0 (#248) ([adc1152](https://github.com/Oriflame/lumos/commit/adc1152)), closes [#248](https://github.com/Oriflame/lumos/issues/248)
+- bump webpack-bundle-analyzer from 4.3.0 to 4.4.0 (#249) ([5e19c0c](https://github.com/Oriflame/lumos/commit/5e19c0c)), closes [#249](https://github.com/Oriflame/lumos/issues/249)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([5293f62](https://github.com/Oriflame/lumos/commit/5293f62))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.8 - 2021-01-24
 
 #### 📦 Dependencies
