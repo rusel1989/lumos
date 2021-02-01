@@ -9,47 +9,41 @@ export interface ESLintOptions {
 }
 
 function fromHere(filePath: string): string {
-  return `./${new Path(process.cwd()).relativeTo(
-    new Path(__dirname, '../lib', filePath).resolve(),
-  )}`;
+  return `./${new Path(process.cwd())
+    .relativeTo(new Path(__dirname, '../lib', filePath).resolve())
+    .toString()}`;
 }
 
 export function getExtendsList({
-  next = false,
-  node = false,
   prettier = false,
   typescript = false,
+  node = false,
 }: ESLintOptions): string[] {
-  const paths = [fromHere('presets/base.js')];
+  const paths = [
+    fromHere('./rules/eslint'),
+    fromHere('./rules/compat'),
+    fromHere('./rules/eslint-comments'),
+    fromHere('./rules/import'),
+    fromHere('./rules/react'),
+    fromHere('./rules/a11y'),
+    fromHere('./rules/unicorn'),
+    fromHere('./rules/jest'),
+    fromHere('./rules/testing-library'),
+  ];
 
-  // Future rules
-  if (next) {
-    paths.push(fromHere('presets/next.js'));
-  }
-
-  // TypeScript
-  if (typescript) {
-    paths.push(fromHere('presets/typescript.js'));
-  }
-
-  // Node
   if (node) {
-    paths.push(fromHere('presets/node.js'));
+    paths.push(fromHere('./rules/node'));
   }
 
-  // Testing library
-  paths.push(fromHere('presets/testing-library.js'));
+  if (typescript) {
+    paths.push(fromHere('./rules/typescript'));
+  }
 
-  // Prettier (must be last)
   if (prettier) {
-    paths.push(fromHere('presets/prettier.js'));
+    paths.push(fromHere('./rules/prettier'), 'eslint-config-prettier/unicorn');
 
     if (typescript) {
-      paths.push('prettier/@typescript-eslint');
-    }
-
-    if (next) {
-      paths.push('prettier/unicorn');
+      paths.push('eslint-config-prettier/@typescript-eslint');
     }
   }
 
