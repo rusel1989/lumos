@@ -73,7 +73,8 @@ const config: ESLintConfig = {
   rules: {
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
-    // React in scope isn't required anymore.
+
+    // import React is no longer needed from latest version
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
   },
@@ -111,11 +112,11 @@ const config: ESLintConfig = {
         'jest/no-test-return-statement': 'error',
         'jest/prefer-hooks-on-top': 'error',
         'jest/prefer-spy-on': 'error',
-        'jest/prefer-todo': 'error',
         'jest/prefer-to-be-null': 'error',
         'jest/prefer-to-be-undefined': 'error',
         'jest/prefer-to-contain': 'error',
         'jest/prefer-to-have-length': 'error',
+        'jest/prefer-todo': 'error',
         'jest/require-to-throw-message': 'error',
         'jest/require-top-level-describe': 'error',
         'jest/valid-describe': 'error',
