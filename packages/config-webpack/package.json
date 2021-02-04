@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "@types/css-minimizer-webpack-plugin": "^1.1.1",
-    "@types/html-minifier-terser": "^5.1.1",
     "@types/terser-webpack-plugin": "^5.0.2",
     "@types/webpack-bundle-analyzer": "^3.9.0"
   },
