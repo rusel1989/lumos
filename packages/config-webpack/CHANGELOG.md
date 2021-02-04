@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.15 - 2021-02-04
+
+#### 📦 Dependencies
+
+- Update babel dependencies. (#275) ([cc2e745](https://github.com/Oriflame/lumos/commit/cc2e745)), closes [#275](https://github.com/Oriflame/lumos/issues/275)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.14 - 2021-02-04
 
 #### 📦 Dependencies

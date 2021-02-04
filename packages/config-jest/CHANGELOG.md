@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.12 - 2021-02-04
+
+#### 📦 Dependencies
+
+- Update babel dependencies. (#275) ([cc2e745](https://github.com/Oriflame/lumos/commit/cc2e745)), closes [#275](https://github.com/Oriflame/lumos/issues/275)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([99a3dbe](https://github.com/Oriflame/lumos/commit/99a3dbe))
+
+**Note:** Version bump only for package @oriflame/config-jest
+
+
+
+
+
 ### 1.1.11 - 2021-01-24
 
 #### 🛠 Internals
