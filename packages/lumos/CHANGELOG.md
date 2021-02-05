@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.28 - 2021-02-05
+
+#### 📦 Dependencies
+
+- bump check-node-version from 4.0.3 to 4.1.0 (#281) ([b233f79](https://github.com/Oriflame/lumos/commit/b233f79)), closes [#281](https://github.com/Oriflame/lumos/issues/281)
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.4.27 - 2021-02-04
 
 **Note:** Version bump only for package @oriflame/lumos

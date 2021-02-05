@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.26 - 2021-02-05
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-transform-runtime from 7.12.13 to 7.12.15 (#280) ([517473b](https://github.com/Oriflame/lumos/commit/517473b)), closes [#280](https://github.com/Oriflame/lumos/issues/280)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([f24bd5b](https://github.com/Oriflame/lumos/commit/f24bd5b))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.25 - 2021-02-04
 
 #### 📦 Dependencies
