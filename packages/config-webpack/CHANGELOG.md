@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.20 - 2021-02-06
+
+#### 📦 Dependencies
+
+- bump postcss from 8.2.4 to 8.2.5 (#285) ([1412305](https://github.com/Oriflame/lumos/commit/1412305)), closes [#285](https://github.com/Oriflame/lumos/issues/285)
+- bump webpack from 5.20.2 to 5.21.1 (#284) ([9b4575a](https://github.com/Oriflame/lumos/commit/9b4575a)), closes [#284](https://github.com/Oriflame/lumos/issues/284)
+
+#### 🛠 Internals
+
+- bump @types/webpack-bundle-analyzer from 3.9.0 to 3.9.1 (#286) ([14cd611](https://github.com/Oriflame/lumos/commit/14cd611)), closes [#286](https://github.com/Oriflame/lumos/issues/286)
+- release [ci skip]. ([94bbfee](https://github.com/Oriflame/lumos/commit/94bbfee))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.19 - 2021-02-04
 
 #### 📦 Dependencies
