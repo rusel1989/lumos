@@ -9,7 +9,7 @@ const config: ESLintConfig = {
     // eslint-plugin-unicorn rules
     'unicorn/better-regex': 'warn', // improve regexes by making them shorter, consistent, and safer
     'unicorn/catch-error-name': 'warn', // enforce a specific parameter name in catch clauses
-    'unicorn/consistent-destructuring': 'warn', // use destructured variables over properties.
+    'unicorn/consistent-destructuring': 'error', // use destructured variables over properties.
     'unicorn/consistent-function-scoping': 'error', // move function definitions to the highest possible scope
     'unicorn/custom-error-definition': 'error', // enforce correct Error subclassing
     'unicorn/empty-brace-spaces': 'off', // enforce no spaces between braces
@@ -23,13 +23,13 @@ const config: ESLintConfig = {
     ], // add expiration conditions to to do comments
     'unicorn/explicit-length-check': 'warn', // enforce explicitly comparing the length property of a value
     'unicorn/filename-case': 'off', // enforce a case style for filenames
-    'unicorn/import-index': 'warn', // enforce importing index files with .
+    'unicorn/import-index': 'error', // enforce importing index files with .
     'unicorn/import-style': 'warn', // enforce specific import styles per module
     'unicorn/new-for-builtins': 'warn', // enforce the use of new for all builtins, except String, Number, Boolean, Symbol and BigInt
     'unicorn/no-abusive-eslint-disable': 'off', // enforce specifying rules to disable in eslint-disable comments
     'unicorn/no-array-callback-reference': 'off', // prevent passing a function reference directly to iterator methods
     'unicorn/no-array-for-each': 'off', // prefer for…of over Array#forEach(…)
-    'unicorn/no-array-push-push': 'off', // enforce combining multiple Array#push() into one call
+    'unicorn/no-array-push-push': 'error', // enforce combining multiple Array#push() into one call
     'unicorn/no-array-reduce': 'off', // disallow Array#reduce() and Array#reduceRight()
     'unicorn/no-console-spaces': 'off', // do not use leading/trailing space between console.log parameters
     'unicorn/no-for-loop': 'warn', // Do not use a for loop that can be replaced with a for-of loop
@@ -37,7 +37,7 @@ const config: ESLintConfig = {
     'unicorn/no-instanceof-array': 'error', // require Array.isArray() instead of instanceof Array
     'unicorn/no-keyword-prefix': 'off', // disallow identifiers starting with new or class
     'unicorn/no-lonely-if': 'warn', // disallow if statements as the only statement in if blocks without else
-    'unicorn/no-nested-ternary': 'warn', // disallow nested ternary expressions
+    'unicorn/no-nested-ternary': 'error', // disallow nested ternary expressions
     'unicorn/no-new-array': 'error', // disallow new Array()
     'unicorn/no-new-buffer': 'error', // enforce the use of Buffer.from() and Buffer.alloc() instead of the deprecated new Buffer()
     'unicorn/no-null': 'off', // disallow the use of the null literal

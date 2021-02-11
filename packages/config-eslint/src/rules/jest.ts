@@ -33,7 +33,7 @@ const config: ESLintConfig = {
         'jest/no-focused-tests': 'error', // disallow focused tests
         'jest/no-hooks': 'off', // disallow setup and teardown hooks
         'jest/no-identical-title': 'error', // disallow identical titles
-        'jest/no-if': 'off', // disallow conditional logic
+        'jest/no-if': 'error', // disallow conditional logic
         'jest/no-interpolation-in-snapshots': 'error', // disallow string interpolation inside snapshots
         'jest/no-jasmine-globals': 'error', // disallow Jasmine globals
         'jest/no-jest-import': 'error', // disallow importing Jest
@@ -46,7 +46,7 @@ const config: ESLintConfig = {
         'jest/prefer-called-with': 'warn', // suggest using toBeCalledWith() or toHaveBeenCalledWith()
         'jest/prefer-expect-assertions': 'off', // suggest using expect.assertions() OR expect.hasAssertions()
         'jest/prefer-hooks-on-top': 'warn', // suggest having hooks before any test cases
-        'jest/prefer-spy-on': 'warn', // suggest using jest.spyOn()
+        'jest/prefer-spy-on': 'error', // suggest using jest.spyOn()
         'jest/prefer-strict-equal': 'warn', // suggest using toStrictEqual()
         'jest/prefer-to-be-null': 'warn', // suggest using toBeNull()
         'jest/prefer-to-be-undefined': 'warn', // suggest using toBeUndefined()

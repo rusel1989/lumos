@@ -16,7 +16,7 @@ const config: ESLintConfig = {
   rules: {
     // eslint-plugin-reac rules
     'react/boolean-prop-naming': 'off', // enforces consistent naming for boolean props
-    'react/button-has-type': 'warn', // forbid "button" element without an explicit "type" attribute
+    'react/button-has-type': 'error', // forbid "button" element without an explicit "type" attribute
     'react/default-props-match-prop-types': 'off', // enforce all defaultProps are defined and not "required" in propTypes
     'react/destructuring-assignment': 'off', // rule enforces consistent usage of destructuring assignment in component
     'react/display-name': 'off', // prevent missing displayName in a React component definition
@@ -26,11 +26,11 @@ const config: ESLintConfig = {
     'react/forbid-foreign-prop-types': 'error', // forbid using another component's propTypes
     'react/forbid-prop-types': 'error', // forbid certain propTypes
     'react/function-component-definition': 'off', // standardize the way function component get defined
-    'react/jsx-boolean-value': 'off', // enforce boolean attributes notation in JSX
-    'react/jsx-child-element-spacing': 'off', // ensures inline tags are not rendered without spaces between them
+    'react/jsx-boolean-value': ['error', 'never'], // enforce boolean attributes notation in JSX
+    'react/jsx-child-element-spacing': 'error', // ensures inline tags are not rendered without spaces between them
     'react/jsx-closing-bracket-location': 'off', // validate closing bracket location in JSX
     'react/jsx-closing-tag-location': 'off', // validate closing tag location for multiline JSX
-    'react/jsx-curly-brace-presence': 'off', // disallow unnecessary JSX expressions when literals alone are sufficient or enfore JSX expressions on literals in JSX children or attributes
+    'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }], // disallow unnecessary JSX expressions when literals alone are sufficient or enfore JSX expressions on literals in JSX children or attributes
     'react/jsx-curly-newline': 'off', // enforce consistent line breaks inside jsx curly
     'react/jsx-curly-spacing': 'off', // enforce or disallow spaces inside of curly braces in JSX attributes and expressions
     'react/jsx-equals-spacing': 'off', // disallow or enforce spaces around equal signs in JSX attributes
@@ -74,7 +74,7 @@ const config: ESLintConfig = {
     'react/jsx-wrap-multilines': 'off', // prevent missing parentheses around multilines JSX
     'react/no-access-state-in-setstate': 'error', // reports when this.state is accessed within setState
     'react/no-adjacent-inline-element': 'off', // prevent adjacent inline elements not separated by whitespace
-    'react/no-array-index-key': 'warn', // prevent usage of Array index in keys
+    'react/no-array-index-key': 'error', // prevent usage of Array index in keys
     'react/no-children-prop': 'error', // prevent passing of children as props
     'react/no-danger': 'error', // prevent usage of dangerous JSX props
     'react/no-danger-with-children': 'error', // report when a DOM element is using both children and dangerouslySetInnerHTML
@@ -82,7 +82,7 @@ const config: ESLintConfig = {
     'react/no-did-mount-set-state': 'error', // prevent usage of setState in componentDidMount
     'react/no-did-update-set-state': 'error', // prevent usage of setState in componentDidUpdate
     'react/no-direct-mutation-state': 'error', // prevent direct mutation of this.state
-    'react/no-find-dom-node': 'off', // prevent usage of findDOMNode
+    'react/no-find-dom-node': 'error', // prevent usage of findDOMNode
     'react/no-is-mounted': 'off', // prevent usage of isMounted
     'react/no-multi-comp': 'off', // prevent multiple component definition per file
     'react/no-redundant-should-component-update': 'off', // flag shouldComponentUpdate when extending PureComponent
@@ -105,7 +105,7 @@ const config: ESLintConfig = {
     'react/require-default-props': 'off', // enforce a defaultProps definition for every prop that is not a required prop
     'react/require-optimization': 'off', // enforce React components to have a shouldComponentUpdate method
     'react/require-render-return': 'error', // enforce ES5 or ES6 class for returning value in render function
-    'react/self-closing-comp': 'warn', // prevent extra closing tags for components without children
+    'react/self-closing-comp': 'error', // prevent extra closing tags for components without children
     'react/sort-comp': [
       'warn',
       {
