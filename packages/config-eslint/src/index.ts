@@ -21,7 +21,6 @@ export function getExtendsList({
 }: ESLintOptions): string[] {
   const paths = [
     fromHere('./rules/eslint'),
-    fromHere('./rules/compat'),
     fromHere('./rules/eslint-comments'),
     fromHere('./rules/import'),
     fromHere('./rules/react'),

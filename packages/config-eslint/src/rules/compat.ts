@@ -1,5 +1,6 @@
 import { ESLintConfig } from '@beemo/driver-eslint';
 
+// TODO: Specify polyfills so it can be actually used.
 const config: ESLintConfig = {
   plugins: ['eslint-plugin-compat'],
   rules: {
