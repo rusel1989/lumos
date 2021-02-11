@@ -1,9 +1,10 @@
 import { ESLintConfig } from '@beemo/driver-eslint';
+import { TJSX_EXTS_GROUP } from '@oriflame/lumos-common';
 
 const config: ESLintConfig = {
   overrides: [
     {
-      files: [`*.test.{ts,tsx,js,jsx}`],
+      files: [`*.test.${TJSX_EXTS_GROUP}`],
       plugins: ['eslint-plugin-testing-library'],
       rules: {
         // eslint-plugin-testing-library

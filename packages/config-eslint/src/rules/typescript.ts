@@ -1,12 +1,12 @@
 import { ESLintConfig } from '@beemo/driver-eslint';
-import { EXTS, fromRoot } from '@oriflame/lumos-common';
+import { EXTS, TSX_EXTS_GROUP, fromRoot } from '@oriflame/lumos-common';
 
 const project = fromRoot('tsconfig.eslint.json', true) || fromRoot('tsconfig.json');
 
 const config: ESLintConfig = {
   overrides: [
     {
-      files: [`*.{ts,tsx}`],
+      files: [`*.${TSX_EXTS_GROUP}`],
       parser: '@typescript-eslint/parser',
       parserOptions: {
         project,
