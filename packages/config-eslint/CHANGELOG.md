@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.0.19 - 2021-02-11
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-promise from 4.2.1 to 4.3.1 (#297) ([36c5b70](https://github.com/Oriflame/lumos/commit/36c5b70)), closes [#297](https://github.com/Oriflame/lumos/issues/297)
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.0.18 - 2021-02-10
 
 #### 📦 Dependencies
