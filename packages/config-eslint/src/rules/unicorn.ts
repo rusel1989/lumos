@@ -57,7 +57,7 @@ const config: ESLintConfig = {
     'unicorn/prefer-array-index-of': 'warn', // prefer Array#indexOf() over Array#findIndex() when looking for the index of an item
     'unicorn/prefer-array-some': 'warn', // prefer .some(…) over .find(…)
     'unicorn/prefer-date-now': 'warn', // prefer Date.now() to get the number of milliseconds since the Unix Epoch
-    'unicorn/prefer-default-parameters': 'off', // prefer default parameters over reassignment
+    'unicorn/prefer-default-parameters': 'error', // prefer default parameters over reassignment
     'unicorn/prefer-dom-node-append': 'warn', // prefer Node#append() over Node#appendChild()
     'unicorn/prefer-dom-node-dataset': 'warn', // prefer using .dataset on DOM elements over .setAttribute(…)
     'unicorn/prefer-dom-node-remove': 'warn', // prefer childNode.remove() over parentNode.removeChild(childNode)

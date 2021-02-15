@@ -24,10 +24,10 @@ const config: ESLintConfig = {
     'jsx-a11y/html-has-lang': 'warn', // enforce <html> element has lang prop
     'jsx-a11y/iframe-has-title': 'warn', // enforce iframe elements have a title attribute
     'jsx-a11y/img-redundant-alt': 'off', // enforce <img> alt prop does not contain the word "image", "picture", or "photo"
-    'jsx-a11y/interactive-supports-focus': 'off', // enforce that elements with interactive handlers like onClick must be focusable
+    'jsx-a11y/interactive-supports-focus': 'warn', // enforce that elements with interactive handlers like onClick must be focusable
     'jsx-a11y/label-has-associated-control': 'warn', // enforce that a label tag has a text label and an associated control
     'jsx-a11y/lang': 'error', // enforce lang attribute has a valid value
-    'jsx-a11y/media-has-caption': 'off', // enforces that <audio> and <video> elements must have a <track> for captions
+    'jsx-a11y/media-has-caption': 'warn', // enforces that <audio> and <video> elements must have a <track> for captions
     'jsx-a11y/mouse-events-have-key-events': 'warn', // enforce that onMouseOver/onMouseOut are accompanied by onFocus/onBlur for keyboard-only users
     'jsx-a11y/no-access-key': 'warn', // enforce that the accessKey prop is not used on any element to avoid complications with keyboard commands used by a screenreader
     'jsx-a11y/no-autofocus': 'off', // enforce autoFocus prop is not used
