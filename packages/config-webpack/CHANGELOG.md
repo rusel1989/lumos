@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.28 - 2021-02-18
+
+#### 🛠 Internals
+
+- release [ci skip]. ([d1bb3e5](https://github.com/Oriflame/lumos/commit/d1bb3e5))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.27 - 2021-02-16
 
 #### 📦 Dependencies
