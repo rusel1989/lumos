@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.34 - 2021-02-19
+
+#### 📦 Dependencies
+
+- bump @babel/preset-env from 7.12.16 to 7.12.17 (#324) ([c8b2f86](https://github.com/Oriflame/lumos/commit/c8b2f86)), closes [#324](https://github.com/Oriflame/lumos/issues/324)
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.33 - 2021-02-19
 
 #### 📦 Dependencies
