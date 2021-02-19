@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.29 - 2021-02-19
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.12.16 to 7.12.17 (#325) ([8630c14](https://github.com/Oriflame/lumos/commit/8630c14)), closes [#325](https://github.com/Oriflame/lumos/issues/325)
+- bump html-webpack-plugin from 5.1.0 to 5.2.0 (#329) ([a5941bb](https://github.com/Oriflame/lumos/commit/a5941bb)), closes [#329](https://github.com/Oriflame/lumos/issues/329)
+- bump webpack from 5.22.0 to 5.23.0 (#326) ([2d5ce71](https://github.com/Oriflame/lumos/commit/2d5ce71)), closes [#326](https://github.com/Oriflame/lumos/issues/326)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.28 - 2021-02-18
 
 #### 🛠 Internals

@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.33 - 2021-02-19
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.12.16 to 7.12.17 (#325) ([8630c14](https://github.com/Oriflame/lumos/commit/8630c14)), closes [#325](https://github.com/Oriflame/lumos/issues/325)
+- bump @babel/plugin-transform-react-jsx-development (#322) ([f8c70fd](https://github.com/Oriflame/lumos/commit/f8c70fd)), closes [#322](https://github.com/Oriflame/lumos/issues/322)
+- bump @babel/preset-typescript from 7.12.16 to 7.12.17 (#323) ([88aad11](https://github.com/Oriflame/lumos/commit/88aad11)), closes [#323](https://github.com/Oriflame/lumos/issues/323)
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.32 - 2021-02-18
 
 #### 🛠 Internals

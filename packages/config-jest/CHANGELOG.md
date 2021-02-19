@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.17 - 2021-02-19
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.12.16 to 7.12.17 (#325) ([8630c14](https://github.com/Oriflame/lumos/commit/8630c14)), closes [#325](https://github.com/Oriflame/lumos/issues/325)
+
+**Note:** Version bump only for package @oriflame/config-jest
+
+
+
+
+
 ### 1.1.16 - 2021-02-18
 
 #### 🛠 Internals
