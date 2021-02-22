@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.18 - 2021-02-22
+
+#### 🛠 Internals
+
+- release [ci skip]. ([6d9e580](https://github.com/Oriflame/lumos/commit/6d9e580))
+
+**Note:** Version bump only for package @oriflame/config-jest
+
+
+
+
+
 ### 1.1.17 - 2021-02-19
 
 #### 📦 Dependencies
