@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.38 - 2021-02-24
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-proposal-decorators from 7.12.13 to 7.13.5 (#353) ([576bbfd](https://github.com/Oriflame/lumos/commit/576bbfd)), closes [#353](https://github.com/Oriflame/lumos/issues/353)
+- bump @babel/preset-env from 7.12.17 to 7.13.5 (#355) ([f80ad2b](https://github.com/Oriflame/lumos/commit/f80ad2b)), closes [#355](https://github.com/Oriflame/lumos/issues/355)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([c8b3bed](https://github.com/Oriflame/lumos/commit/c8b3bed))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.37 - 2021-02-24
 
 #### 📦 Dependencies
