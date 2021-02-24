@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.39 - 2021-02-24
+
+#### 📦 Dependencies
+
+- bump @babel/preset-typescript from 7.12.17 to 7.13.0 (#343) ([0123c01](https://github.com/Oriflame/lumos/commit/0123c01)), closes [#343](https://github.com/Oriflame/lumos/issues/343)
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.38 - 2021-02-24
 
 #### 📦 Dependencies
