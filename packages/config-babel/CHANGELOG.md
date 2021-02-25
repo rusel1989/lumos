@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.40 - 2021-02-25
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.12.17 to 7.13.1 (#348) ([9fd3be2](https://github.com/Oriflame/lumos/commit/9fd3be2)), closes [#348](https://github.com/Oriflame/lumos/issues/348)
+- bump @babel/plugin-proposal-private-property-in-object (#342) ([a8ebfd5](https://github.com/Oriflame/lumos/commit/a8ebfd5)), closes [#342](https://github.com/Oriflame/lumos/issues/342)
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.39 - 2021-02-24
 
 #### 📦 Dependencies
