@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.16 - 2021-02-26
+
+#### 🐞 Fixes
+
+- Add dom.iterable to typescript config. ([0fe87bc](https://github.com/Oriflame/lumos/commit/0fe87bc))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([c815ad0](https://github.com/Oriflame/lumos/commit/c815ad0))
+
+**Note:** Version bump only for package @oriflame/config-typescript
+
+
+
+
+
 ### 1.1.15 - 2021-02-23
 
 #### 📦 Dependencies
