@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.4 - 2021-02-26
+
+#### 🐞 Fixes
+
+- Remove deprecated rule. (#363) ([eb6aff8](https://github.com/Oriflame/lumos/commit/eb6aff8)), closes [#363](https://github.com/Oriflame/lumos/issues/363)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([5a09704](https://github.com/Oriflame/lumos/commit/5a09704))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.1.3 - 2021-02-25
 
 #### 📦 Dependencies
