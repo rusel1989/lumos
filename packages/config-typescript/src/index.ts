@@ -35,7 +35,7 @@ export function getCompilerOptions({
     forceConsistentCasingInFileNames: true,
     isolatedModules: !next && !library,
     jsx: 'preserve',
-    lib: ['dom', 'esnext'],
+    lib: ['dom', 'DOM.Iterable', 'esnext'],
     module: node ? 'commonjs' : 'esnext',
     moduleResolution: 'node',
     noEmitOnError: true,

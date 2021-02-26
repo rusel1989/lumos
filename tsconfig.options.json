@@ -8,6 +8,7 @@
     "jsx": "preserve",
     "lib": [
       "dom",
+      "DOM.Iterable",
       "esnext"
     ],
     "module": "commonjs",
