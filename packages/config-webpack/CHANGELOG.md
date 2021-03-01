@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.35 - 2021-03-01
+
+#### 📦 Dependencies
+
+- bump @babel/core from 7.13.1 to 7.13.8 (#366) ([b3ed53f](https://github.com/Oriflame/lumos/commit/b3ed53f)), closes [#366](https://github.com/Oriflame/lumos/issues/366)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([2d28978](https://github.com/Oriflame/lumos/commit/2d28978))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.34 - 2021-02-26
 
 #### 📦 Dependencies
