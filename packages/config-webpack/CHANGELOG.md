@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.38 - 2021-03-06
+
+#### 📦 Dependencies
+
+- bump postcss-loader from 5.0.0 to 5.1.0 (#384) ([e471b49](https://github.com/Oriflame/lumos/commit/e471b49)), closes [#384](https://github.com/Oriflame/lumos/issues/384)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.37 - 2021-03-04
 
 #### 📦 Dependencies
