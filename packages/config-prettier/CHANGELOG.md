@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.13 - 2021-03-16
+
+#### 🛠 Internals
+
+- bump @types/prettier from 2.2.2 to 2.2.3 (#419) ([ad46dc4](https://github.com/Oriflame/lumos/commit/ad46dc4)), closes [#419](https://github.com/Oriflame/lumos/issues/419)
+- release [ci skip]. ([18c8abc](https://github.com/Oriflame/lumos/commit/18c8abc))
+
+**Note:** Version bump only for package @oriflame/config-prettier
+
+
+
+
+
 ### 1.1.12 - 2021-03-02
 
 #### 🛠 Internals
