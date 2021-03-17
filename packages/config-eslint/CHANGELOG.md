@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.15 - 2021-03-17
+
+#### 📦 Dependencies
+
+- bump @typescript-eslint/parser from 4.17.0 to 4.18.0 (#415) ([1e8b1e7](https://github.com/Oriflame/lumos/commit/1e8b1e7)), closes [#415](https://github.com/Oriflame/lumos/issues/415)
+- bump eslint-plugin-jest from 24.3.1 to 24.3.2 (#422) ([ba117a2](https://github.com/Oriflame/lumos/commit/ba117a2)), closes [#422](https://github.com/Oriflame/lumos/issues/422)
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.1.14 - 2021-03-16
 
 #### 📦 Dependencies
