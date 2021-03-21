@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.16 - 2021-03-21
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-testing-library from 3.10.1 to 3.10.2 (#431) ([64c9d30](https://github.com/Oriflame/lumos/commit/64c9d30)), closes [#431](https://github.com/Oriflame/lumos/issues/431)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([c51927f](https://github.com/Oriflame/lumos/commit/c51927f))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.1.15 - 2021-03-17
 
 #### 📦 Dependencies
