@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.47 - 2021-03-21
+
+#### 📦 Dependencies
+
+- bump postcss-url from 10.1.1 to 10.1.3 (#426) ([b51366a](https://github.com/Oriflame/lumos/commit/b51366a)), closes [#426](https://github.com/Oriflame/lumos/issues/426)
+- bump webpack from 5.26.3 to 5.27.1 (#430) ([a9f873f](https://github.com/Oriflame/lumos/commit/a9f873f)), closes [#430](https://github.com/Oriflame/lumos/issues/430)
+
+#### 🛠 Internals
+
+- bump @types/css-minimizer-webpack-plugin from 1.1.1 to 1.1.2 (#428) ([eca5910](https://github.com/Oriflame/lumos/commit/eca5910)), closes [#428](https://github.com/Oriflame/lumos/issues/428)
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.46 - 2021-03-18
 
 #### 📦 Dependencies
