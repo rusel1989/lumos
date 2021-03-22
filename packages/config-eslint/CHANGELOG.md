@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.17 - 2021-03-22
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-unicorn from 28.0.2 to 29.0.0 (#432) ([b9034fa](https://github.com/Oriflame/lumos/commit/b9034fa)), closes [#432](https://github.com/Oriflame/lumos/issues/432)
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.1.16 - 2021-03-21
 
 #### 📦 Dependencies
