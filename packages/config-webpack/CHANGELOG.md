@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.48 - 2021-03-23
+
+#### 📦 Dependencies
+
+- bump webpack from 5.27.1 to 5.27.2 (#434) ([a4964d2](https://github.com/Oriflame/lumos/commit/a4964d2)), closes [#434](https://github.com/Oriflame/lumos/issues/434)
+
+#### 🛠 Internals
+
+- release [ci skip]. ([3cb288d](https://github.com/Oriflame/lumos/commit/3cb288d))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.47 - 2021-03-21
 
 #### 📦 Dependencies
