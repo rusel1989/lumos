@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.49 - 2021-03-23
+
+#### 🛠 Internals
+
+- bump react from 17.0.1 to 17.0.2 (#438) ([4b11c78](https://github.com/Oriflame/lumos/commit/4b11c78)), closes [#438](https://github.com/Oriflame/lumos/issues/438)
+- release [ci skip]. ([8e7934f](https://github.com/Oriflame/lumos/commit/8e7934f))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.48 - 2021-03-09
 
 #### 📦 Dependencies
