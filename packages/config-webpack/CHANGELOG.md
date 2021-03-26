@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.50 - 2021-03-26
+
+#### 🛠 Internals
+
+- bump @types/webpack-bundle-analyzer from 3.9.1 to 3.9.2 (#451) ([7c92e0c](https://github.com/Oriflame/lumos/commit/7c92e0c2473df672f9733f940921fc10e0790e25)), closes  _#451_
+
+- release [ci skip]. ([a8f550d](https://github.com/Oriflame/lumos/commit/a8f550d6d5cdd51fc0a563033c7edc5e4486bd65))
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.49 - 2021-03-25
 
 #### 📦 Dependencies
