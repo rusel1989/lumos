@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.51 - 2021-03-28
+
+#### 📦 Dependencies
+
+- bump webpack-cli from 4.5.0 to 4.6.0 (#457) ([ac6444b](https://github.com/Oriflame/lumos/commit/ac6444b062266cc0c49ae02e052cd534e8807fe7)), closes  _#457_
+
+
+#### 🛠 Internals
+
+- bump @types/terser-webpack-plugin from 5.0.2 to 5.0.3 (#450) ([4dd82a7](https://github.com/Oriflame/lumos/commit/4dd82a7dc542fbe46809d72e8b06e4f1726f30dd)), closes  _#450_
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.50 - 2021-03-26
 
 #### 🛠 Internals
