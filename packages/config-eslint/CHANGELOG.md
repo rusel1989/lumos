@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.21 - 2021-03-28
+
+#### 📦 Dependencies
+
+- bump eslint from 7.22.0 to 7.23.0 (#453) ([918607d](https://github.com/Oriflame/lumos/commit/918607dbc1b27e07fe25203f28f06d1b96b29f61)), closes  _#453_
+
+
+#### 🛠 Internals
+
+- release [ci skip]. ([2268bd7](https://github.com/Oriflame/lumos/commit/2268bd709cf3e01f0b993b67517c10f1b08aef0c))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.1.20 - 2021-03-26
 
 #### 🛠 Internals

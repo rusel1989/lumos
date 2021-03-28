@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.52 - 2021-03-28
+
+#### 📦 Dependencies
+
+- bump @babel/preset-react from 7.12.13 to 7.13.13 (#454) ([16f1702](https://github.com/Oriflame/lumos/commit/16f1702e42f0ea8d32a9d3cb8ae4c7ffe16d3edb)), closes  _#454_
+
+
+#### 🛠 Internals
+
+- release [ci skip]. ([2268bd7](https://github.com/Oriflame/lumos/commit/2268bd709cf3e01f0b993b67517c10f1b08aef0c))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.51 - 2021-03-26
 
 #### 🛠 Internals

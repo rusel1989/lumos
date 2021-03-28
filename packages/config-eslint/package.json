@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/config-eslint",
-  "version": "2.1.20",
+  "version": "2.1.21",
   "description": "Reusable ESLint config.",
   "keywords": [
     "lumos",
