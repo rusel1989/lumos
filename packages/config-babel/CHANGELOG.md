@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.54 - 2021-03-31
+
+#### 📦 Dependencies
+
+- bump @babel/cli from 7.13.10 to 7.13.14 (#459) ([6edbf50](https://github.com/Oriflame/lumos/commit/6edbf50111a61af46152efb0661632aca4e7c943)), closes  _#459_
+
+- bump react-refresh from 0.9.0 to 0.10.0 (#465) ([3c5fc7c](https://github.com/Oriflame/lumos/commit/3c5fc7cf5ceb548fb93937065401d3e136c8f405)), closes  _#465_
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.53 - 2021-03-28
 
 #### 📦 Dependencies

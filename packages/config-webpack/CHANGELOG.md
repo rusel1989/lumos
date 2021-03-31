@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.54 - 2021-03-31
+
+#### 📦 Dependencies
+
+- bump postcss from 8.2.8 to 8.2.9 (#466) ([a62ec9c](https://github.com/Oriflame/lumos/commit/a62ec9c16736d1a07741006a611e90fbeea38b77)), closes  _#466_
+
+- bump react-refresh from 0.9.0 to 0.10.0 (#465) ([3c5fc7c](https://github.com/Oriflame/lumos/commit/3c5fc7cf5ceb548fb93937065401d3e136c8f405)), closes  _#465_
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.53 - 2021-03-28
 
 #### 📦 Dependencies
