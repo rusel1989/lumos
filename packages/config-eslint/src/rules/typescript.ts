@@ -133,6 +133,15 @@ const config: ESLintConfig = {
         '@typescript-eslint/method-signature-style': ['error', 'property'], // enforces using a particular method signature syntax.
         '@typescript-eslint/naming-convention': [
           'warn',
+          // this prevents interface names starting with "I"
+          {
+            selector: 'interface',
+            format: ['PascalCase'],
+            custom: {
+              regex: '^I[A-Z]',
+              match: false,
+            },
+          },
           {
             selector: 'variableLike',
             format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
@@ -164,6 +173,13 @@ const config: ESLintConfig = {
             ],
             leadingUnderscore: 'forbid',
             trailingUnderscore: 'forbid',
+          },
+          // this allows destructured boolean variable names to retain their original name
+          {
+            selector: 'variable',
+            types: ['boolean'],
+            modifiers: ['destructured'],
+            format: null,
           },
           /* TODO: enable this when we can discern things defined in external packages - {
             selector: 'property',

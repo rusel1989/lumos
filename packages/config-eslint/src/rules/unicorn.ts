@@ -48,7 +48,7 @@ const config: ESLintConfig = {
     'unicorn/no-unreadable-array-destructuring': 'warn', // disallow unreadable array destructuring
     'unicorn/no-unsafe-regex': 'off', // disallow unsafe regular expressions
     'unicorn/no-unused-properties': 'off', // disallow unused object properties
-    'unicorn/no-useless-undefined': 'error', // disallow useless undefined
+    'unicorn/no-useless-undefined': 'off', // disallow useless undefined
     'unicorn/no-zero-fractions': 'error', // disallow number literals with zero fractions or dangling dots
     'unicorn/number-literal-case': 'error', // enforce lowercase identifier and uppercase value for number literals
     'unicorn/numeric-separators-style': 'off', // enforce the style of numeric separators by correctly grouping digits
