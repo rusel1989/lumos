@@ -305,6 +305,7 @@ const config: ESLintConfig = {
         '@typescript-eslint/no-unnecessary-type-arguments': 'error', // warns if an explicitly specified type argument is the default for that type parameter
         '@typescript-eslint/no-unnecessary-type-assertion': 'error', // warns if a type assertion does not change the type of an expression
         '@typescript-eslint/no-unnecessary-type-constraint': 'warn', // disallows unnecessary constraints on generic types
+        '@typescript-eslint/no-unsafe-argument': 'error', // disallows calling an function with an any type value
         '@typescript-eslint/no-unsafe-assignment': 'error', // disallows assigning any to variables and properties
         '@typescript-eslint/no-unsafe-call': 'error', // disallows calling an any type value
         '@typescript-eslint/no-unsafe-member-access': 'error', // disallows member access on any typed variables
