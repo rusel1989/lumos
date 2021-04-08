@@ -9,6 +9,7 @@ import {
   getESMAliases,
   GQL_EXT_PATTERN,
   TJSX_EXT_PATTERN,
+  BOOTSTRAP_WEBPACK_PATTERN,
   WEBPACK_ROOT,
 } from '@oriflame/lumos-common';
 import CssMinimizerPlugin from 'css-minimizer-webpack-plugin';
@@ -87,6 +88,17 @@ export function getConfig({
 
     module: {
       rules: [
+        {
+          test: BOOTSTRAP_WEBPACK_PATTERN,
+          include: [srcPath],
+          exclude: /node_modules/,
+          use: {
+            loader: 'bundle-loader',
+            options: {
+              lazy: true,
+            },
+          },
+        },
         {
           test: TJSX_EXT_PATTERN,
           include: [srcPath],

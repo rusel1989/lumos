@@ -1,5 +1,5 @@
 import { Path } from '@beemo/core';
-import { getPackage, WEBPACK_ROOT } from '@oriflame/lumos-common';
+import { getPackage, WEBPACK_ROOT, BOOTSTRAP_WEBPACK_PATTERN } from '@oriflame/lumos-common';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
 import webpack, { Configuration, container } from 'webpack';
@@ -79,7 +79,12 @@ export function getPlugins({
   }
 
   if (react && !PROD) {
-    plugins.push(new webpack.HotModuleReplacementPlugin(), new ReactRefreshWebpackPlugin());
+    plugins.push(
+      new webpack.HotModuleReplacementPlugin(),
+      new ReactRefreshWebpackPlugin({
+        exclude: [/node_modules/, BOOTSTRAP_WEBPACK_PATTERN],
+      }),
+    );
   }
 
   return plugins;
