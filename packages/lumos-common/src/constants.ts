@@ -10,7 +10,7 @@ export const CSS_EXT_PATTERN = /\.(css|scss)$/;
 
 export const CSS_MODULE_EXT_PATTERN = /\.module\.css$/;
 
-export const BOOTSTRAP_WEBPACK_PATTERN = /bootstrap.(t|j)sx?$/;
+export const BOOTSTRAP_WEBPACK_PATTERN = /bootstrap\.(t|j)sx?$/;
 
 export const GQL_EXT_PATTERN = /\.(gql|graphql)$/;
 
