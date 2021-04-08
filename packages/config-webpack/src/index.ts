@@ -73,7 +73,9 @@ export function getConfig({
       uniqueName: getUniqueName(),
     };
   } else if (entryPoint) {
-    entryFiles = path.join(root, srcFolder, entryPoint);
+    entryFiles = {
+      core: [path.join(root, srcFolder, entryPoint)],
+    };
   }
 
   return {

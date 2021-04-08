@@ -69,7 +69,6 @@ export function getPlugins({
   if (!entryPoint && PROD) {
     plugins.push(
       new HtmlWebpackPlugin({
-        chunks: ['runtime', 'core'],
         chunksSortMode: 'auto',
         template: `${srcFolder}/index.html`,
         filename: 'index.html',
