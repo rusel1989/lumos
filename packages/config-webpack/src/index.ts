@@ -38,9 +38,11 @@ export function getConfig({
   const srcPath = path.join(root, srcFolder);
   const internalPath = path.join(root, buildFolder);
   const contentBase = path.join(root, devServerContentBase);
+
   let entryFiles: Configuration['entry'] = {
     core: [srcPath],
   };
+
   let output: Configuration['output'] = {
     path: internalPath,
     publicPath,
@@ -48,6 +50,7 @@ export function getConfig({
     chunkFilename: PROD ? 'assets/[name].[contenthash].chunk.js' : 'assets/[name].[id].js',
     sourceMapFilename: '[file].map',
   };
+
   const plugins = getPlugins({
     analyzeBundle,
     buildFolder,
@@ -70,9 +73,7 @@ export function getConfig({
       uniqueName: getUniqueName(),
     };
   } else if (entryPoint) {
-    entryFiles = {
-      core: [path.join(root, srcFolder, entryPoint)],
-    };
+    entryFiles = path.join(root, srcFolder, entryPoint);
   }
 
   return {
