@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.7 - 2021-04-08
+
+#### 🐞 Fixes
+
+- Add eslint tests and fix webpack issue. (#477) ([a6fc8e5](https://github.com/Oriflame/lumos/commit/a6fc8e52fee830101877bb42649ce677afb3b6c0)), closes  _#477_
+
+
+#### 🛠 Internals
+
+- release [ci skip]. ([ed86dd2](https://github.com/Oriflame/lumos/commit/ed86dd20ad58d49d2a36bf75b1c423ff46fe04cd))
+
+**Note:** Version bump only for package @oriflame/lumos-common
+
+
+
+
+
 ### 2.4.6 - 2021-03-26
 
 #### 📦 Dependencies
