@@ -79,12 +79,14 @@ export function getPlugins({
   }
 
   if (react && !PROD) {
-    plugins.push(
-      new webpack.HotModuleReplacementPlugin(),
-      new ReactRefreshWebpackPlugin({
-        exclude: [/node_modules/, BOOTSTRAP_WEBPACK_PATTERN],
-      }),
-    );
+    plugins.push(new webpack.HotModuleReplacementPlugin());
+    if (!moduleFederationConfig) {
+      plugins.push(
+        new ReactRefreshWebpackPlugin({
+          exclude: [/node_modules/, BOOTSTRAP_WEBPACK_PATTERN],
+        }),
+      );
+    }
   }
 
   return plugins;
