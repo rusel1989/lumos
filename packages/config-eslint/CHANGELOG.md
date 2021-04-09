@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.29 - 2021-04-09
+
+#### 📦 Dependencies
+
+- bump eslint-plugin-react from 7.23.1 to 7.23.2 (#484) ([9b7105a](https://github.com/Oriflame/lumos/commit/9b7105a8ba0cacf415ac38072be6da82d28caaaa)), closes  _#484_
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 2.1.28 - 2021-04-08
 
 #### 🐞 Fixes
