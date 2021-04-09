@@ -18,13 +18,15 @@ const config: ESLintConfig = {
         'max-classes-per-file': 'off',
 
         // override @typescript-eslint/eslint-plugin rules
+        '@typescript-eslint/ban-ts-comment': 'off', // bans // @ts-<directive> comments from being used
+        '@typescript-eslint/no-floating-promises': 'off', // requires Promise-like values to be handled appropriately
         '@typescript-eslint/unbound-method': 'off', // enforces unbound methods are called with their expected scope
 
         // eslint-plugin-jest
         'jest/consistent-test-it': 'off', // have control over test and it usages
         'jest/expect-expect': 'warn', // enforce assertion to be made in a test body
         'jest/lowercase-name': 'off', // enforce lowercase test names
-        'jest/no-alias-methods': 'error', // disallow alias methods
+        'jest/no-alias-methods': 'warn', // disallow alias methods
         'jest/no-commented-out-tests': 'warn', // disallow commented out tests
         'jest/no-conditional-expect': 'error', // prevent calling expect conditionally
         'jest/no-deprecated-functions': 'error', // disallow use of deprecated functions
@@ -49,7 +51,7 @@ const config: ESLintConfig = {
         'jest/prefer-expect-assertions': 'off', // suggest using expect.assertions() OR expect.hasAssertions()
         'jest/prefer-hooks-on-top': 'warn', // suggest having hooks before any test cases
         'jest/prefer-spy-on': 'error', // suggest using jest.spyOn()
-        'jest/prefer-strict-equal': 'warn', // suggest using toStrictEqual()
+        'jest/prefer-strict-equal': 'off', // suggest using toStrictEqual()
         'jest/prefer-to-be-null': 'warn', // suggest using toBeNull()
         'jest/prefer-to-be-undefined': 'warn', // suggest using toBeUndefined()
         'jest/prefer-to-contain': 'warn', // suggest using toContain()

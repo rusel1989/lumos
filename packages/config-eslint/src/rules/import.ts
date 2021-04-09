@@ -30,7 +30,10 @@ const config: ESLintConfig = {
     // eslint-plugin-import rules
     'import/extensions': ['error', 'always', { js: 'never', jsx: 'never', mjs: 'never' }], // ensure consistent use of file extension within the import path
     'import/first': 'error', // ensure all imports appear before other statements
+    /* TODO: enable this when https://github.com/benmosher/eslint-plugin-import/issues/1998 is fixed - 'import/named': 'error', // ensure named imports correspond to a named export in the remote file. */
+    'import/named': 'off', // ensure named imports correspond to a named export in the remote file.
     'import/newline-after-import': 'warn', // enforce a newline after import statements
+    'import/no-named-as-default': 'off', // report use of exported name as identifier of default export
     'import/no-useless-path-segments': ['error', { noUselessIndex: true }], // prevent unnecessary path segments in import and require statements
     'import/order': [
       'warn',

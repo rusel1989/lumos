@@ -4,7 +4,7 @@ const config: ESLintConfig = {
   plugins: ['eslint-plugin-eslint-comments'],
   rules: {
     // eslint-plugin-eslint-comments rules
-    'eslint-comments/disable-enable-pair': 'error', // require a eslint-enable comment for every eslint-disable comment
+    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }], // require a eslint-enable comment for every eslint-disable comment
     'eslint-comments/no-aggregating-enable': 'error', // disallow a eslint-enable comment for multiple eslint-disable comments
     'eslint-comments/no-duplicate-disable': 'error', // disallow duplicate eslint-disable comments
     'eslint-comments/no-restricted-disable': 'off', // disallow eslint-disable comments about specific rules

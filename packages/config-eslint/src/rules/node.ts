@@ -42,9 +42,12 @@ const config: ESLintConfig = {
     'node/no-unpublished-bin': 'off', // disallow bin files that npm ignores
     'node/no-unpublished-import': 'warn', // disallow import declarations which import private modules
     'node/no-unpublished-require': 'warn', // disallow require() expressions which import private modules
-    'node/no-unsupported-features/es-builtins': ['error', { ignores: [] }], // disallow unsupported ECMAScript built-ins on the specified version
-    'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules', 'dynamicImport'] }], // disallow unsupported ECMAScript syntax on the specified version
-    'node/no-unsupported-features/node-builtins': ['error', { ignores: [] }], // disallow unsupported Node.js built-in APIs on the specified version
+    'node/no-unsupported-features/es-builtins': ['error', { ignores: [], version: '>=14.0.0' }], // disallow unsupported ECMAScript built-ins on the specified version
+    'node/no-unsupported-features/es-syntax': [
+      'error',
+      { ignores: ['modules', 'dynamicImport'], version: '>=14.0.0' },
+    ], // disallow unsupported ECMAScript syntax on the specified version
+    'node/no-unsupported-features/node-builtins': ['error', { ignores: [], version: '>=14.0.0' }], // disallow unsupported Node.js built-in APIs on the specified version
     'node/prefer-global/buffer': 'warn', // enforce either Buffer or require("buffer").Buffer
     'node/prefer-global/console': 'warn', // enforce either console or require("console")
     'node/prefer-global/process': 'warn', // enforce either process or require("process")

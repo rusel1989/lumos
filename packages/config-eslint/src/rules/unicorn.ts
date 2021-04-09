@@ -5,6 +5,7 @@ const config: ESLintConfig = {
   rules: {
     // override ESLint rules
     'no-nested-ternary': 'off', // disallow nested ternary expressions
+    'no-warning-comments': 'off', // disallow specified warning terms in comments
 
     // eslint-plugin-unicorn rules
     'unicorn/better-regex': 'warn', // improve regexes by making them shorter, consistent, and safer
@@ -71,7 +72,7 @@ const config: ESLintConfig = {
     'unicorn/prefer-negative-index': 'warn', // prefer negative index over .length - index for {String,Array,TypedArray}#slice() and Array#splice()
     'unicorn/prefer-number-properties': 'warn', // prefer Number static properties over global ones
     'unicorn/prefer-optional-catch-binding': 'off', // prefer omitting the catch binding parameter
-    'unicorn/prefer-query-selector': 'warn', // prefer .querySelector() over .getElementById(), .querySelectorAll() over .getElementsByClassName() and .getElementsByTagName()
+    'unicorn/prefer-query-selector': 'off', // prefer .querySelector() over .getElementById(), .querySelectorAll() over .getElementsByClassName() and .getElementsByTagName()
     'unicorn/prefer-reflect-apply': 'off', // prefer Reflect.apply() over Function#apply()
     'unicorn/prefer-regexp-test': 'warn', // prefer RegExp#test() over String#match() and RegExp#exec()
     'unicorn/prefer-set-has': 'warn', // prefer Set#has() over Array#includes() when checking for existence or non-existence

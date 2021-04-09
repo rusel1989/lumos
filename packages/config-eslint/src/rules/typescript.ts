@@ -1,3 +1,5 @@
+/* eslint-disable id-denylist -- we have to use identifiers like "String" in rule definitions */
+
 import { ESLintConfig } from '@beemo/driver-eslint';
 import { EXTS, TSX_EXTS_GROUP, fromRoot } from '@oriflame/lumos-common';
 
@@ -44,6 +46,7 @@ const config: ESLintConfig = {
         'no-shadow': 'off', // disallow variable declarations from shadowing variables declared in the outer scope
         'no-throw-literal': 'off', // disallow throwing literals as exceptions
         'no-return-await': 'off', // disallow unnecessary return await
+        'no-undef': 'off', // disallow the use of undeclared variables unless mentioned in /* global */ comments
         'no-underscore-dangle': 'off', // disallow dangling underscores in identifiers
         'no-unused-expressions': 'off', // disallow unused expressions
         'no-unused-vars': 'off', // disallow unused variables
@@ -58,6 +61,7 @@ const config: ESLintConfig = {
           'always',
           { '.js': 'never', '.jsx': 'never', '.ts': 'never', '.tsx': 'never' },
         ], // enforce the style of file extensions in import declarations
+        'node/no-missing-import': 'off', // disallow import declarations which import non-existence modules
 
         // override eslint-plugin-react rules
         'react/forbid-prop-types': 'off', // forbid certain propTypes
@@ -78,7 +82,7 @@ const config: ESLintConfig = {
         '@typescript-eslint/array-type': ['error', { default: 'array-simple' }], // requires using either T[] or Array<T> for arrays
         '@typescript-eslint/await-thenable': 'error', // disallows awaiting a value that is not a Thenable
         '@typescript-eslint/ban-ts-comment': 'warn', // bans // @ts-<directive> comments from being used
-        '@typescript-eslint/ban-tslint-comment': 'off', // bans // tslint:<rule-flag> comments from being used
+        '@typescript-eslint/ban-tslint-comment': 'error', // bans // tslint:<rule-flag> comments from being used
         '@typescript-eslint/ban-types': [
           'error',
           {
@@ -133,7 +137,7 @@ const config: ESLintConfig = {
         '@typescript-eslint/method-signature-style': ['error', 'property'], // enforces using a particular method signature syntax.
         '@typescript-eslint/naming-convention': [
           'warn',
-          // this prevents interface names starting with "I"
+          // interfaces cannot start with "I"
           {
             selector: 'interface',
             format: ['PascalCase'],
@@ -142,19 +146,25 @@ const config: ESLintConfig = {
               match: false,
             },
           },
+          // variables and parameters must use camel case, pascal case or upper case with no leading and trailing underscores - exceptions are names that are only underscores (used e.g. for placeholder parameters)
           {
             selector: 'variableLike',
             format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
             leadingUnderscore: 'forbid',
             trailingUnderscore: 'forbid',
+            filter: {
+              regex: '^_+$',
+              match: false,
+            },
           },
+          // functions must use camel case or pascal case with no leading and trailing underscores
           {
             selector: 'function',
             format: ['camelCase', 'PascalCase'],
             leadingUnderscore: 'forbid',
             trailingUnderscore: 'forbid',
           },
-          {
+          /* TODO: enable this when we can discern things defined in external packages and other stuff - {
             selector: 'variable',
             types: ['boolean'],
             format: ['PascalCase'],
@@ -181,14 +191,14 @@ const config: ESLintConfig = {
             modifiers: ['destructured'],
             format: null,
           },
-          /* TODO: enable this when we can discern things defined in external packages - {
+          {
             selector: 'property',
             types: ['boolean'],
             format: ['PascalCase'],
             prefix: ['is', 'are', 'was', 'should', 'has', 'can', 'did', 'will', 'use', 'allow'],
             leadingUnderscore: 'allow',
             trailingUnderscore: 'forbid',
-          }, */
+          },
           {
             selector: 'parameterProperty',
             types: ['boolean'],
@@ -228,7 +238,8 @@ const config: ESLintConfig = {
             ],
             leadingUnderscore: 'forbid',
             trailingUnderscore: 'forbid',
-          },
+          }, */
+          // "member-like" (i.e. properties, methods, etc.) must use camel case, pascal case or upper case with only leading underscore allowed
           {
             selector: 'memberLike',
             format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
@@ -239,6 +250,7 @@ const config: ESLintConfig = {
               match: false,
             },
           },
+          // "type-like" (i.e. interface, enum, etc.) must use pascal case
           {
             selector: 'typeLike',
             format: ['PascalCase'],
@@ -326,7 +338,7 @@ const config: ESLintConfig = {
         '@typescript-eslint/non-nullable-type-assertion-style': 'off', // prefers a non-null assertion over explicit type cast when possible
         '@typescript-eslint/object-curly-spacing': 'off', // enforce consistent spacing inside braces
         '@typescript-eslint/prefer-as-const': 'error', // prefer usage of as const over literal type
-        '@typescript-eslint/prefer-enum-initializers': 'warn', // prefer initializing each enums member value
+        '@typescript-eslint/prefer-enum-initializers': 'off', // prefer initializing each enums member value
         '@typescript-eslint/prefer-for-of': 'warn', // prefer a ‘for-of’ loop over a standard ‘for’ loop if the index is only used to access the array being iterated
         '@typescript-eslint/prefer-function-type': 'warn', // Use function types instead of interfaces with call signatures
         '@typescript-eslint/prefer-includes': 'warn', // enforce includes method over indexOf method
@@ -365,12 +377,7 @@ const config: ESLintConfig = {
         ], // sets preference level for triple slash directives versus ES6-style import declarations
         '@typescript-eslint/type-annotation-spacing': 'off', // require consistent spacing around type annotations
         '@typescript-eslint/typedef': 'off', // requires type annotations to exist
-        '@typescript-eslint/unbound-method': [
-          'error',
-          {
-            ignoreStatic: true,
-          },
-        ], // enforces unbound methods are called with their expected scope
+        '@typescript-eslint/unbound-method': 'off', // enforces unbound methods are called with their expected scope
         '@typescript-eslint/unified-signatures': 'error', // warns for any two overloads that could be unified into one by using a union or an optional/rest parameter
       },
     },

@@ -79,7 +79,7 @@ const config: ESLintConfig = {
     'no-duplicate-imports': 'error', // disallow duplicate module imports
     'no-else-return': 'error', // disallow `else` blocks after `return` statements in `if` statements
     'no-empty-function': 'error', // disallow empty functions
-    'no-eq-null': 'error', // disallow null comparisons without type-checking operators
+    'no-eq-null': 'off', // disallow null comparisons without type-checking operators
     'no-extra-boolean-cast': 'error', // disallow unnecessary boolean casts
     'no-implicit-globals': 'error', // disallow declarations in the global scope
     'no-import-assign': 'error', // disallow assigning to imported bindings
