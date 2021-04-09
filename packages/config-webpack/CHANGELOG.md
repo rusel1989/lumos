@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.61 - 2021-04-09
+
+#### 📦 Dependencies
+
+- bump is-docker from 2.2.0 to 2.2.1 (#485) ([e624d0e](https://github.com/Oriflame/lumos/commit/e624d0e046ce6eaba50fb0278e971b2d801a56f1)), closes  _#485_
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.60 - 2021-04-09
 
 #### 📦 Dependencies

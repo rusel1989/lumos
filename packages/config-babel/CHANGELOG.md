@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.58 - 2021-04-09
+
+#### 📦 Dependencies
+
+- bump @babel/plugin-proposal-decorators from 7.13.5 to 7.13.15 (#480) ([c80c496](https://github.com/Oriflame/lumos/commit/c80c496370ada8b689ac11fe2a5f03900884a375)), closes  _#480_
+
+- bump @babel/plugin-transform-runtime from 7.13.10 to 7.13.15 (#481) ([ed0bc23](https://github.com/Oriflame/lumos/commit/ed0bc23a2aaa10d2c044a2c1bec08e5199bbcb0b)), closes  _#481_
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.57 - 2021-04-09
 
 #### 📦 Dependencies
