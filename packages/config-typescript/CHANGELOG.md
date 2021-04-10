@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.21 - 2021-04-10
+
+#### 🛠 Internals
+
+- **[typescript]** Remove noUnusedLocals as it is enforced at lint time. (#486) ([043817d](https://github.com/Oriflame/lumos/commit/043817d1b3f524e5dfd96d7dc9c46dcfcd3f6f36)), closes  _#486_
+
+- release [ci skip]. ([236adb4](https://github.com/Oriflame/lumos/commit/236adb47e44bf3be7cfdac2f726550c0fb93a5a6))
+
+**Note:** Version bump only for package @oriflame/config-typescript
+
+
+
+
+
 ### 1.1.20 - 2021-04-08
 
 **Note:** Version bump only for package @oriflame/config-typescript
