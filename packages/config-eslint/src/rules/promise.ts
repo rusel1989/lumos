@@ -1,6 +1,7 @@
 import { ESLintConfig } from '@beemo/driver-eslint';
 
 const config: ESLintConfig = {
+  extends: ['plugin:eslint-plugin-promise/recommended'],
   plugins: ['eslint-plugin-promise'],
   rules: {
     // eslint-plugin-promise rules
