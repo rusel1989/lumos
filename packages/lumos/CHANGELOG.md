@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.108 - 2021-04-13
+
+#### 📦 Dependencies
+
+- bump @actions/core from 1.2.6 to 1.2.7 (#503) ([8377c91](https://github.com/Oriflame/lumos/commit/8377c913a8054e2d0f02e6f720e62deb14145139)), closes  _#503_
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.4.107 - 2021-04-13
 
 **Note:** Version bump only for package @oriflame/lumos
