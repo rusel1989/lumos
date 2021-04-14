@@ -9,7 +9,6 @@
     "enabled": true
   },
   "rangeStrategy": "bump",
-  "semanticCommitType": "deps",
   "prCreation": "immediate",
   "npm": {
     "enabled": true
