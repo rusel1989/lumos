@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "group:monorepos"
+    "group:monorepos",
+    ":semanticCommitScope(package)"
   ],
   "bumpVersion": "patch",
   "commitMessageSuffix": ".",
@@ -9,6 +10,7 @@
     "enabled": true
   },
   "rangeStrategy": "bump",
+  "semanticCommitType": "deps",
   "prCreation": "immediate",
   "npm": {
     "enabled": true
