@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "group:monorepos"
+  ],
+  "bumpVersion": "patch",
+  "commitMessageSuffix": ".",
+  "major": {
+    "enabled": true
+  },
+  "rangeStrategy": "bump",
+  "semanticCommitType": "deps",
+  "prCreation": "immediate",
+  "npm": {
+    "enabled": true
+  },
+  "semanticCommits": "enabled",
+  "updateLockFiles": true
+}
+
