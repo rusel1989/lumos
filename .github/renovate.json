@@ -4,7 +4,6 @@
     "group:monorepos",
     ":semanticCommitScopeDisabled"
   ],
-  "bumpVersion": "patch",
   "commitMessageSuffix": ".",
   "major": {
     "enabled": true
