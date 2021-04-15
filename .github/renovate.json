@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "group:monorepos",
+    "config:base",
     ":semanticCommitScopeDisabled"
   ],
   "commitMessageSuffix": ".",
@@ -15,6 +15,16 @@
     "enabled": true
   },
   "semanticCommits": "enabled",
-  "updateLockFiles": true
+  "updateLockFiles": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchPackagePrefixes": [
+        "@oriflame/"
+      ],
+      "groupName": "Oriflame dependencies"
+    }
+  ]
 }
-
