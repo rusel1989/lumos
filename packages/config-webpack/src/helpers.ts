@@ -6,6 +6,7 @@ import path from 'path';
 import webpack, { Configuration, container } from 'webpack';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 
+import ModuleFederationConcatRuntime from '@module-federation/concat-runtime';
 import { INVALID_CHARS, NUMBER_REGEX } from './constants';
 import getClientEnvironment from './env';
 import { WebpackOptions } from './types';
@@ -48,13 +49,17 @@ export function getPlugins({
   ];
 
   if (moduleFederationConfig) {
-    plugins.push(new container.ModuleFederationPlugin(moduleFederationConfig));
+    plugins.push(
+      // @ts-expect-error
+      new ModuleFederationConcatRuntime(),
+      new container.ModuleFederationPlugin(moduleFederationConfig),
+    );
   }
 
   if (!PROD) {
     plugins.push(
       new HtmlWebpackPlugin({
-        chunks: ['runtime', 'core'],
+        chunks: ['runtime', 'index'],
         template: `${srcFolder}/index.html`,
         filename: 'index.html',
         favicon: getFavIcon(srcPath),
@@ -70,7 +75,7 @@ export function getPlugins({
   if (!entryPoint && PROD) {
     plugins.push(
       new HtmlWebpackPlugin({
-        chunks: ['runtime', 'core'],
+        chunks: ['runtime', 'index'],
         chunksSortMode: 'auto',
         template: `${srcFolder}/index.html`,
         filename: 'index.html',

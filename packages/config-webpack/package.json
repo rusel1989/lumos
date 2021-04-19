@@ -34,6 +34,7 @@
     "@beemo/driver-webpack": "^1.2.6",
     "@oriflame/lumos-common": "^3.0.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@module-federation/concat-runtime": "^0.0.1",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.4",

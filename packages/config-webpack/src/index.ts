@@ -38,16 +38,19 @@ export function getConfig({
   const srcPath = path.join(root, srcFolder);
   const internalPath = path.join(root, buildFolder);
   const contentBase = path.join(root, devServerContentBase);
-  let entryFiles: Configuration['entry'] = {
-    core: [srcPath],
+  const entry: Configuration['entry'] = {
+    index: [srcPath],
   };
-  let output: Configuration['output'] = {
+
+  const output: Configuration['output'] = {
     path: internalPath,
     publicPath,
-    filename: PROD ? 'assets/[name].[contenthash].js' : 'assets/[name].js',
-    chunkFilename: PROD ? 'assets/[name].[contenthash].chunk.js' : 'assets/[name].[id].js',
+    filename: '[name].js',
+    chunkFilename: PROD ? '[name].[contenthash].chunk.js' : '[name].[id].js',
     sourceMapFilename: '[file].map',
+    uniqueName: PROD ? getUniqueName() : undefined,
   };
+
   const plugins = getPlugins({
     analyzeBundle,
     buildFolder,
@@ -60,19 +63,7 @@ export function getConfig({
   });
 
   if (entryPoint && PROD) {
-    entryFiles = path.join(root, srcFolder, entryPoint);
-    output = {
-      path: internalPath,
-      publicPath,
-      filename: 'index.js',
-      chunkFilename: '[name].[contenthash].chunk.js',
-      sourceMapFilename: '[file].map',
-      uniqueName: getUniqueName(),
-    };
-  } else if (entryPoint) {
-    entryFiles = {
-      core: [path.join(root, srcFolder, entryPoint)],
-    };
+    output.filename = 'index.js';
   }
 
   return {
@@ -80,7 +71,7 @@ export function getConfig({
 
     bail: PROD,
 
-    entry: entryFiles,
+    entry,
 
     context: root,
 
@@ -130,7 +121,7 @@ export function getConfig({
             loader: 'url-loader',
             options: {
               limit: 1000,
-              name: 'assets/[name].[ext]?[hash:7]',
+              name: '[name].[ext]?[hash:7]',
               publicPath,
               esModule: false,
             },
@@ -183,7 +174,7 @@ export function getConfig({
     },
 
     optimization: {
-      chunkIds: 'named',
+      chunkIds: false,
       runtimeChunk: entryPoint && PROD ? false : 'single',
       minimize: PROD,
       minimizer: [

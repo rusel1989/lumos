@@ -2398,6 +2398,13 @@
     npmlog "^4.1.2"
     write-file-atomic "^3.0.3"
 
+"@module-federation/concat-runtime@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@module-federation/concat-runtime/-/concat-runtime-0.0.1.tgz#9dca0f12eba7fa584ce769302a4854ad461a8d6c"
+  integrity sha512-IwxPsmSU7HoUJn884ez7wwnndDcJZvaAzLAExr8Smf5DdIucSerYgqNSVAAMcezaUs/zoplsYyTc5BSUSQTrUw==
+  dependencies:
+    webpack-sources "^2.2.0"
+
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents":
   version "2.1.8-no-fsevents"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.tgz#da7c3996b8e6e19ebd14d82eaced2313e7769f9b"
@@ -14071,7 +14078,7 @@ webpack-merge@^5.7.3:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
 
-webpack-sources@^2.1.1:
+webpack-sources@^2.1.1, webpack-sources@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-2.2.0.tgz#058926f39e3d443193b6c31547229806ffd02bac"
   integrity sha512-bQsA24JLwcnWGArOKUxYKhX3Mz/nK1Xf6hxullKERyktjNMC4x8koOeaDNTA2fEJ09BdWLbM/iTW0ithREUP0w==
