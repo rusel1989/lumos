@@ -2,6 +2,11 @@ import { ESLintConfig } from '@beemo/driver-eslint';
 import { TJSX_EXTS_GROUP } from '@oriflame/lumos-common';
 
 const config: ESLintConfig = {
+  settings: {
+    'testing-library/custom-queries': 'off',
+    'testing-library/custom-renders': 'off',
+    'testing-library/utils-module': 'off',
+  },
   overrides: [
     {
       extends: ['plugin:eslint-plugin-testing-library/react'],

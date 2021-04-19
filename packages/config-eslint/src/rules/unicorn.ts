@@ -82,6 +82,7 @@ const config: ESLintConfig = {
     'unicorn/prefer-string-slice': 'warn', // prefer String#slice() over String#substr() and String#substring()
     'unicorn/prefer-string-starts-ends-with': 'warn', // prefer String#startsWith() & String#endsWith() over more complex alternatives
     'unicorn/prefer-string-trim-start-end': 'warn', // prefer String#trimStart() / String#trimEnd() over String#trimLeft() / String#trimRight()
+    'unicorn/prefer-switch': 'off', // prefer switch over multiple else-if
     'unicorn/prefer-ternary': 'off', // prefer ternary expressions over simple if-else statements
     'unicorn/prefer-type-error': 'warn', // enforce throwing TypeError in type checking conditions
     'unicorn/prevent-abbreviations': 'off', // Prevent abbreviations.
