@@ -8,6 +8,10 @@ const project = fromRoot('tsconfig.eslint.json', true) || fromRoot('tsconfig.jso
 const config: ESLintConfig = {
   overrides: [
     {
+      extends: [
+        'plugin:@typescript-eslint/eslint-plugin/recommended',
+        'plugin:@typescript-eslint/eslint-plugin/recommended-requiring-type-checking',
+      ],
       files: [`*.${TSX_EXTS_GROUP}`],
       parser: '@typescript-eslint/parser',
       parserOptions: {

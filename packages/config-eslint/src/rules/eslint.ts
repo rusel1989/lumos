@@ -2,6 +2,7 @@ import { ESLintConfig } from '@beemo/driver-eslint';
 
 const config: ESLintConfig = {
   root: true,
+  extends: ['eslint:recommended'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',

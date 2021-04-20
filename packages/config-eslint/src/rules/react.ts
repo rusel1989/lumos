@@ -1,6 +1,7 @@
 import { ESLintConfig } from '@beemo/driver-eslint';
 
 const config: ESLintConfig = {
+  extends: ['plugin:eslint-plugin-react/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
