@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.70 - 2021-04-20
+
+#### 📦 Dependencies
+
+- update babel monorepo to ^7.13.16 (#522) ([bc44e4c](https://github.com/Oriflame/lumos/commit/bc44e4c2bb5c32d790f166e9050501d2e294adb9)), closes  _#522_
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.69 - 2021-04-20
 
 #### 📦 Dependencies
