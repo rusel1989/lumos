@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.71 - 2021-04-21
+
+#### 🐞 Fixes
+
+- Fix ESLint issues. (#526) ([e7783e8](https://github.com/Oriflame/lumos/commit/e7783e8b76c24b45a9162f824c45397006aed79e)), closes  _#526_
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.70 - 2021-04-20
 
 #### 📦 Dependencies

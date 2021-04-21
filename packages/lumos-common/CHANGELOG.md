@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 - 2021-04-21
+
+#### 💥 Breaking
+
+- Revamp ESLint config. (#392) ([eff9dd1](https://github.com/Oriflame/lumos/commit/eff9dd109e9a90a820764c16e37f89a13ccfbfc3)), closes  _#392_
+
+
+#### 🐞 Fixes
+
+- Fix ESLint issues. (#526) ([e7783e8](https://github.com/Oriflame/lumos/commit/e7783e8b76c24b45a9162f824c45397006aed79e)), closes  _#526_
+
+
+#### 🛠 Internals
+
+- release [ci skip]. ([42826b9](https://github.com/Oriflame/lumos/commit/42826b98aeb534a6c1eb7949e284c6425d89b22c))
+
+**Note:** Version bump only for package @oriflame/lumos-common
+
+
+
+
+
 ### 2.4.7 - 2021-04-08
 
 #### 🐞 Fixes
