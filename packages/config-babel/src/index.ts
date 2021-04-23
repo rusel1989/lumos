@@ -18,6 +18,7 @@ interface BabelOptions {
   typescript?: boolean;
   empty?: boolean;
   srcFolder: string;
+  moduleFederationEnabled?: boolean;
 }
 
 export function getConfig({
@@ -31,6 +32,7 @@ export function getConfig({
   typescript = false,
   empty = false,
   srcFolder,
+  moduleFederationEnabled = false,
 }: BabelOptions): BabelConfig {
   if (empty) {
     return {};
@@ -38,7 +40,7 @@ export function getConfig({
 
   const envOptions = {
     loose: true,
-    modules: esm ? false : 'commonjs',
+    modules: esm || moduleFederationEnabled ? false : 'commonjs',
     shippedProposals: next,
     targets: node ? NODE_TARGET : WEB_TARGET,
     ...env,

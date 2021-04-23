@@ -38,16 +38,19 @@ export function getConfig({
   const srcPath = path.join(root, srcFolder);
   const internalPath = path.join(root, buildFolder);
   const contentBase = path.join(root, devServerContentBase);
-  let entryFiles: Configuration['entry'] = {
-    core: [srcPath],
+  const entry: Configuration['entry'] = {
+    index: [srcPath],
   };
-  let output: Configuration['output'] = {
+
+  const output: Configuration['output'] = {
     path: internalPath,
     publicPath,
-    filename: PROD ? 'assets/[name].[contenthash].js' : 'assets/[name].js',
-    chunkFilename: PROD ? 'assets/[name].[contenthash].chunk.js' : 'assets/[name].[id].js',
+    filename: '[name].js',
+    chunkFilename: PROD ? '[name].[contenthash].chunk.js' : '[name].[id].js',
     sourceMapFilename: '[file].map',
+    uniqueName: PROD ? getUniqueName() : undefined,
   };
+
   const plugins = getPlugins({
     analyzeBundle,
     buildFolder,
@@ -59,20 +62,12 @@ export function getConfig({
     moduleFederationConfig,
   });
 
+  if (entryPoint) {
+    entry.index = path.join(srcPath, entryPoint);
+  }
+
   if (entryPoint && PROD) {
-    entryFiles = path.join(root, srcFolder, entryPoint);
-    output = {
-      path: internalPath,
-      publicPath,
-      filename: 'index.js',
-      chunkFilename: '[name].[contenthash].chunk.js',
-      sourceMapFilename: '[file].map',
-      uniqueName: getUniqueName(),
-    };
-  } else if (entryPoint) {
-    entryFiles = {
-      core: [path.join(root, srcFolder, entryPoint)],
-    };
+    output.filename = 'index.js';
   }
 
   return {
@@ -80,7 +75,7 @@ export function getConfig({
 
     bail: PROD,
 
-    entry: entryFiles,
+    entry,
 
     context: root,
 

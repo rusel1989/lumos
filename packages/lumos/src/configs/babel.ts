@@ -11,6 +11,7 @@ const {
   env,
   emptyBabelConfig: empty,
   srcFolder,
+  moduleFederationConfig,
 } = getSettings();
 
 export = getConfig({
@@ -24,4 +25,5 @@ export = getConfig({
   typescript: tool.isPluginEnabled('driver', 'typescript'),
   empty,
   srcFolder,
+  moduleFederationEnabled: Boolean(moduleFederationConfig),
 });

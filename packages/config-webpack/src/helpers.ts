@@ -1,4 +1,5 @@
 import { Path } from '@beemo/core';
+import ModuleFederationConcatRuntime from '@module-federation/concat-runtime';
 import { getPackage, WEBPACK_ROOT } from '@oriflame/lumos-common';
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
@@ -48,13 +49,16 @@ export function getPlugins({
   ];
 
   if (moduleFederationConfig) {
-    plugins.push(new container.ModuleFederationPlugin(moduleFederationConfig));
+    plugins.push(
+      new ModuleFederationConcatRuntime(),
+      new container.ModuleFederationPlugin(moduleFederationConfig),
+    );
   }
 
   if (!PROD) {
     plugins.push(
       new HtmlWebpackPlugin({
-        chunks: ['runtime', 'core'],
+        chunks: ['runtime', 'index'],
         template: `${srcFolder}/index.html`,
         filename: 'index.html',
         favicon: getFavIcon(srcPath),
@@ -71,7 +75,7 @@ export function getPlugins({
   if (!entryPoint && PROD) {
     plugins.push(
       new HtmlWebpackPlugin({
-        chunks: ['runtime', 'core'],
+        chunks: ['runtime', 'index'],
         chunksSortMode: 'auto',
         template: `${srcFolder}/index.html`,
         filename: 'index.html',
