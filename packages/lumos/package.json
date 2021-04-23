@@ -34,7 +34,7 @@
     "@actions/github": "^4.0.0",
     "@beemo/cli": "^1.0.11",
     "@beemo/core": "^1.1.8",
-    "@octokit/rest": "^16.43.2",
+    "@octokit/rest": "^18.5.3",
     "@oriflame/conventional-changelog": "^1.1.2",
     "@oriflame/lumos-common": "^3.0.0",
     "chalk": "^4.1.1",
