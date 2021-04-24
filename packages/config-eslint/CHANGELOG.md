@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.2 - 2021-04-24
+
+#### 📦 Dependencies
+
+- update dependency eslint to ^7.25.0 ([76437a8](https://github.com/Oriflame/lumos/commit/76437a8ab2e06e52647a9261d845730f7f088cf8))
+- update dependency eslint-config-prettier to ^8.3.0 ([d25d4c6](https://github.com/Oriflame/lumos/commit/d25d4c6e352499f936d4ef9a8624f9d29e2c98c5))
+- update dependency eslint-plugin-unicorn to v31 ([14b2c7f](https://github.com/Oriflame/lumos/commit/14b2c7fa38859cc3937c3562bf7f9c7385346f1d))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([1b22189](https://github.com/Oriflame/lumos/commit/1b2218978a65988401c49017715e1289d3ab8d17))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 3.0.1 - 2021-04-22
 
 #### 📦 Dependencies
