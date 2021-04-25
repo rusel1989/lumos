@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.3 - 2021-04-25
+
+#### 📦 Dependencies
+
+- update dependency eslint-plugin-testing-library to ^4.1.2 ([7dfda78](https://github.com/Oriflame/lumos/commit/7dfda78827c9f67e6c7acca9a3d33b4cab518233))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 3.0.2 - 2021-04-24
 
 #### 📦 Dependencies
