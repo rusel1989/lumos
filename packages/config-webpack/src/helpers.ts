@@ -48,11 +48,12 @@ export function getPlugins({
     }),
   ];
 
+  if (PROD && entryPoint && moduleFederationConfig) {
+    plugins.push(new ModuleFederationConcatRuntime());
+  }
+
   if (moduleFederationConfig) {
-    plugins.push(
-      new ModuleFederationConcatRuntime(),
-      new container.ModuleFederationPlugin(moduleFederationConfig),
-    );
+    plugins.push(new container.ModuleFederationPlugin(moduleFederationConfig));
   }
 
   if (!PROD) {
