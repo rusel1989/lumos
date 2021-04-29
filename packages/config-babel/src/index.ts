@@ -65,18 +65,7 @@ export function getConfig({
     }
     case 'development': {
       if (react) {
-        plugins.push(
-          '@babel/plugin-transform-react-jsx-source',
-          '@babel/plugin-transform-react-jsx-self',
-          [
-            '@babel/plugin-transform-react-jsx-development',
-            {
-              development: true,
-              runtime: 'automatic',
-            },
-          ],
-          'react-refresh/babel',
-        );
+        plugins.push('react-refresh/babel');
       }
       break;
     }
@@ -104,7 +93,10 @@ export function getConfig({
   }
 
   if (react) {
-    presets.push(['@babel/preset-react', { runtime: 'automatic' }]);
+    presets.push([
+      '@babel/preset-react',
+      { runtime: 'automatic', development: process.env.NODE_ENV === 'development' },
+    ]);
   }
 
   if (typescript) {
