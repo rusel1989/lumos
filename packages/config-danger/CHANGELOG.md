@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.31 - 2021-04-29
+
+#### 🐞 Fixes
+
+- Lint issues. ([76d7101](https://github.com/Oriflame/lumos/commit/76d71017c925372525f3138b51f7cad189c895dc))
+- Update config and fix issues. ([dad70c4](https://github.com/Oriflame/lumos/commit/dad70c4d4554a15ffa4ac56535af0148d03c87a1))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a5c80fc](https://github.com/Oriflame/lumos/commit/a5c80fc7d914940a8190b0511af9f99115f09501))
+
+**Note:** Version bump only for package @oriflame/config-danger
+
+
+
+
+
 ### 1.1.30 - 2021-04-28
 
 #### 🛠 Internals

@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.0 - 2021-04-29
+
+#### 🚀 Updates
+
+- **[eslint-config]** Migrate to presets and disable some rules. ([c1658ba](https://github.com/Oriflame/lumos/commit/c1658ba08cc330ff84e516135d569b133ad36801))
+
+#### 🐞 Fixes
+
+- Add missing no extraneous deps. ([0e98d19](https://github.com/Oriflame/lumos/commit/0e98d197679d6bfdf4dcad68dbfd7333f45b5392))
+- Change strict boolean expression to warn. ([669b0c5](https://github.com/Oriflame/lumos/commit/669b0c59d6e5f27fc3373858b107153ed58e962a))
+- Disable more rules. ([9a095dc](https://github.com/Oriflame/lumos/commit/9a095dce48a614bfd2fa67dc855a0f67e1a4b301))
+- Disable more rules. ([1323d6c](https://github.com/Oriflame/lumos/commit/1323d6c55d1d97c9fc05a1b8a3f89b3cded34ec5))
+- Disable nullish for internal config. ([8247b45](https://github.com/Oriflame/lumos/commit/8247b458f1fa76dc089f1412f184f0f0732594cf))
+- Disable strict boolean expression for secret config. ([a5550bc](https://github.com/Oriflame/lumos/commit/a5550bce7645500d483981a215a60bbe9d0157fd))
+- Enable no unnecessary condition. ([d4fc845](https://github.com/Oriflame/lumos/commit/d4fc8457f53abab97b523271f6c9a56a6d277dd2))
+- Enable prefer-set-has. ([6c0dbde](https://github.com/Oriflame/lumos/commit/6c0dbde084b9a74f7ec899c26e26dff93d3cab0c))
+- Eslint errors and warnings. ([d2733ff](https://github.com/Oriflame/lumos/commit/d2733ff32da74c85b4cb52831b90684aa564eddb))
+- Eslint errors and warnings. ([47f2222](https://github.com/Oriflame/lumos/commit/47f2222324ccd17b91f48d54a5a69f3b038ace87))
+- **[config-eslint]** Disable @typescript-eslint/strict-boolean-expressions. ([826c2c2](https://github.com/Oriflame/lumos/commit/826c2c2ce463e2ce2e91d9560fdc3081651404ff))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a5c80fc](https://github.com/Oriflame/lumos/commit/a5c80fc7d914940a8190b0511af9f99115f09501))
+
+**Note:** Version bump only for package @oriflame/config-eslint
+
+
+
+
+
 ### 3.0.4 - 2021-04-27
 
 #### 📦 Dependencies

@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.125 - 2021-04-29
+
+#### 🐞 Fixes
+
+- Eslint errors and warnings. ([47f2222](https://github.com/Oriflame/lumos/commit/47f2222324ccd17b91f48d54a5a69f3b038ace87))
+- Lint issues. ([76d7101](https://github.com/Oriflame/lumos/commit/76d71017c925372525f3138b51f7cad189c895dc))
+- Update config and fix issues. ([dad70c4](https://github.com/Oriflame/lumos/commit/dad70c4d4554a15ffa4ac56535af0148d03c87a1))
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.4.124 - 2021-04-29
 
 **Note:** Version bump only for package @oriflame/lumos

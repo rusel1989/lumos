@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.1.33 - 2021-04-29
+
+#### 🐞 Fixes
+
+- Eslint errors and warnings. ([47f2222](https://github.com/Oriflame/lumos/commit/47f2222324ccd17b91f48d54a5a69f3b038ace87))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a5c80fc](https://github.com/Oriflame/lumos/commit/a5c80fc7d914940a8190b0511af9f99115f09501))
+
+**Note:** Version bump only for package @oriflame/config-jest
+
+
+
+
+
 ### 1.1.32 - 2021-04-28
 
 #### 📦 Dependencies

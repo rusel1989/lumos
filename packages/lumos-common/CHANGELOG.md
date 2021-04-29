@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.0.1 - 2021-04-29
+
+#### 🐞 Fixes
+
+- Add missing no extraneous deps. ([0e98d19](https://github.com/Oriflame/lumos/commit/0e98d197679d6bfdf4dcad68dbfd7333f45b5392))
+- Eslint errors and warnings. ([d2733ff](https://github.com/Oriflame/lumos/commit/d2733ff32da74c85b4cb52831b90684aa564eddb))
+- Update config and fix issues. ([dad70c4](https://github.com/Oriflame/lumos/commit/dad70c4d4554a15ffa4ac56535af0148d03c87a1))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a5c80fc](https://github.com/Oriflame/lumos/commit/a5c80fc7d914940a8190b0511af9f99115f09501))
+
+**Note:** Version bump only for package @oriflame/lumos-common
+
+
+
+
+
 # 3.0.0 - 2021-04-21
 
 #### 💥 Breaking
