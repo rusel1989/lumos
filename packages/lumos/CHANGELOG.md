@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.123 - 2021-04-29
+
+#### 🐞 Fixes
+
+- **[webpack]** Revert change from `||` to `??`. ([03cd53d](https://github.com/Oriflame/lumos/commit/03cd53d5ea9c3aec1e55c1f7936efb4b909733a3))
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.4.122 - 2021-04-28
 
 **Note:** Version bump only for package @oriflame/lumos
