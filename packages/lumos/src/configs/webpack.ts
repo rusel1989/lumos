@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/prefer-nullish-coalescing -- fml */
 import { getConfig } from '@oriflame/config-webpack';
 import { getSettings, getPackage } from '@oriflame/lumos-common';
 
@@ -23,7 +24,7 @@ export = getConfig({
   sourceMaps: !!process.env.SOURCE_MAPS,
   buildFolder: process.env.LUMOS_BUILD_FOLDER || (pkg.lumos.settings.buildFolder && buildFolder),
   srcFolder,
-  entryPoint: process.env.LUMOS_ENTRY_POINT ?? entryPoint,
+  entryPoint: process.env.LUMOS_ENTRY_POINT || entryPoint,
   publicPath,
   root,
   devServerContentBase,
