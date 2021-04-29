@@ -185,6 +185,7 @@ export function getConfig({
         new TerserPlugin({
           parallel: getParallelValue(parallel),
         }),
+        // @ts-expect-error -- type error
         new CssMinimizerPlugin({
           parallel: getParallelValue(parallel),
         }),
