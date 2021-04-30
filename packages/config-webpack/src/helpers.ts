@@ -59,7 +59,6 @@ export function getPlugins({
   if (!PROD) {
     plugins.push(
       new HtmlWebpackPlugin({
-        chunks: ['runtime', 'index'],
         template: `${srcFolder}/index.html`,
         filename: 'index.html',
         favicon: getFavIcon(srcPath),
@@ -76,7 +75,6 @@ export function getPlugins({
   if (!entryPoint && PROD) {
     plugins.push(
       new HtmlWebpackPlugin({
-        chunks: ['runtime', 'index'],
         chunksSortMode: 'auto',
         template: `${srcFolder}/index.html`,
         filename: 'index.html',
