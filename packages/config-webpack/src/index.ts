@@ -176,7 +176,7 @@ export function getConfig({
       },
     },
     optimization: {
-      runtimeChunk: entryPoint && PROD ? false : 'single',
+      runtimeChunk: entryPoint && PROD ? undefined : 'single',
       minimize: PROD,
       // @ts-expect-error -- type error
       minimizer: [
