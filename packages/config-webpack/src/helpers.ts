@@ -1,5 +1,5 @@
 import { Path } from '@beemo/core';
-import ModuleFederationConcatRuntime from '@module-federation/concat-runtime';
+// import ModuleFederationConcatRuntime from '@module-federation/concat-runtime';
 import { getPackage, WEBPACK_ROOT } from '@oriflame/lumos-common';
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
@@ -48,9 +48,10 @@ export function getPlugins({
     }),
   ];
 
-  if (PROD && entryPoint && moduleFederationConfig) {
-    plugins.push(new ModuleFederationConcatRuntime());
-  }
+  // Currently not working
+  // if (PROD && entryPoint && moduleFederationConfig) {
+  //   plugins.push(new ModuleFederationConcatRuntime());
+  // }
 
   if (moduleFederationConfig) {
     plugins.push(new container.ModuleFederationPlugin(moduleFederationConfig));
