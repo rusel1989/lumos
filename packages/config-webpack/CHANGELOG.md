@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.4.77 - 2021-05-03
+
+#### 📦 Dependencies
+
+- update dependency postcss-normalize to v10 (#543) ([b2ea2cb](https://github.com/Oriflame/lumos/commit/b2ea2cbd72d85fac3ca2ea0d236b891de691420e)), closes  _#543_
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.76 - 2021-04-30
 
 #### 📦 Dependencies
