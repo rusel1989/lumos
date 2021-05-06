@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 - 2021-05-06
+
+#### 💥 Breaking
+
+- **[config-webpack,config-babel]** Update configs to support module federation. (#542) ([7b3f1a8](https://github.com/Oriflame/lumos/commit/7b3f1a860ff31b060965b1301a37ca816c536e04)), closes  _#542_
+
+**Note:** Version bump only for package @oriflame/lumos
+
+
+
+
+
 ### 2.4.127 - 2021-05-03
 
 **Note:** Version bump only for package @oriflame/lumos

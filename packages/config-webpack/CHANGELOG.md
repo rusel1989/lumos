@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 - 2021-05-06
+
+#### 💥 Breaking
+
+- **[config-webpack,config-babel]** Update configs to support module federation. (#542) ([7b3f1a8](https://github.com/Oriflame/lumos/commit/7b3f1a860ff31b060965b1301a37ca816c536e04)), closes  _#542_
+
+
+#### 📦 Dependencies
+
+- update dependency dotenv to ^8.6.0 (#551) ([2c18a5f](https://github.com/Oriflame/lumos/commit/2c18a5f46afc4ea5c932dc43d871aeabf662b9ce)), closes  _#551_
+
+- update dependency postcss to ^8.2.14 (#553) ([3bca2e4](https://github.com/Oriflame/lumos/commit/3bca2e483ac0436a2f7be227a2cf12372788564b)), closes  _#553_
+
+**Note:** Version bump only for package @oriflame/config-webpack
+
+
+
+
+
 ### 2.4.77 - 2021-05-03
 
 #### 📦 Dependencies

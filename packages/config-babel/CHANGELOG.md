@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 - 2021-05-06
+
+#### 💥 Breaking
+
+- **[config-webpack,config-babel]** Update configs to support module federation. (#542) ([7b3f1a8](https://github.com/Oriflame/lumos/commit/7b3f1a860ff31b060965b1301a37ca816c536e04)), closes  _#542_
+
+
+#### 📦 Dependencies
+
+- update dependency @babel/preset-env to ^7.14.1 (#548) ([558e56f](https://github.com/Oriflame/lumos/commit/558e56fd70ba116c7a0d278dbc00bfe9563e2fdf)), closes  _#548_
+
+
+#### 🛠 Internals
+
+- release [ci skip]. ([86f4c69](https://github.com/Oriflame/lumos/commit/86f4c69ce4d8c10eb99df3ed5630698269ab5a20))
+
+**Note:** Version bump only for package @oriflame/config-babel
+
+
+
+
+
 ### 1.0.62 - 2021-04-30
 
 #### 📦 Dependencies
