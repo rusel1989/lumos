@@ -18,6 +18,7 @@ interface BabelOptions {
   typescript?: boolean;
   empty?: boolean;
   srcFolder: string;
+  moduleFederationEnabled?: boolean;
 }
 
 export function getConfig({
@@ -31,6 +32,7 @@ export function getConfig({
   typescript = false,
   empty = false,
   srcFolder,
+  moduleFederationEnabled = false,
 }: BabelOptions): BabelConfig {
   if (empty) {
     return {};
@@ -38,7 +40,7 @@ export function getConfig({
 
   const envOptions = {
     loose: true,
-    modules: esm ? false : 'commonjs',
+    modules: esm || moduleFederationEnabled ? false : 'commonjs',
     shippedProposals: next,
     targets: node ? NODE_TARGET : WEB_TARGET,
     ...env,
@@ -63,18 +65,7 @@ export function getConfig({
     }
     case 'development': {
       if (react) {
-        plugins.push(
-          '@babel/plugin-transform-react-jsx-source',
-          '@babel/plugin-transform-react-jsx-self',
-          [
-            '@babel/plugin-transform-react-jsx-development',
-            {
-              development: true,
-              runtime: 'automatic',
-            },
-          ],
-          'react-refresh/babel',
-        );
+        plugins.push('react-refresh/babel');
       }
       break;
     }
@@ -102,7 +93,10 @@ export function getConfig({
   }
 
   if (react) {
-    presets.push(['@babel/preset-react', { runtime: 'automatic' }]);
+    presets.push([
+      '@babel/preset-react',
+      { runtime: 'automatic', development: process.env.NODE_ENV === 'development' },
+    ]);
   }
 
   if (typescript) {
