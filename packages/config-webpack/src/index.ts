@@ -201,6 +201,6 @@ export function getConfig({
   };
 
   return fs.existsSync(customConfigPath)
-    ? merge<WebpackConfig>(baseConfig, require(customConfigPath))
+    ? merge<WebpackConfig>(baseConfig, require(customConfigPath) as WebpackConfig)
     : baseConfig;
 }
